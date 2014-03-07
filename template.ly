@@ -12,7 +12,6 @@
 global = {
   \key c \major
   \time 4/4
-  \tempo 4=200
 }
 
 right = {
@@ -23,18 +22,23 @@ right = {
   % endfor
 }
 
-\score {
-  \new PianoStaff \with {
-    instrumentName = "Piano"
+\book {
+  \paper {
+   print-page-number = ##f
   }
-  \new Staff = "right" \with {
-      midiInstrument = "oboe"
-  } 
-  { 
-    \accidentalStyle "forget"
-    \right
+  \score {
+    \new PianoStaff \with {
+      instrumentName = "Piano"
+    }
+    \new Staff = "right" \with {
+        midiInstrument = "oboe"
+    } 
+    { 
+      \accidentalStyle "forget"
+      \right
+    }
+    \layout {
+   }
+    \midi { }
   }
-  \layout {
- }
-  \midi { }
 }

@@ -2,7 +2,7 @@
 \usepackage{pdfpages}
 
 \begin{document}
-\title{Modes of internal symmetry - a generalization of Messiaen's modes of limited transposition}
+\title{Modes of internal symmetry - taking a closer look at Messiaen's modes of limited transposition}
 \author{Stefaan.Himpe@gmail.com}
 \date{06/March/2014}
 \maketitle
@@ -18,21 +18,24 @@ Messiaen's modes?
 \item Can we find some kind of intuitive explanation why Messiaen's modes work so well? Can we use this insight to propose other modes that 
 perhaps do not have limited transposition, but still result in an interesting sound?
 \end{itemize}
-I set out to do a series of experiments and came up with a curious insight (a different way to look at how his modes are constructed)
+I set out to do a series of experiments and came up with some insights (different ways to look at how his modes are constructed)
 that I intend to explain here. I apologize in advance if what I'm about to describe is already well-known and obvious to more informed readers.
+Please accept that I'm writing this down only to further my own understanding of the matter. I do not claim to have found something new.
 
 \section{Symmetry? What symmetry?}
 Messiaen himself explains how his modes can be thought of as consisting of \emph{symmetrical} groups of notes. 
-The exact nature of this symmetry was not entirely clear to me (it seemed more like repeating patterns than symmetry), 
-and this is what I wanted to clarify.  
+The exact nature of this symmetry was not entirely clear to me. In fact, it seemed more like repeating patterns than symmetry, 
+and this is what I wanted to clarify.
 
 As a starting point I set out to systematically enumerate all modes derived from a chromatic scale that have intervals symmetrically distributed 
-around the f\# (the middle note of the chromatic scale starting on c).
-For the time being I don't care about limited transposition, but towards the end of the explanation I will come back to it.
+around the f\# (the middle note of the chromatic scale starting on c). Note that during the experiments I don't directly take into account any 
+property of \emph{limited transposition} but I will find back many of Messiaen's modes by considering only symmetry arguments anyway.
 
 \subsection{Systematic enumeration}
 The first thing to explain is how the modes with intervals symmetrically distributed around f\# can be systematically enumerated.
-I started from a chromatic scale, on which I added symbols underneath each note. Note how the symbols that occur left of f\# return
+
+
+I started from a chromatic scale. On that scale I added symbols under each note. Note how the symbols that occur left of f\# return
 later on to the right of f\#. This is important to keep symmetry of the intervals around f\#, as will hopefully become clearer in the next step.
 For now, remember that the symbols under the complete chromatic scale form a \emph{palindrome}, i.e. if you read them left-to-right you get 
 exactly the same sequence of symbols as when you read them right-to-left.
@@ -46,13 +49,14 @@ exactly the same sequence of symbols as when you read them right-to-left.
   }
 \end{lilypond}
 
-In what follows we will now assign values 0 or 1 to each of the symbols p,q,r,s,t,u,v. A value of 0 indicates that the notes to which 
-the symbol is attached are not to be selected from the chromatic scale. A value of 1 indicates that the notes to which the symbol
+In what follows we will now construct modes by assigning values 0 or 1 to each of the symbols p,q,r,s,t,u,v. A value of 0 indicates that the note to which 
+the symbol is attached is not to be selected from the chromatic scale while constructing a mode. A value of 1 indicates that the notes to which the symbol 
 is attached are to be selected from the chromatic scale. 
 
 E.g. if we set p=1, q=1, r=1, s=1, t=1, u=1, v=1 we retain all the 
-notes and end up with a chromatic scale. We can say that the chromatic scale is characterized by a "key" (p,q,r,s,t,u,v) = (1,1,1,1,1,1,1).
-If we set p=1, q=0, r=1, s=0, t=0, u=0, v=1, we end up with a mode that contains only notes c and f\#. This mode is characterized
+notes from the chromatic scale and end up with the chromatic scale itself. 
+We can say that the chromatic scale is characterized by a "key" (p,q,r,s,t,u,v) = (1,1,1,1,1,1,1).
+If we set p=1, q=0, r=1, s=0, t=0, u=0, v=1, we end up with a mode that contains the notes c, d, f\#, a\#, c'. This mode is characterized
 by a key (p,q,r,s,t,u,v) = (1,0,1,0,0,0,1).
 
 \begin{lilypond}
@@ -79,40 +83,40 @@ by a key (p,q,r,s,t,u,v) = (1,0,1,0,0,0,1).
 \end{lilypond}
 
 
-This way of working has some important properties:
+This method for constructing modes has some properties:
 \begin{itemize}
-\item Any combination of values 0,1 assigned to all of p, q, r, s, t, u, v result in a mode derived from the chromatic scale with intervals distributed symmetrically around f\#.
+\item Any combination of values 0,1 assigned to all of p, q, r, s, t, u, v results in a mode derived from the chromatic scale with intervals distributed symmetrically around f\#.
 \item A different combination of values 0,1 assigned to p, q, r, s, t, u, v results in a different mode. In other words, there are no two different keys (p,q,r,s,t,u,v) that result in the same set of notes selected from the chromatic scale.
-\item If we look at all possible ways that we can assign 0, 1 to p, q, r, s, t, u, v, we construct all possible subsets of the chromatic scale with intervals distributed symmetrically around f\#.
+\item If we look at all possible ways that we can assign 0, 1 to p, q, r, s, t, u, v, we construct all possible subsets of the chromatic scale with intervals distributed symmetrically around f\#. In other words, we don't skip any modes symmetrical around f\# by using this method.
 \item All in all, this means that any (p,q,r,s,t,u,v) key uniquely defines one mode with intervals symmetrically distributed around f\#.
-\item There are $2^7=127$ different ways to assign 0, 1 to p, q, r, s, t, u, v. This means that there are 127 unique modes with symmetrical distribution of intervals around f\#.
+\item There are $2^7=127$ different ways to assign the values 0, 1 to the variables p, q, r, s, t, u, v. This means that there are 127 unique modes with symmetrical distribution of intervals around f\#.
 \end{itemize}
 
 \subsection{Intermezzo: binary numbers}
-In computer science a key like (0,1,1,0,0,1,0) is called a binary number. 
-Binary numbers can be translated to normal (decimal) numbers, and vice versa.
-In the systematic enumeration of modes in the appendices of this explanation, I used the decimal equivalents of the binary numbers,
-because they take much less typesetting space. You can only make sense of the numbers if you understand how
-binary numbers related to decimal numbers.
+In computer science a key like (0,1,1,0,0,1,0) can be interpreted as a binary number. 
+For every binary number, there's an equivalent decimal number and vice versa.
+In the systematic enumeration of modes in the appendices of this explanation, I use decimal equivalents of binary numbers,
+because they take much less typesetting space. If you want to make sense of the explanations that follow, it's useful to understand how
+binary numbers relate to decimal numbers, as explained now:
 
-\subsubsection{Conversion from binary number to decimal number}
+\subsubsection{Conversion from binary number to decimal number}\label{sec:bin2dec}
 In order to convert from a binary number to a decimal number, one writes powers of two underneath the binary number and then 
 multiplies and adds the results. As an example, consider conversion of number (0,1,1,0,0,1,0) to decimal:
 
 \begin{center}
 \begin{tabular}{lllllllll}
-0              & 1  & 1  & 0 & 0 & 1 & 0 & $\leftarrow$ binary digits & \\     
-64             & 32 & 16 & 8 & 4 & 2 & 1 & $\leftarrow$ powers of 2 & \\
+0              & 1  & 1  & 0 & 0 & 1 & 0 & $\leftarrow$ write binary digits & \\     
+64             & 32 & 16 & 8 & 4 & 2 & 1 & $\leftarrow$ write powers of 2 & \\
 $*\downarrow$  & $*\downarrow$   & $*\downarrow$   & $*\downarrow$   & $*\downarrow$   & $*\downarrow$   & $*\downarrow$   & $\downarrow$ multiply one by one& \\
 0              & 32 & 16 & 0 & 0 & 2 & 0 & $\rightarrow$ sum to get: & $32+16+2=50$ 
 \end{tabular}
 \end{center}
 
 Note that if I add extra 0's to the left of a binary number, the decimal number doesn't change.
-(The same is true for a decimal number: if you write 6 or you write 06 you really have the same number)
+The same is true for a decimal number: if you write 6 or you write 06 you really have the same number.
 
 \subsubsection{Conversion from a decimal number to a binary number}
-In order to convert a decimal number back to a binary number one iteratively divides the number by 2, 
+In order to convert a decimal number back to a binary number one keeps on dividing the number by 2, 
 and notes down the rest after division. As an example, consider converting 50 back to binary representation:
 
 \begin{itemize}
@@ -126,21 +130,44 @@ and notes down the rest after division. As an example, consider converting 50 ba
 \end{itemize}
 
 If you now look at the rests after division from bottom to top, you get (1,1,0,0,1,0).
-Remember from the previous paragraph that one can add zeros to the left of any number without changing its value.
+Remember from section \ref{sec:bin2dec} that one can add zeros to the left of any number without changing its value.
 Since we prefer to work with binary numbers (keys) of length 7 (i.e. the number of symbols p,q,...,v) we turn the binary number
-into (0, 1, 1, 0, 0, 1, 0).
+into key (0, 1, 1, 0, 0, 1, 0).
 
 \subsubsection{Tip about binary/decimal conversion}
 Practically all operating systems nowadays have some built-in calculator application that knows how 
 to convert between binary and decimal should you ever need to do so.
 
-\section{What's the point? Where is this heading?}
+\section{What's the point? How do these binary numbers help us analyze music?}
 Using this enumeration method, I listed all the 127 modes that are symmetrical around f\# as can 
-be seen in section\ref{sec:plain}. I've sorted the modes by length. 
+be seen in section \ref{sec:plain}. I've sorted the modes by length. 
 Each mode is annotated with a few numbers, e.g. 74:7-71. The number 74 means it's the 74th mode
 in the list of modes sorted by length. The number 7 means that the mode consists of 7 notes, distributed
-symmetrically around f\#. The number 71 is the decimal number that corresponds to the binary key (p,q,r,s,t,u,v) 
-that uniquely defines the mode.
+symmetrically around f\#. The number 71 is the decimal number that corresponds to the binary key (p,q,r,s,t,u,v) = (1,0,0,0,1,1,1)
+that uniquely defines the mode:
+
+\begin{lilypond}
+\score { 
+   \new Staff = "up" {
+      \relative c' {
+	\cadenzaOn c4 cis d dis e f fis g gis a ais b c \cadenzaOff \bar"|."
+	\cadenzaOn c,4 \hideNotes cis d dis \unHideNotes e f fis g gis \hideNotes a ais b \unHideNotes c \cadenzaOff \bar"|."
+      }
+      
+      \addlyrics {
+	  p     q     r     s     t     u     v     u     t     s     r     q     p
+	  "1" "0" "0" "0" "1" "1" "1" "1" "1" "0" "0" "0" "1"
+      }
+    }
+   \layout {
+     \context { 
+         \Staff 
+         \remove Time_signature_engraver 
+	 \accidentalStyle "forget"
+      } 
+   }
+}
+\end{lilypond}
 
 \subsection{The symmetry of Messiaen's modes around f\#}
 A first thing that struck me as interesting is that all of Messiaen's modes can be found back in the list of 127 modes enumerated in 
@@ -161,10 +188,10 @@ and not to look at modes symmetrical around -- say -- g.):
       }
       \end{lilypond}
 
-\item Messiaen's mode 3 corresponds to our mode 46 (p,q,r,s,t,u,v) = (0,1,0,1,1,1,0)
+\item Messiaen's mode 3 corresponds to our mode 93 (p,q,r,s,t,u,v) = (1,0,1,1,1,0,1)
       \begin{lilypond}
       \relative c' {
-	\cadenzaOn cis dis e f g gis a b \cadenzaOff \bar"|."
+	\cadenzaOn c d dis e fis gis a ais c \cadenzaOff \bar"|."
       }
       \end{lilypond}
       
@@ -199,51 +226,89 @@ and not to look at modes symmetrical around -- say -- g.):
 \end{itemize}
 
 \subsection{More symmetry in Messiaen's modes}
-Now take a close look at the binary keys for Messiaen's modes. \emph{In all but two of his modes, the binary keys are 
+Now take a close look at the binary keys for Messiaen's modes. \emph{In all but one of his modes, the binary keys are 
 themselves palindromes}, indicating that not only are the modes symmetrical around f\#, but they also have
-extra internal symmetry around d\# (left-hand side of f\#) and around a (right-hand side of f\#).
+extra internal symmetry around d\# (left-hand side of f\#) and around a (right-hand side of f\#). Having a palindromic
+key thus implies that there's a second level of symmetrical interval distribution inside the upper and lower halves of the modes.
 
-I think that these internal symmetries are the essence of why the modes sound so good.
+I want to speculate here that these internal symmetries play an important role in making the modes sound good.
 The human brain is optimized for pattern matching. It is sensitive to symmetries and the listener probably
 subconsciously picks up the patterns and hears the symmetries present in the intervals that make up the mode.
 
 \subsection{Are there any modes with similar internal symmetries that are not Messiaen modes?}
-In section \ref{sec:palindrome} all modes are listed that have palindromic keys. Note 
-that some modes appear there that are not part of Messiaen's musical language. \emph{Yet, thanks to their extra
-symmetries these modes may well be interesting candidates to try using in a composition.}
+In section \ref{sec:palindrome} all modes are listed that have palindromic binary keys. Note 
+that almost all of Messiaen's modes appear here in one form or another, and that some 
+modes appear that are not part of Messiaen's musical language. This is because we used
+\emph{internal symmetry} instead of \emph{limited transposition} as criterion. From these results,
+it's quite clear that there's a close connection between the two criteria. It's also interesting that 
+a number of (shorter) modes appear which, to the best of my knowledge, were not used directly by Messiaen, but
+which may be interesting for further harmonic and melodic experiments.
+
+In what follows, remember that the notation "mode x-y" means "a mode with x notes and key y, where y should be converted to binary to see
+which notes are present in the mode. Compare the descriptions given here to the modes as listed in section \ref{sec:palindrome}.
+
+\begin{itemize}
+\item Mode 02-008 (0,0,0,1,0,0,0) is a ditonic mode. Two notes may be a bit limited for a composition. Interesting though that it is (enharmonically equivalent to) a tritone, which is one of the most important building blocks for Messiaen's musical language.
+\item Mode 04-020 (0,0,1,0,1,0,0) is a tetratonic mode. 
+\item Mode 06-028 (0,0,1,1,1,0,0) is a hexatonic mode. 
+\item Mode 04-034 (0,1,0,0,0,1,0) is a tetratonic mode. Interesting about this mode is that there's even more symmetry present in the lower and upper half of the binary key. This is a third level of symmetry in the mode.
+\item Mode 06-042 (0,1,0,1,0,1,0) is a hexatonic mode.  Interesting about this mode is that there's even more symmetry present in the lower and upper half of the binary key. This is a third level of symmetry in the mode.
+\item Mode 08-054 (0,1,1,0,1,1,0) is an octotonic mode. It's also known as Messiaen's second mode of limited transposition.
+\item Mode 10-062 (0,1,1,1,1,1,0) is a decatonic mode. This mode is not listed by Messiaen. However, if we extend this mode with a c\# at the right, we get a "mode" of Messiaen's seventh mode of limited transposition built on note d.
+\item Mode 03-065 (1,0,0,0,0,0,1) is a tritonic mode. It consists of 2 tritones.
+\item Mode 05-073 (1,0,0,1,0,0,1) is a pentatonic mode. 
+\item Mode 07-085 (1,0,1,0,1,0,1) is a heptatonic mode. It's also known as Messiaen's first mode of limited transposition, or as the whole-tone scale. Interesting about this mode is that there's even more symmetry present in the lower and upper half of the binary key. This is a third level of symmetry in the mode.
+\item Mode 09-093 (1,0,1,1,1,0,1) is a nonatonic mode. This is Messiaen's third mode of limited transposition. Interesting about this mode is that there's even more symmetry present in the lower and upper half of the binary key. This is a third level of symmetry in the mode.
+\item Mode 07-099 (1,1,0,0,0,1,1) is a heptatonic mode. This is Messiaen's fifth mode of limited transposition.
+\item Mode 09-107 (1,1,0,1,0,1,1) is a nonatonic mode. This is a "mode" of Messiaen's sixth mode of limited transposition built on note c\#.
+\item Mode 11-119 (1,1,1,0,1,1,1) is an undecatonic mode. This is a "mode" of Messiaen's seventh mode of limited transposition built on note b. Interesting about this mode is that there's even more symmetry present in the lower and upper half of the binary key. This is a third level of symmetry in the mode.
+\item Mode 13-127 (1,1,1,1,1,1,1) is the chromatic scale itself. This mode also has a third and even fourth level of symmetry. Interestingly though, this mode is so extremely unconstrained that it no longer offers guarantees to elicit a certain mood/sound/color/character.
+\end{itemize}
 
 \section{Deriving harmonies from modes of internal symmetry}
 Another question I was struggling with was why Messiaen chose to build chords based on the interval of a fourth.
-During this investigation I think I saw a possible explanation as follows:
+During my investigation I think I saw a possible explanation as follows:
 \begin{itemize}
-\item Sections \ref{sec:seconds}, \ref{sec:thirds}, \ref{sec:fourths}, \ref{sec:fifths} systematically list the chords
-built on the modes of internal symmetry by taking notes from consecutive scale degrees, every second scale degree,
-every third scale degree, every fourth scale degree respectively.
-\item As is clearly visible, the fewer notes are in a mode, the more widely spaced they are (on average).
-\item In wider spaced modes (many 0's in the binary key), it makes sense to build chords from scale degrees that are close enough to each other.
-\item In more dense modes (many 1's in the binary key), it makes sense to build chords from scale degrees that are spaced further apart. If we use notes too close
+\item Sections \ref{sec:second}, \ref{sec:third}, \ref{sec:fourth}, \ref{sec:fifth} systematically list the chords
+built on the modes of internal symmetry by taking notes from consecutive mode (scale) degrees, every second mode degree,
+every third mode degree, every fourth mode degree respectively.
+\item As is clearly visible, the fewer notes are in a mode that is symmetrical around f\#, the more widely spaced those notes are (on average).
+\item In wider spaced modes (many 0's in the binary key), it makes sense to build chords from mode degrees that are close enough to each other.
+\item In more dense modes (many 1's in the binary key), it makes sense to build chords from mode degrees that are spaced further apart. If we use notes too close
 together, every chord sounds very dissonant.
-\item Since Messiaen's modes are relatively dense compared to - say - a diatonic scale (they all have 8 or more notes per scale), 
-my guess is that the harmonies as built using every second scale degree sound a bit too harsh, and Messiaen therefore decided to to use 
-every third scale degree (i.e. using fourths).
+\item Since Messiaen's modes are relatively dense compared to - say - a diatonic scale (Messiaen's modes all have 8 or more notes, whereas a diatonic scale has 7 notes), 
+my guess is that the harmonies as built using every second mode degree sound a bit too harsh, and Messiaen therefore decided to to use 
+every third mode degree (i.e. using fourths).
 \end{itemize}
 
-\section{All modes with internal symmetry around f\#, ordered by length}\label{sec:plain}
-\includepdf[pages=-]{/home/shimpe/development/modes_internal_symmetry/output/plain.pdf}
+\section{Conclusions}
+To summarize:
+\begin{itemize}
+\item First we systematically listed all modes with internal symmetry around f\# derived from a chromatic scale. We found that there are 127 such modes.
+\item Then, we saw how all of Messiaen's modes are part of this list of 127 modes, meaning that they at least have some symmetry in interval distribution.
+\item After that, we noticed how all but one of the Messiaen modes contain extra symmetries in the lower half and upper half of the mode (palindromic keys).
+We listed all modes that have both symmetry around f\# and the extra symmetries in the lower half and upper half of the mode, and discovered some 
+potentially interesting modes not directly used by Messiaen (with fewer notes). Even though we didn't care about the property of \emph{limited transposition}, by
+just considering symmetry arguments, we arrived at a very similar set of modes.
+\item While doing so, we also formulated a possible explanation for why Messiaen may have chosen to build his chords using fourths,
+and we speculated about how internal symmetry may make Messiaen's modes sound superior to other, randomly chosen modes.
+\end{itemize}
 
-\section{All modes with palindromic keys}\label{sec:palindrome}
-\includepdf[pages=-]{/home/shimpe/development/modes_internal_symmetry/output/palindrome.pdf}
+\includepdf[scale=0.65,pages=1,pagecommand=\section{All modes with internal symmetry around f\#, ordered by length}\label{sec:plain}]{/home/shimpe/development/mints/output/plain.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/plain.pdf}
 
-\section{All chords built by stacking consecutive notes from the modes of internal symmetry}\label{sec:second}
-\includepdf[pages=-]{/home/shimpe/development/modes_internal_symmetry/output/seconds.pdf}
+\includepdf[scale=0.65,pages=1,pagecommand=\section{All modes with palindromic keys}\label{sec:palindrome}]{/home/shimpe/development/mints/output/palindrome.pdf}
 
-\section{All chords built by stacking every second note from the modes of internal symmetry}\label{sec:third}
-\includepdf[pages=-]{/home/shimpe/development/modes_internal_symmetry/output/thirds.pdf}
+\includepdf[scale=0.65,pages=1,pagecommand=\section{All chords built by stacking consecutive notes from the modes of internal symmetry}\label{sec:second}]{/home/shimpe/development/mints/output/seconds.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/seconds.pdf}
 
-\section{All chords built by stacking every third note from the modes of internal symmetry}\label{sec:fourth}
-\includepdf[pages=-]{/home/shimpe/development/modes_internal_symmetry/output/fourths.pdf}
+\includepdf[scale=0.65,pages=1,pagecommand=\section{All chords built by stacking every second note from the modes of internal symmetry}\label{sec:third}]{/home/shimpe/development/mints/output/thirds.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/thirds.pdf}
 
-\section{All chords built by stacking every fourth note from the modes of internal symmetry}\label{sec:fifth}
-\includepdf[pages=-]{/home/shimpe/development/modes_internal_symmetry/output/fifths.pdf}
+\includepdf[scale=0.65,pages=1,pagecommand=\section{All chords built by stacking every third note from the modes of internal symmetry}\label{sec:fourth}]{/home/shimpe/development/mints/output/fourths.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/fourths.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{All chords built by stacking every fourth note from the modes of internal symmetry}\label{sec:fifth}]{/home/shimpe/development/mints/output/fifths.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/fifths.pdf}
 
 \end{document}
