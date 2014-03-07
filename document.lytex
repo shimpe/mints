@@ -13,18 +13,18 @@ how exactly his "modes of limited transposition" create the sound they create. M
 became: 
 \begin{itemize}
 \item What is so special about the property of \emph{limited transposition} that makes the music derived from it work so well?
-\item Is a composer trying to derive melodies and harmonies from other subsets of a chromatic scale somehow "crippled" compared to a composer using
-Messiaen's modes? 
-\item Can we find some kind of intuitive explanation why Messiaen's modes work so well? Can we use this insight to propose other modes that 
-perhaps do not have limited transposition, but still result in an interesting sound?
+\item Is music derived from a random subset of a chromatic scale on some sense "crippled" compared to music written based on 
+Messiaen's modes? Can we find some kind of intuitive explanation why Messiaen's modes work well, arguably better than other non-diatonic modes? 
+Can we use this insight to propose other modes that perhaps do not have limited transposition, but still might result in an interesting, fresh, sound?
 \end{itemize}
-I set out to do a series of experiments and came up with some insights (different ways to look at how his modes are constructed)
-that I intend to explain here. I apologize in advance if what I'm about to describe is already well-known and obvious to more informed readers.
-Please accept that I'm writing this down only to further my own understanding of the matter. I do not claim to have found something new.
+I set out to do a series of experiments and came up with some insights that I intend to explain here. 
+I apologize in advance if what I'm about to describe is already well-known and obvious to more informed readers.
+Please accept that I'm writing this down only to further my own understanding of the matter. 
+I do not claim to have found something new.
 
 \section{Symmetry? What symmetry?}
 Messiaen himself explains how his modes can be thought of as consisting of \emph{symmetrical} groups of notes. 
-The exact nature of this symmetry was not entirely clear to me. In fact, it seemed more like repeating patterns than symmetry, 
+The exact nature of this symmetry was not entirely clear to me. In fact, at first sight it seemed more like repeating patterns than symmetry, 
 and this is what I wanted to clarify.
 
 As a starting point I set out to systematically enumerate all modes derived from a chromatic scale that have intervals symmetrically distributed 
@@ -33,7 +33,6 @@ property of \emph{limited transposition} but I will find back many of Messiaen's
 
 \subsection{Systematic enumeration}
 The first thing to explain is how the modes with intervals symmetrically distributed around f\# can be systematically enumerated.
-
 
 I started from a chromatic scale. On that scale I added symbols under each note. Note how the symbols that occur left of f\# return
 later on to the right of f\#. This is important to keep symmetry of the intervals around f\#, as will hopefully become clearer in the next step.
@@ -293,6 +292,9 @@ just considering symmetry arguments, we arrived at a very similar set of modes.
 \item While doing so, we also formulated a possible explanation for why Messiaen may have chosen to build his chords using fourths,
 and we speculated about how internal symmetry may make Messiaen's modes sound superior to other, randomly chosen modes.
 \end{itemize}
+
+\section{Some resources}
+While investigating I made extensive use of Jackson Hardaker's Messiaen mode visualizer: http://messiaen.jacksonhardaker.com/
 
 \includepdf[scale=0.65,pages=1,pagecommand=\section{All modes with internal symmetry around f\#, ordered by length}\label{sec:plain}]{/home/shimpe/development/mints/output/plain.pdf}
 \includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/plain.pdf}
