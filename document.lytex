@@ -8,6 +8,14 @@
 \maketitle
 
 \section{Introduction}
+Before we start, make sure to get the latest version of this document from https://github.com/shimpe/mints .
+If you are unsure what to do on that page, click "Download ZIP". It will download an archive containing
+all the files required to recreate this document. In the \emph{out} folder is a document.pdf file which 
+corresponds to the article itself. In the \emph{output} folder are .pdf and .midi files of the modes
+listed in sections \ref{sec:plain}, \ref {sec:palindrome}, \ref{sec:partialpalindrome}, \ref{sec:second},
+\ref{sec:third}, \ref{sec:fourth} and \ref{sec:fifth}. Feel free to send your questions and remarks with respect to this document 
+to stefaan.himpe@gmail.com. Feel free to report errors, or corrections, additions, to https://github.com/shimpe/mints/issues
+
 After reading Olivier Messiaen's book "The technique of my Musical Language" I started wondering
 how exactly his "modes of limited transposition" create the sound they create. Major questions for me 
 became: 
@@ -349,10 +357,17 @@ While investigating I made extensive use of Jackson Hardaker's Messiaen mode vis
 
 The complete code required to reproduce the experiments and the text in this document (together with midi files for the listed modes and 
 chords in the following sections) can be found online at https://github.com/shimpe/mints.
-To recreate this document you need at the very least the following free software python 2.x, lilypond, LaTeX and a .pdf viewer (I used okular, but any viewer should do). 
+To recreate this document you need at the very least the following free software:
+\begin{itemize}
+\item python 2.x
+\item lilypond
+\item LaTeX
+\item a .pdf viewer (I used okular, but any viewer should do). 
+\end{itemize}
 The provided build script is written in bash. For windows or other systems, you may need to translate to an appropriate format.
 
-Feel free to send your questions and remarks with respect to this document to stefaan.himpe@gmail.com.
+Feel free to send your questions and remarks with respect to this document to stefaan.himpe@gmail.com. Feel free to report errors, or 
+corrections, additions, to https://github.com/shimpe/mints/issues
 
 \includepdf[scale=0.65,pages=1,pagecommand=\section{All modes with internal symmetry around f\#, ordered by length}\label{sec:plain}]{/home/shimpe/development/mints/output/plain.pdf}
 \includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/plain.pdf}
