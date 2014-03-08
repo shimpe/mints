@@ -10,6 +10,28 @@ def is_7bit_palindrome(number):
             return False
     return True
 
+def is_6bit_palindrome(number):
+    binarypattern = bin(number)[2:]
+    binarypattern = "0"*(7-len(binarypattern)) + binarypattern
+    attempt1 = binarypattern[1:]
+    Found = True
+    for n1, n2 in zip(attempt1, reversed(attempt1)):
+        if n1 != n2:
+            Found = Found and False
+    if Found:
+        #print "\item ", number, " (", ",".join(binarypattern), ")"
+        return True
+    attempt2 = binarypattern[0:-1]
+    Found = True
+    for n1, n2 in zip(attempt2, reversed(attempt2)):
+        if n1 != n2:
+            Found = Found and False
+    if Found:
+        #print "\item ", number, " (", ",".join(binarypattern), ")"
+        return True
+    return False
+
+
 def add_skip(notes, noteno, skip):
     l = len(notes)
     extraprimes = (noteno+skip)/l
@@ -60,7 +82,7 @@ def generate(step):
   for r in range(l+2):
     for i in range(2**halflen):
         notes = construct_mode(i)
-        if (key == -1 and is_7bit_palindrome(i)) or (key != -1 and len(notes) == r):
+        if (key == -1 and is_7bit_palindrome(i)) or (key == -2 and is_6bit_palindrome(i)) or (key >= 0 and len(notes) == r):
             if notes and tuple(notes) not in encountered:
                 counter += 1
                 if step == 0 or key < 0:
@@ -77,6 +99,7 @@ def generate(step):
   return list_of_notes
 
 to_make = { -1 : "output/palindrome.ly", 
+        -2: "output/partialpalindrome.ly",
         0 : "output/plain.ly", 
         1: "output/seconds.ly", 
         2: "output/thirds.ly", 
@@ -86,7 +109,4 @@ to_make = { -1 : "output/palindrome.ly",
 for key in to_make:
     with open(to_make[key], "w") as f:
         f.write(mytemplate.render(list_of_notes=generate(key)))
-
-
-
 

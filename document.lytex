@@ -92,7 +92,7 @@ This method for constructing modes has some properties:
 \end{itemize}
 
 \subsection{Intermezzo: binary numbers}
-In computer science a key like (0,1,1,0,0,1,0) can be interpreted as a binary number. 
+In computer science a key like (0,1,1,0,0,1,0) can be interpreted as a binary number. Each number 1 or 0 is called a "bit".
 For every binary number, there's an equivalent decimal number and vice versa.
 In the systematic enumeration of modes in the appendices of this explanation, I use decimal equivalents of binary numbers,
 because they take much less typesetting space. If you want to make sense of the explanations that follow, it's useful to understand how
@@ -230,11 +230,20 @@ themselves palindromes}, indicating that not only are the modes symmetrical arou
 extra internal symmetry around d\# (left-hand side of f\#) and around a (right-hand side of f\#). Having a palindromic
 key thus implies that there's a second level of symmetrical interval distribution inside the upper and lower halves of the modes.
 
-I want to speculate here that these internal symmetries play an important role in making the modes sound good.
+It would not be correct to say that only modes with palindromic binary keys sound good. Look e.g. at mode of internal symmetry 
+number 90 (1,0,1,1,0,1,0), which is better known as "c dorian". The binary key is not palindromic but it does show 
+other extra symmetries in its structure (observe how its binary key becomes a palindrome if you leave out the last 0).
+Similarly, Messiaen's fourth mode of limited transposition also becomes a palindrome if you leave out the last 1 in its binary key,
+indicating that it has significant internal symmetries beyond the always present symmetry around f\#.
+
+I'd like to speculate here that additional internal symmetries play an important role in making modes (and their "modes") sound good.
 The human brain is optimized for pattern matching. It is sensitive to symmetries and the listener probably
 subconsciously picks up the patterns and hears the symmetries present in the intervals that make up the mode.
+(If that were true, we might even nominate the "Dorian" mode as the most natural of modes based on a diatonic scale.)
+Modes with extra internal symmetries look like good candidates for harmony and melody experiments.
 
 \subsection{Are there any modes with similar internal symmetries that are not Messiaen modes?}
+\subsubsection{Perfect internal symmetry}
 In section \ref{sec:palindrome} all modes are listed that have palindromic binary keys. Note 
 that almost all of Messiaen's modes appear here in one form or another, and that some 
 modes appear that are not part of Messiaen's musical language. This is because we used
@@ -262,6 +271,48 @@ which notes are present in the mode. Compare the descriptions given here to the 
 \item Mode 09-107 (1,1,0,1,0,1,1) is a nonatonic mode. This is a "mode" of Messiaen's sixth mode of limited transposition built on note c\#.
 \item Mode 11-119 (1,1,1,0,1,1,1) is an undecatonic mode. This is a "mode" of Messiaen's seventh mode of limited transposition built on note b. Interesting about this mode is that there's even more symmetry present in the lower and upper half of the binary key. This is a third level of symmetry in the mode.
 \item Mode 13-127 (1,1,1,1,1,1,1) is the chromatic scale itself. This mode also has a third and even fourth level of symmetry. Interestingly though, this mode is so extremely unconstrained that it no longer offers guarantees to elicit a certain mood/sound/color/character.
+\end{itemize}
+
+\subsubsection{Partial internal symmetry}
+Now follows a list of modes that are partially palindromic as follows: the binary keys of the modes listed here become palindromic 
+if you leave out either the first or last bit. They are listed in musical form in section \ref{sec:partialpalindrome}.
+These form another subset of modes (slightly less "perfect" than the modes in the previous section).
+Probably some of these modes are better known under other names, but my knowledge of existing scales is not
+large enough to recognize all of them.
+
+By reducing the constraints on symmetry also other interesting modes can be selected (e.g. modes that are a palindromic if you leave
+out 2 outer bits), but listing those is left as an exercise to the interested reader.
+
+\begin{itemize}
+\item  001  ( 0,0,0,0,0,0,1 ) is a mode consisting of a single note f\#. This is a bit limited to compose with :)
+\item  012  ( 0,0,0,1,1,0,0 ) tetratonic
+\item  018  ( 0,0,1,0,0,1,0 ) tetratonic
+\item  024  ( 0,0,1,1,0,0,0 ) tetratonic
+\item  025  ( 0,0,1,1,0,0,1 ) tetratonic. Sounds quite exotic (arabic?).
+\item  030  ( 0,0,1,1,1,1,0 ) octatonic
+\item  033  ( 0,1,0,0,0,0,1 ) tritonic
+\item  036  ( 0,1,0,0,1,0,0 ) tetratonic
+\item  037  ( 0,1,0,0,1,0,1 ) pentatonic
+\item  045  ( 0,1,0,1,1,0,1 ) heptatonic. This is c\# aeolian mode (natural minor diatonic scale).
+\item  051  ( 0,1,1,0,0,1,1 ) heptatonic. Sounds quite exotic (arabic?)
+\item  060  ( 0,1,1,1,1,0,0 ) octatonic
+\item  061  ( 0,1,1,1,1,0,1 ) nonatonic
+\item  063  ( 0,1,1,1,1,1,1 ) undecatonic. Like a chromatic scale but without note c.
+\item  064  ( 1,0,0,0,0,0,0 ) ditonic. Consists of only notes c.
+\item  066  ( 1,0,0,0,0,1,0 ) tetratonic. Consists of the notes of a sus4 chord built on c.
+\item  067  ( 1,0,0,0,0,1,1 ) pentatonic.
+\item  076  ( 1,0,0,1,1,0,0 ) hexatonic.
+\item  082  ( 1,0,1,0,0,1,0 ) hexatonic.
+\item  090  ( 1,0,1,1,0,1,0 ) octatonic. This is really just the dorian mode of c.
+\item  091  ( 1,0,1,1,0,1,1 ) nonatonic. Like the dorian mode of c but with f\# added.
+\item  094  ( 1,0,1,1,1,1,0 ) decatonic.
+\item  097  ( 1,1,0,0,0,0,1 ) pentatonic.
+\item  102  ( 1,1,0,0,1,1,0 ) octatonic. Sounds quite exotic (arabic?).
+\item  103  ( 1,1,0,0,1,1,1 ) is the fourth mode of limited transposition of Messiaen.
+\item  109  ( 1,1,0,1,1,0,1 ) nonatonic. Left halve sounds darker than right halve.
+\item  115  ( 1,1,1,0,0,1,1 ) nonatonic.
+\item  126  ( 1,1,1,1,1,1,0 ) dodecatonic. Like a chromatic scale, but with f\# left out.
+\item  127  ( 1,1,1,1,1,1,1 ) is the chromatic scale. This is the only key that also appears in the fully palindromic modes.
 \end{itemize}
 
 \section{Deriving harmonies from modes of internal symmetry}
@@ -296,10 +347,19 @@ and we speculated about how internal symmetry may make Messiaen's modes sound su
 \section{Some resources}
 While investigating I made extensive use of Jackson Hardaker's Messiaen mode visualizer: http://messiaen.jacksonhardaker.com/
 
+The complete code required to reproduce the experiments and the text in this document (together with midi files for the listed modes and 
+chords in the following sections) can be found online at https://github.com/shimpe/mints.
+To recreate this document you need at the very least the following free software python 2.x, lilypond, LaTeX and a .pdf viewer (I used okular, but any viewer should do). 
+The provided build script is written in bash. For windows or other systems, you may need to translate to an appropriate format.
+
+Feel free to send your questions and remarks with respect to this document to stefaan.himpe@gmail.com.
+
 \includepdf[scale=0.65,pages=1,pagecommand=\section{All modes with internal symmetry around f\#, ordered by length}\label{sec:plain}]{/home/shimpe/development/mints/output/plain.pdf}
 \includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/plain.pdf}
 
 \includepdf[scale=0.65,pages=1,pagecommand=\section{All modes with palindromic keys}\label{sec:palindrome}]{/home/shimpe/development/mints/output/palindrome.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{All modes with partially palindromic keys}\label{sec:partialpalindrome}]{/home/shimpe/development/mints/output/partialpalindrome.pdf}
 
 \includepdf[scale=0.65,pages=1,pagecommand=\section{All chords built by stacking consecutive notes from the modes of internal symmetry}\label{sec:second}]{/home/shimpe/development/mints/output/seconds.pdf}
 \includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/seconds.pdf}
