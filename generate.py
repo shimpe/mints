@@ -33,21 +33,25 @@ def is_6bit_palindrome(number):
 
 
 def add_skip(notes, noteno, skip):
-    l = len(notes)
+    clean_notes = [ note.replace("'","") for note in notes]
+    if clean_notes[0] == clean_notes[-1] and len(notes)>1:
+        notescopy = notes[0:-1]
+    else:
+        notescopy = notes[:]
+    l = len(notescopy)
     extraprimes = (noteno+skip)/l
-    skipped = notes[(noteno+skip)%l]
+    skipped = notescopy[(noteno+skip)%l]
     return skipped + extraprimes*"'"
 
 def build_triads(notes, skip=2):
     triads = []
-    l = len(notes)
     for noteno, note in enumerate(notes):
         triads.append(  "<" + " ".join([add_skip(notes, noteno, 0), add_skip(notes, noteno, skip), add_skip(notes, noteno, 2*skip)]) + ">" )
     return triads
 
 mytemplate = Template(filename='template.ly')
 
-chromatic = ["c'","cis'","d'","dis'","e'","f'","fis'","g'","gis'","a'","ais'","b'"]
+chromatic = ["c'","cis'","d'","ees'","e'","f'","fis'","g'","aes'","a'","bes'","b'"]
 l = len(chromatic)
 
 import math
