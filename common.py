@@ -45,6 +45,30 @@ def build_triads(notes, skip=2):
         triads.append(  "<" + " ".join([add_skip(notes, noteno, 0), add_skip(notes, noteno, skip), add_skip(notes, noteno, 2*skip)]) + ">" )
     return triads
 
+def make_inversion(notes, inversion):
+    if not notes:
+        return notes
+
+    if inversion == 0:
+        return notes
+    else:
+        for x in range(inversion):
+            firstnote = notes[0]
+            l = notes[1:]
+            l.append(firstnote+"'")
+            notes = l
+        return notes
+
+def build_from_skip(notes, middleskip, outerskip, inversion):
+    triads = []
+    if middleskip == 0 and outerskip == 0:
+        return notes
+    for noteno, note in enumerate(notes):
+        triads.append(  "<" + " ".join(make_inversion([add_skip(notes, noteno, 0), 
+            add_skip(notes, noteno, middleskip), 
+            add_skip(notes, noteno, outerskip)], inversion)) + ">" )
+    return triads
+
 def construct_mode(number, chromatic):
     import math
     l = len(chromatic)
