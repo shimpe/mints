@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="620.34375"
+   height="322.95703"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="countzeros.eps">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3197"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3193"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3179"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3175"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3150"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3125"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3117"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3113"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3109"
+       is_visible="true"
+       pattern="M 0,5 10,10 10,0 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3105"
+       is_visible="true"
+       pattern="M 0,5 10,10 10,0 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3097"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3091"
+       is_visible="true"
+       pattern="M 0,5 10,10 10,0 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3087"
+       is_visible="true"
+       pattern="M 0,5 10,10 10,0 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3083"
+       is_visible="true"
+       pattern="M 0,5 10,10 10,0 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3079"
+       is_visible="true"
+       pattern="M 0,5 10,10 10,0 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3075"
+       is_visible="true"
+       pattern="M 0,5 10,10 10,0 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="285.60547"
+     inkscape:cy="175.27515"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1246"
+     inkscape:window-height="702"
+     inkscape:window-x="114"
+     inkscape:window-y="12"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer"
+     transform="translate(-89.394531,-195.97156)">
+    <g
+       id="g3136">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         transform="matrix(0.88921806,0,0,0.77634048,16.996142,81.275877)"
+         d="m 203,367.86218 c 0,18.50154 -10.07359,33.5 -22.5,33.5 -12.42641,0 -22.5,-14.99846 -22.5,-33.5 0,-18.50154 10.07359,-33.5 22.5,-33.5 12.42641,0 22.5,14.99846 22.5,33.5 z"
+         sodipodi:ry="33.5"
+         sodipodi:rx="22.5"
+         sodipodi:cy="367.86218"
+         sodipodi:cx="180.5"
+         id="path2992"
+         style="fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         transform="matrix(1.2751946,0,0,0.98849407,-76.403316,4.2153348)"
+         d="m 309,366.36218 c 0,17.67311 -15.67003,32 -35,32 -19.32997,0 -35,-14.32689 -35,-32 0,-17.67311 15.67003,-32 35,-32 19.32997,0 35,14.32689 35,32 z"
+         sodipodi:ry="32"
+         sodipodi:rx="35"
+         sodipodi:cy="366.36218"
+         sodipodi:cx="274"
+         id="path2994"
+         style="fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         transform="translate(21,29)"
+         d="m 348,338.86218 c 0,11.87412 -8.50659,21.5 -19,21.5 -10.49341,0 -19,-9.62588 -19,-21.5 0,-11.87412 8.50659,-21.5 19,-21.5 10.49341,0 19,9.62588 19,21.5 z"
+         sodipodi:ry="21.5"
+         sodipodi:rx="19"
+         sodipodi:cy="338.86218"
+         sodipodi:cx="329"
+         id="path2996"
+         style="fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         transform="translate(59,29.5)"
+         d="m 348,338.86218 c 0,11.87412 -8.50659,21.5 -19,21.5 -10.49341,0 -19,-9.62588 -19,-21.5 0,-11.87412 8.50659,-21.5 19,-21.5 10.49341,0 19,9.62588 19,21.5 z"
+         sodipodi:ry="21.5"
+         sodipodi:rx="19"
+         sodipodi:cy="338.86218"
+         sodipodi:cx="329"
+         id="path2996-5"
+         style="fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         transform="matrix(1.2751946,0,0,0.98849407,114.59668,4.215338)"
+         d="m 309,366.36218 c 0,17.67311 -15.67003,32 -35,32 -19.32997,0 -35,-14.32689 -35,-32 0,-17.67311 15.67003,-32 35,-32 19.32997,0 35,14.32689 35,32 z"
+         sodipodi:ry="32"
+         sodipodi:rx="35"
+         sodipodi:cy="366.36218"
+         sodipodi:cx="274"
+         id="path2994-5"
+         style="fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         transform="matrix(0.88921806,0,0,0.77634048,398.49614,82.775879)"
+         d="m 203,367.86218 c 0,18.50154 -10.07359,33.5 -22.5,33.5 -12.42641,0 -22.5,-14.99846 -22.5,-33.5 0,-18.50154 10.07359,-33.5 22.5,-33.5 12.42641,0 22.5,14.99846 22.5,33.5 z"
+         sodipodi:ry="33.5"
+         sodipodi:rx="22.5"
+         sodipodi:cy="367.86218"
+         sodipodi:cx="180.5"
+         id="path2992-6"
+         style="fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:6;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         sodipodi:linespacing="125%"
+         id="text3067"
+         y="458.36218"
+         x="85"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="458.36218"
+           x="85"
+           id="tspan3069"
+           sodipodi:role="line">1 zero</tspan></text>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 169,428.36218 c 10,-36 10,-34 10,-34"
+         inkscape:path-effect="#path-effect3097"
+         id="path3095"
+         d="m 164.18241,427.02396 9.63518,2.67644 c 1.39663,-10.57089 2.70365,-21.07503 4.41925,-31.5644 0,0 0,0 0,0 0.19437,-1.17437 0.3519,-2.32994 0.64143,-3.47216 0,0 0,0 0,0 0.0169,-0.11808 0.0199,-0.22975 0.0974,-0.31176 0,0 0,0 0,0 0.006,-0.007 0.0162,-0.0122 0.0206,-0.006 0.002,0.003 0.004,0.0113 0.004,0.0153 1e-5,3e-4 1e-5,4.7e-4 1e-5,4.7e-4 0,0 0,-1.7e-4 -1e-5,-4.7e-4 -9e-5,-0.004 -0.001,-0.0121 -0.003,-0.0157 0,0 0,0 0,0 -0.004,-0.007 -0.0138,-0.003 -0.0193,0.002 0,0 0,1e-5 0,1e-5 -0.0783,0.0727 -0.1282,0.19136 -0.19451,0.27648 -0.59738,1.02434 -1.08651,2.12545 -1.58898,3.18604 -4.55801,9.63177 -8.76696,19.47651 -13.01133,29.21319 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:none" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         sodipodi:linespacing="125%"
+         id="text3099"
+         y="507.36218"
+         x="180"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="507.36218"
+           x="180"
+           id="tspan3101"
+           sodipodi:role="line">2 zeros</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         sodipodi:linespacing="125%"
+         id="text3119"
+         y="518.36218"
+         x="336"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="518.36218"
+           x="336"
+           id="tspan3121"
+           sodipodi:role="line">0 zeros</tspan></text>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 347,482.08884 c 3,-95.90376 3,-93.72412 3,-93.72412"
+         inkscape:path-effect="#path-effect3125"
+         id="path3123"
+         d="m 342.00244,481.93251 9.99512,0.31266 c -0.59506,-27.05244 -1.19492,-54.10173 -1.75376,-81.15368 0,0 0,0 0,0 -0.0749,-3.62757 -0.151,-7.25433 -0.21641,-10.88175 0,0 0,0 0,0 -0.009,-0.51642 -0.0189,-1.03261 -0.0256,-1.54897 0,-1e-5 0,-1e-5 0,-1e-5 -0.004,-0.0811 -0.006,-0.16214 -0.004,-0.24306 0,0 0,-1e-5 0,-1e-5 7e-5,-0.0189 -0.002,-0.0384 0.002,-0.0568 3.7e-4,0.004 3.7e-4,0.004 3.7e-4,0.004 0,0 0,-2.1e-4 -10e-6,-5.4e-4 -0.005,0.0151 -0.003,0.0345 -0.005,0.0533 0,0 0,10e-6 0,10e-6 -0.006,0.0807 -0.0146,0.16139 -0.0254,0.24192 0,0 0,1e-5 0,1e-5 -0.0482,0.51426 -0.0937,1.02891 -0.1393,1.54332 0,0 0,0 0,0 -0.3207,3.6142 -0.6308,7.22979 -0.94199,10.84448 0,0 0,1e-5 0,1e-5 -2.32086,26.95937 -4.60096,53.92404 -6.88564,80.88524 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:none" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         sodipodi:linespacing="125%"
+         id="text3119-4"
+         y="478.92273"
+         x="365.28516"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="478.92273"
+           x="365.28516"
+           id="tspan3121-0"
+           sodipodi:role="line">0 zeros</tspan></text>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 380,446.1179 c 5,-55.75585 5,-55.75585 5,-55.75585"
+         inkscape:path-effect="#path-effect3150"
+         id="path3148"
+         d="m 375.01998,445.67131 9.96004,0.89318 c 0.006,-16.21672 0.0116,-32.43345 0.0175,-48.65017 0,0 0,0 0,-10e-6 7.8e-4,-2.15558 0.002,-4.31117 0.002,-6.46675 0,-1e-5 0,-1e-5 0,-1e-5 1e-4,-0.3031 2.1e-4,-0.6062 3.2e-4,-0.9093 -0.002,-0.0473 -0.002,-0.0944 -0.001,-0.14132 0,0 0,0 0,0 0,0 0,0 0,0 -3.1e-4,-0.009 -9e-5,-0.0171 4.3e-4,-0.0256 7.2e-4,-0.009 6.8e-4,-0.009 6.8e-4,-0.009 0,0 -4e-5,0 -2.2e-4,8e-4 -0.002,0.0169 -0.003,0.0253 -0.005,0.0337 -0.007,0.0464 -0.0159,0.0927 -0.0264,0.13884 -0.0538,0.29828 -0.10764,0.59657 -0.16146,0.89485 0,0 0,1e-5 0,1e-5 -0.38277,2.12133 -0.76553,4.24266 -1.1483,6.36399 0,0 0,0 0,0 -2.87958,15.95902 -5.75917,31.91803 -8.63876,47.87705 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:none" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         sodipodi:linespacing="125%"
+         id="text3099-7"
+         y="445.92273"
+         x="429.13867"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="445.92273"
+           x="429.13867"
+           id="tspan3101-4"
+           sodipodi:role="line">2 zeros</tspan></text>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 465,421.36218 c 0,-26.00023 0,-26.00023 0,-26.00023"
+         inkscape:path-effect="#path-effect3175"
+         id="path3173"
+         d="m 460,421.36218 10,0 c -1.66644,-8.66635 -3.33287,-17.33269 -4.99931,-25.99904 -6.9e-4,-0.001 -6.9e-4,-0.001 -6.9e-4,-0.001 0,0 0,0 -6.9e-4,0.001 -1.66644,8.66635 -3.33287,17.33269 -4.99931,25.99904 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:none" />
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 240.2643,478.2063 c 26.73579,-82.84412 26.73579,-82.84412 26.73579,-82.84412"
+         inkscape:path-effect="#path-effect3179"
+         id="path3177"
+         d="m 235.50596,476.67067 9.51668,3.07126 c 6.35532,-24.40029 12.71063,-48.80057 19.06594,-73.20086 0,0 0,0 0,0 0,0 0,0 0,0 0.83472,-3.20478 1.66944,-6.40955 2.50415,-9.61432 0,0 0,0 0,0 0,0 0,0 0,0 0.11481,-0.44077 0.22961,-0.88153 0.34441,-1.3223 0,0 0,0 0,0 0.0172,-0.0659 0.0343,-0.13176 0.0515,-0.19764 0,0 0,0 0,0 0.002,-0.0117 0.005,-0.023 0.008,-0.0341 0.001,-0.004 0.002,-0.006 0.003,-0.01 2e-4,-6.2e-4 2e-4,-6.2e-4 2e-4,-6.2e-4 0,0 0,0 -2e-4,6.2e-4 -0.001,0.004 -0.002,0.006 -0.003,0.01 -0.004,0.011 -0.008,0.022 -0.0133,0.0324 -0.0246,0.0635 -0.0492,0.12696 -0.0738,0.19045 -0.16451,0.42472 -0.32902,0.84944 -0.49354,1.27417 -1.19615,3.08812 -2.3923,6.17625 -3.58846,9.26438 0,0 0,0 0,0 -9.10719,23.51219 -18.21439,47.02438 -27.32158,70.53657 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:none" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         sodipodi:linespacing="125%"
+         id="text3181"
+         y="226.36218"
+         x="342.33008"
+         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="226.36218"
+           x="348.69727"
+           id="tspan3183"
+           sodipodi:role="line">count 0's between </tspan><tspan
+           id="tspan3185"
+           y="276.36218"
+           x="342.33008"
+           sodipodi:role="line">successive 1's</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         sodipodi:linespacing="125%"
+         id="text3187"
+         y="445.36218"
+         x="588"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="445.36218"
+           x="588"
+           id="tspan3189"
+           sodipodi:role="line">1 zero</tspan></text>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+         inkscape:connector-curvature="0"
+         inkscape:original-d="m 596,410.36218 c -26,-23 -26,-22 -26,-22"
+         inkscape:path-effect="#path-effect3197"
+         id="path3195"
+         d="m 592.68713,414.10716 6.62574,-7.48996 c -8.38116,-5.47297 -16.81094,-11.06674 -25.45267,-16.2005 0,0 0,0 0,0 -1.08199,-0.64245 -2.18018,-1.31626 -3.32512,-1.86513 0,0 0,0 0,0 -0.16272,-0.0617 -0.31624,-0.13759 -0.46144,-0.18501 -0.0241,-0.004 -0.064,-0.0309 -0.0734,-0.005 -2.4e-4,6.7e-4 -2.4e-4,0.001 -2.4e-4,0.001 0,0 0,-4.5e-4 2.5e-4,-0.001 0.01,-0.0253 0.0543,0.004 0.08,0.021 0.14941,0.078 0.25954,0.18968 0.36255,0.30668 0,0 0,0 0,0 0.931,0.84674 1.75905,1.77818 2.61999,2.71124 0,0 0,0 0,0 6.77611,7.36844 13.13803,15.02814 19.6243,22.70713 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:none" />
+    </g>
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-89.394531,-195.97156)">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="127"
+       y="381.36218"
+       id="text2985"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/shimpe/development/mints/countzeros.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="127"
+         y="381.36218">1 0 1 0 0 1 1 1 0 0 1 0 1</tspan></text>
+  </g>
+</svg>

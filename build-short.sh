@@ -1,7 +1,5 @@
-python generate.py
-cd output
-/usr/local/bin/lilypond *ly
-cd ..
+mkdir out
+cp *png out
 /usr/local/bin/lilypond-book --output=out --pdf document.lytex 
 cd out
 pdflatex document 

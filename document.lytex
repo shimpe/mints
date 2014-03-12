@@ -1,6 +1,7 @@
 \documentclass[a4paper]{article}
 \usepackage{pdfpages}
 \usepackage{datetime}
+\usepackage{graphicx}
 
 \begin{document}
 \title{Modes of internal symmetry - taking a closer look at Messiaen's modes of limited transposition}
@@ -340,17 +341,105 @@ my guess is that the harmonies as built using every second mode degree sound a b
 every third mode degree (i.e. using fourths).
 \end{itemize}
 
+It would seem that when deriving harmonies from a set of notes we want to avoid uneven spreading of intervals over the mode, to avoid ending up with 
+a series of very closely spaced chords, followed by a series of much more widely spaced chords. In other words: a mode that consists of a left part with many half tones, 
+and a right part with many whole tones will tend to result in much more dissonant chords derived from that left part, 
+and much more open sounding chords derived from the right part. Can the binary keys can help us see in which modes the intervals are better 
+spread out than in other modes?
+
+\subsection{From binary key to intervals}
+First we can convert the binary keys back to intervals between successive notes in the mode. Doing so is simple once we think back of what the binary keys really mean: 
+each 1 or 0 is an inclusion respectively exclusion of a particular note from the chromatic scale built on c. We can find back the intervals
+in the mode as follows:
+\begin{itemize}
+\item Write down the binary key (p,q,r,s,t,u,v) and unfold it to from the complete mode: (p,q,r,s,t,u,v,u,t,s,r,q,p).
+\item Now each time count the number of 0's between successive 1's. Each count is one less than the number of half steps in the interval.
+\end{itemize}
+
+An abstract description like the above begs for an example. Let's take mode 83:
+
+\begin{lilypond}
+\score { 
+   \new Staff = "up" {
+      \relative c' {
+	\cadenzaOn c4 cis d dis e f fis g gis a ais b c \cadenzaOff \bar"|."
+	\cadenzaOn c,4 \hideNotes cis\unHideNotes d \hideNotes dis e \unHideNotes  f fis g \hideNotes gis a\unHideNotes ais \hideNotes b\unHideNotes c \cadenzaOff \bar"|."
+      }
+      
+      \addlyrics {
+	  "p" "q" "r" "s" "t" "u" "v" "u" "t" "s" "r" "q" "p"
+	  "1" "0" "1" "0" "0" "1" "1" "1" "0" "0" "1" "0" "1"
+      }
+    }
+   \layout {
+     \context { 
+         \Staff 
+         \remove Time_signature_engraver 
+	 \accidentalStyle "forget"
+      } 
+   }
+}
+\end{lilypond}
+
+Number 83 in binary is (1,0,1,0,0,1,1). After unfolding we get (1,0,1,0,0,1,1,1,0,0,1,0,1) (see music example). Now we count zeros between successive 1's.
+We find 1 zero, 2 zeros, 0 zeros, 0 zeros, 2 zeros, 1 zero:
+
+\begin{figure}[h]
+ \centering
+    \includegraphics[width=0.5\textwidth]{countzeros.png}
+ \caption{Turning binary keys back into intervals}
+\end{figure} 
+
+If we count zero 0's, then the interval between successive notes is 1/2 tone. If we count one 0, the interval is 1 tone. In general, if z is the number of zeros we counted, 
+the number of half tones in the interval is $h = (z+1)$. And then the number of tones in the interval is $t = h/2 = (z+1)/2$.  In the case of mode 83, we apply this formula as follows:
+\begin{itemize}
+\item we counted 0's between successive 1's: (1,2,0,0,2,1).
+\item we apply the formula: ( (1+1)/2, (2+1)/2, (0+1)/2, (0+1)/2, (2+1)/2, (1+1)/2 ) = ( 1, 1.5, 0.5, 0.5, 1.5, 1 ). 
+\item so we have a mode with intervals 1 tone, 1.5 tones, 0.5 tones, 0.5 tones, 1.5 tones, 1 tone
+\item we double check with the musical example and see indeed that $c \rightarrow d = 1$ tone, $d \rightarrow f = 1.5$ tones, $f \rightarrow f\# = 0.5$ tones, $ f\# \rightarrow g = 0.5$ tones, $ g \rightarrow a\# = 1.5$ tones, $a\# \rightarrow c = 1$ tone
+\end{itemize}
+
+\subsection{Ideal interval size. Avoiding clusters and gaps}
+Intuitively, when one wants to derive harmonies by stacking notes from every n-th scale degree, one could decide to avoid too small intervals 
+(clusters) and too large intervals (gaps), e.g. to avoid a concentration of too dissonant chords on one side of the scale. 
+For this reason it's useful to think about what intervals one reasonably can expect to occur in a mode.
+
+Suppose you create a mode of only 2 different notes. These 2 notes have to span an octave, i.e. 12 half tones. To have maximal spreading of the notes over the 
+mode one should have intervals between the notes of 6 half tones ($c \rightarrow f\#$). The interval ($ f\# \rightarrow c $) closes the construction 
+by repeating the first note c, so this second "c" it is not a "third note" in our mode. 
+More general, for $n$ notes spanning an octave (12 half tones), the ideal interval has $12/n$ half tones. 
+
+Suppose this assumption makes sense, then in an octotonic scale (8 distinct notes) the ideal interval between notes is $12/8 = 1.5$ half tones. There's one problem
+with this: 1.5 half tones leads to microtonal music. If we don't want to go there, we need to do the next best thing:
+round to multiples of 1. We can't round all 1.5 half tone intervals to 2 half tone intervals because then we end up with way too many half tones to fit in an octave. 
+Similarly we can't round all 1.5 intervals down to 1 because then we end up with too few half tones to span the octave. We can however approximate this 1.5 by 
+alternating between rounding 1.5 up to 2 and rounding 1.5 down to 1 to get the following configuration of half tone intervals: (1,2,1,2,1,2,1,2) which 
+nicely adds up to $1+2+1+2+1+2+1+2 = 12$ half tones over 8 notes. But now look closely at what we really constructed...
+
+We find Messiaen's second mode of limited transpostion! Even though I didn't present a rigorous mathematical proof here,
+I hope it is clear that Messiaen's second mode of limited transposition is a best possible approximation of evenly spread intervals in an octotonic scale 
+(best possible if we don't allow microtonal intervals).\footnote{This makes me wonder how octotonic scales sound if we do allow microtonal intervals.}
+
+When we select modes for our own compositions, we may want to pay some attention to avoiding clusters and gaps in the intervals that lie between the notes in the modes we select.
+An interval G can be named a "gap" if it has more half tones than the ideal interval rounded up, and an interval C can be named a "cluster" if it has less half 
+tones than the ideal interval rounded down. In all this, the ideal interval is itself a function of the number of notes in the mode. Summarizing:
+\begin{itemize}
+\item The ideal interval I(n) in a mode is $ I(n) = 12/n$ where n is the number of distinct notes in the mode.
+\item An interval G is a gap if $ B > \lceil I(n)\rceil $. (The symbols $\lceil$ and $\rceil$ should be read as "round up")
+\item An interval C is a cluster if $ S < \lfloor I(n)\rfloor $. (The symbols $\lfloor$ and $\rfloor$ should be read as "round down")
+\end{itemize}
+
 \section{Conclusions}
 To summarize:
 \begin{itemize}
 \item First we systematically listed all modes with internal symmetry around f\# derived from a chromatic scale. We found that there are 127 such modes.
-\item Then, we saw how all of Messiaen's modes are part of this list of 127 modes, meaning that they at least have some symmetry in interval distribution.
+\item Then, we saw how all of Messiaen's modes are part of this list of 127 modes, meaning that they at least have some symmetry in interval distribution. 
 \item After that, we noticed how all but one of the Messiaen modes contain extra symmetries in the lower half and upper half of the mode (palindromic keys).
 We listed all modes that have both symmetry around f\# and the extra symmetries in the lower half and upper half of the mode, and discovered some 
 potentially interesting modes not directly used by Messiaen (with fewer notes). Even though we didn't care about the property of \emph{limited transposition}, by
 just considering symmetry arguments we arrived at a very similar set of modes.
 \item While doing so, we also formulated a possible explanation for why Messiaen may have chosen to build his chords using fourths,
-and we speculated about how internal symmetry may make Messiaen's modes sound better than other, randomly chosen, modes.
+and we speculated about how internal symmetry and even spreading of intervals may contribute to make Messiaen's modes work better than other, randomly chosen, modes.
 \end{itemize}
 
 \section{Some resources}
@@ -386,7 +475,388 @@ corrections, additions, to https://github.com/shimpe/mints/issues
 \includepdf[scale=0.65,pages=1,pagecommand=\section{All chords built by stacking every third note from the modes of internal symmetry}\label{sec:fourth}]{/home/shimpe/development/mints/output/fourths.pdf}
 \includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/fourths.pdf}
 
-\includepdf[scale=0.65,pages=1,pagecommand=\section{All chords built by stacking every fourth note from the modes of internal symmetry}\label{sec:fifth}]{/home/shimpe/development/mints/output/fifths.pdf}
+\includepdf[scale=0.65,pages=1,pagecommand=\section{All chords built by stacking every third note from the modes of internal symmetry}\label{sec:fifth}]{/home/shimpe/development/mints/output/fifths.pdf}
 \includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/fifths.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 1}\label{sec:mode1}]{/home/shimpe/development/mints/output/1/mode_1.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/1/mode_1.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 2}\label{sec:mode2}]{/home/shimpe/development/mints/output/2/mode_2.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/2/mode_2.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 3}\label{sec:mode3}]{/home/shimpe/development/mints/output/3/mode_3.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/3/mode_3.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 4}\label{sec:mode4}]{/home/shimpe/development/mints/output/4/mode_4.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/4/mode_4.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 5}\label{sec:mode5}]{/home/shimpe/development/mints/output/5/mode_5.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/5/mode_5.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 6}\label{sec:mode6}]{/home/shimpe/development/mints/output/6/mode_6.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/6/mode_6.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 7}\label{sec:mode7}]{/home/shimpe/development/mints/output/7/mode_7.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/7/mode_7.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 8}\label{sec:mode8}]{/home/shimpe/development/mints/output/8/mode_8.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/8/mode_8.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 9}\label{sec:mode9}]{/home/shimpe/development/mints/output/9/mode_9.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/9/mode_9.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 10}\label{sec:mode10}]{/home/shimpe/development/mints/output/10/mode_10.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/10/mode_10.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 11}\label{sec:mode11}]{/home/shimpe/development/mints/output/11/mode_11.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/11/mode_11.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 12}\label{sec:mode12}]{/home/shimpe/development/mints/output/12/mode_12.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/12/mode_12.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 13}\label{sec:mode13}]{/home/shimpe/development/mints/output/13/mode_13.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/13/mode_13.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 14}\label{sec:mode14}]{/home/shimpe/development/mints/output/14/mode_14.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/14/mode_14.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 15}\label{sec:mode15}]{/home/shimpe/development/mints/output/15/mode_15.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/15/mode_15.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 16}\label{sec:mode16}]{/home/shimpe/development/mints/output/16/mode_16.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/16/mode_16.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 17}\label{sec:mode17}]{/home/shimpe/development/mints/output/17/mode_17.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/17/mode_17.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 18}\label{sec:mode18}]{/home/shimpe/development/mints/output/18/mode_18.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/18/mode_18.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 19}\label{sec:mode19}]{/home/shimpe/development/mints/output/19/mode_19.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/19/mode_19.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 20}\label{sec:mode20}]{/home/shimpe/development/mints/output/20/mode_20.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/20/mode_20.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 21}\label{sec:mode21}]{/home/shimpe/development/mints/output/21/mode_21.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/21/mode_21.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 22}\label{sec:mode22}]{/home/shimpe/development/mints/output/22/mode_22.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/22/mode_22.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 23}\label{sec:mode23}]{/home/shimpe/development/mints/output/23/mode_23.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/23/mode_23.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 24}\label{sec:mode24}]{/home/shimpe/development/mints/output/24/mode_24.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/24/mode_24.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 25}\label{sec:mode25}]{/home/shimpe/development/mints/output/25/mode_25.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/25/mode_25.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 26}\label{sec:mode26}]{/home/shimpe/development/mints/output/26/mode_26.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/26/mode_26.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 27}\label{sec:mode27}]{/home/shimpe/development/mints/output/27/mode_27.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/27/mode_27.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 28}\label{sec:mode28}]{/home/shimpe/development/mints/output/28/mode_28.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/28/mode_28.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 29}\label{sec:mode29}]{/home/shimpe/development/mints/output/29/mode_29.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/29/mode_29.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 30}\label{sec:mode30}]{/home/shimpe/development/mints/output/30/mode_30.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/30/mode_30.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 31}\label{sec:mode31}]{/home/shimpe/development/mints/output/31/mode_31.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/31/mode_31.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 32}\label{sec:mode32}]{/home/shimpe/development/mints/output/32/mode_32.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/32/mode_32.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 33}\label{sec:mode33}]{/home/shimpe/development/mints/output/33/mode_33.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/33/mode_33.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 34}\label{sec:mode34}]{/home/shimpe/development/mints/output/34/mode_34.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/34/mode_34.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 35}\label{sec:mode35}]{/home/shimpe/development/mints/output/35/mode_35.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/35/mode_35.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 36}\label{sec:mode36}]{/home/shimpe/development/mints/output/36/mode_36.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/36/mode_36.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 37}\label{sec:mode37}]{/home/shimpe/development/mints/output/37/mode_37.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/37/mode_37.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 38}\label{sec:mode38}]{/home/shimpe/development/mints/output/38/mode_38.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/38/mode_38.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 39}\label{sec:mode39}]{/home/shimpe/development/mints/output/39/mode_39.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/39/mode_39.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 40}\label{sec:mode40}]{/home/shimpe/development/mints/output/40/mode_40.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/40/mode_40.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 41}\label{sec:mode41}]{/home/shimpe/development/mints/output/41/mode_41.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/41/mode_41.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 42}\label{sec:mode42}]{/home/shimpe/development/mints/output/42/mode_42.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/42/mode_42.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 43}\label{sec:mode43}]{/home/shimpe/development/mints/output/43/mode_43.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/43/mode_43.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 44}\label{sec:mode44}]{/home/shimpe/development/mints/output/44/mode_44.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/44/mode_44.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 45}\label{sec:mode45}]{/home/shimpe/development/mints/output/45/mode_45.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/45/mode_45.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 46}\label{sec:mode46}]{/home/shimpe/development/mints/output/46/mode_46.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/46/mode_46.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 47}\label{sec:mode47}]{/home/shimpe/development/mints/output/47/mode_47.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/47/mode_47.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 48}\label{sec:mode48}]{/home/shimpe/development/mints/output/48/mode_48.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/48/mode_48.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 49}\label{sec:mode49}]{/home/shimpe/development/mints/output/49/mode_49.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/49/mode_49.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 50}\label{sec:mode50}]{/home/shimpe/development/mints/output/50/mode_50.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/50/mode_50.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 51}\label{sec:mode51}]{/home/shimpe/development/mints/output/51/mode_51.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/51/mode_51.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 52}\label{sec:mode52}]{/home/shimpe/development/mints/output/52/mode_52.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/52/mode_52.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 53}\label{sec:mode53}]{/home/shimpe/development/mints/output/53/mode_53.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/53/mode_53.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 54}\label{sec:mode54}]{/home/shimpe/development/mints/output/54/mode_54.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/54/mode_54.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 55}\label{sec:mode55}]{/home/shimpe/development/mints/output/55/mode_55.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/55/mode_55.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 56}\label{sec:mode56}]{/home/shimpe/development/mints/output/56/mode_56.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/56/mode_56.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 57}\label{sec:mode57}]{/home/shimpe/development/mints/output/57/mode_57.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/57/mode_57.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 58}\label{sec:mode58}]{/home/shimpe/development/mints/output/58/mode_58.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/58/mode_58.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 59}\label{sec:mode59}]{/home/shimpe/development/mints/output/59/mode_59.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/59/mode_59.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 60}\label{sec:mode60}]{/home/shimpe/development/mints/output/60/mode_60.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/60/mode_60.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 61}\label{sec:mode61}]{/home/shimpe/development/mints/output/61/mode_61.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/61/mode_61.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 62}\label{sec:mode62}]{/home/shimpe/development/mints/output/62/mode_62.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/62/mode_62.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 63}\label{sec:mode63}]{/home/shimpe/development/mints/output/63/mode_63.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/63/mode_63.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 64}\label{sec:mode64}]{/home/shimpe/development/mints/output/64/mode_64.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/64/mode_64.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 65}\label{sec:mode65}]{/home/shimpe/development/mints/output/65/mode_65.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/65/mode_65.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 66}\label{sec:mode66}]{/home/shimpe/development/mints/output/66/mode_66.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/66/mode_66.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 67}\label{sec:mode67}]{/home/shimpe/development/mints/output/67/mode_67.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/67/mode_67.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 68}\label{sec:mode68}]{/home/shimpe/development/mints/output/68/mode_68.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/68/mode_68.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 69}\label{sec:mode69}]{/home/shimpe/development/mints/output/69/mode_69.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/69/mode_69.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 70}\label{sec:mode70}]{/home/shimpe/development/mints/output/70/mode_70.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/70/mode_70.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 71}\label{sec:mode71}]{/home/shimpe/development/mints/output/71/mode_71.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/71/mode_71.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 72}\label{sec:mode72}]{/home/shimpe/development/mints/output/72/mode_72.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/72/mode_72.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 73}\label{sec:mode73}]{/home/shimpe/development/mints/output/73/mode_73.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/73/mode_73.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 74}\label{sec:mode74}]{/home/shimpe/development/mints/output/74/mode_74.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/74/mode_74.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 75}\label{sec:mode75}]{/home/shimpe/development/mints/output/75/mode_75.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/75/mode_75.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 76}\label{sec:mode76}]{/home/shimpe/development/mints/output/76/mode_76.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/76/mode_76.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 77}\label{sec:mode77}]{/home/shimpe/development/mints/output/77/mode_77.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/77/mode_77.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 78}\label{sec:mode78}]{/home/shimpe/development/mints/output/78/mode_78.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/78/mode_78.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 79}\label{sec:mode79}]{/home/shimpe/development/mints/output/79/mode_79.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/79/mode_79.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 80}\label{sec:mode80}]{/home/shimpe/development/mints/output/80/mode_80.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/80/mode_80.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 81}\label{sec:mode81}]{/home/shimpe/development/mints/output/81/mode_81.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/81/mode_81.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 82}\label{sec:mode82}]{/home/shimpe/development/mints/output/82/mode_82.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/82/mode_82.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 83}\label{sec:mode83}]{/home/shimpe/development/mints/output/83/mode_83.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/83/mode_83.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 84}\label{sec:mode84}]{/home/shimpe/development/mints/output/84/mode_84.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/84/mode_84.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 85}\label{sec:mode85}]{/home/shimpe/development/mints/output/85/mode_85.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/85/mode_85.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 86}\label{sec:mode86}]{/home/shimpe/development/mints/output/86/mode_86.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/86/mode_86.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 87}\label{sec:mode87}]{/home/shimpe/development/mints/output/87/mode_87.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/87/mode_87.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 88}\label{sec:mode88}]{/home/shimpe/development/mints/output/88/mode_88.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/88/mode_88.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 89}\label{sec:mode89}]{/home/shimpe/development/mints/output/89/mode_89.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/89/mode_89.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 90}\label{sec:mode90}]{/home/shimpe/development/mints/output/90/mode_90.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/90/mode_90.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 91}\label{sec:mode91}]{/home/shimpe/development/mints/output/91/mode_91.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/91/mode_91.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 92}\label{sec:mode92}]{/home/shimpe/development/mints/output/92/mode_92.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/92/mode_92.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 93}\label{sec:mode93}]{/home/shimpe/development/mints/output/93/mode_93.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/93/mode_93.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 94}\label{sec:mode94}]{/home/shimpe/development/mints/output/94/mode_94.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/94/mode_94.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 95}\label{sec:mode95}]{/home/shimpe/development/mints/output/95/mode_95.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/95/mode_95.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 96}\label{sec:mode96}]{/home/shimpe/development/mints/output/96/mode_96.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/96/mode_96.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 97}\label{sec:mode97}]{/home/shimpe/development/mints/output/97/mode_97.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/97/mode_97.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 98}\label{sec:mode98}]{/home/shimpe/development/mints/output/98/mode_98.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/98/mode_98.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 99}\label{sec:mode99}]{/home/shimpe/development/mints/output/99/mode_99.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/99/mode_99.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 100}\label{sec:mode100}]{/home/shimpe/development/mints/output/100/mode_100.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/100/mode_100.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 101}\label{sec:mode101}]{/home/shimpe/development/mints/output/101/mode_101.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/101/mode_101.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 102}\label{sec:mode102}]{/home/shimpe/development/mints/output/102/mode_102.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/102/mode_102.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 103}\label{sec:mode103}]{/home/shimpe/development/mints/output/103/mode_103.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/103/mode_103.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 104}\label{sec:mode104}]{/home/shimpe/development/mints/output/104/mode_104.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/104/mode_104.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 105}\label{sec:mode105}]{/home/shimpe/development/mints/output/105/mode_105.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/105/mode_105.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 106}\label{sec:mode106}]{/home/shimpe/development/mints/output/106/mode_106.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/106/mode_106.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 107}\label{sec:mode107}]{/home/shimpe/development/mints/output/107/mode_107.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/107/mode_107.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 108}\label{sec:mode108}]{/home/shimpe/development/mints/output/108/mode_108.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/108/mode_108.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 109}\label{sec:mode109}]{/home/shimpe/development/mints/output/109/mode_109.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/109/mode_109.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 110}\label{sec:mode110}]{/home/shimpe/development/mints/output/110/mode_110.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/110/mode_110.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 111}\label{sec:mode111}]{/home/shimpe/development/mints/output/111/mode_111.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/111/mode_111.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 112}\label{sec:mode112}]{/home/shimpe/development/mints/output/112/mode_112.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/112/mode_112.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 113}\label{sec:mode113}]{/home/shimpe/development/mints/output/113/mode_113.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/113/mode_113.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 114}\label{sec:mode114}]{/home/shimpe/development/mints/output/114/mode_114.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/114/mode_114.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 115}\label{sec:mode115}]{/home/shimpe/development/mints/output/115/mode_115.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/115/mode_115.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 116}\label{sec:mode116}]{/home/shimpe/development/mints/output/116/mode_116.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/116/mode_116.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 117}\label{sec:mode117}]{/home/shimpe/development/mints/output/117/mode_117.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/117/mode_117.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 118}\label{sec:mode118}]{/home/shimpe/development/mints/output/118/mode_118.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/118/mode_118.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 119}\label{sec:mode119}]{/home/shimpe/development/mints/output/119/mode_119.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/119/mode_119.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 120}\label{sec:mode120}]{/home/shimpe/development/mints/output/120/mode_120.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/120/mode_120.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 121}\label{sec:mode121}]{/home/shimpe/development/mints/output/121/mode_121.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/121/mode_121.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 122}\label{sec:mode122}]{/home/shimpe/development/mints/output/122/mode_122.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/122/mode_122.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 123}\label{sec:mode123}]{/home/shimpe/development/mints/output/123/mode_123.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/123/mode_123.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 124}\label{sec:mode124}]{/home/shimpe/development/mints/output/124/mode_124.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/124/mode_124.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 125}\label{sec:mode125}]{/home/shimpe/development/mints/output/125/mode_125.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/125/mode_125.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 126}\label{sec:mode126}]{/home/shimpe/development/mints/output/126/mode_126.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/126/mode_126.pdf}
+
+\includepdf[scale=0.65,pages=1,pagecommand=\section{Characterizing mode 127}\label{sec:mode127}]{/home/shimpe/development/mints/output/127/mode_127.pdf}
+\includepdf[scale=0.65,pages=2-,pagecommand={}]{/home/shimpe/development/mints/output/127/mode_127.pdf}
 
 \end{document}
