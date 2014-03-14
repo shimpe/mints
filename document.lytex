@@ -148,8 +148,8 @@ Practically all operating systems nowadays have some built-in calculator applica
 to convert between binary and decimal should you ever need to do so.
 
 \section{What's the point? How do these binary numbers help us analyze music?}
-Using this enumeration method, I listed all the 127 modes that are symmetrical around f\# as can 
-be seen in section \ref{sec:plain}. I've sorted the modes by length. 
+Using this enumeration method, I listed all the 127 non-empty modes that are symmetrical around f\# as can 
+be seen in section \ref{sec:plain}. I've sorted the modes by length. Mode 0 with zero notes was left out.
 Each mode is annotated with a few numbers, e.g. 74:(2)7-71. The number 74 means it's the 74th mode
 in the list of modes sorted by length. The number (2) means that we're looking at modes wity binary symmetry (the mode is 
 divided in two symmetrical parts). The number 7 means that the mode consists of 7 notes, distributed
@@ -475,7 +475,7 @@ tones than the ideal interval rounded down. In all this, the ideal interval is i
 \section{Conclusions}
 To summarize:
 \begin{itemize}
-\item First we systematically listed all modes with internal symmetry around f\# derived from a chromatic scale. We found that there are 127 such modes.
+\item First we systematically listed all modes with internal symmetry around f\# derived from a chromatic scale. We found that there are 127 non-empty such modes.
 \item Then, we saw how all of Messiaen's modes are part of this list of 127 modes, meaning that they at least have some symmetry in interval distribution. 
 \item After that, we noticed how all but one of the Messiaen modes contain extra symmetries in the lower half and upper half of the mode (palindromic keys).
 We listed all modes that have both symmetry around f\# and the extra symmetries in the lower half and upper half of the mode, and discovered some 
