@@ -481,8 +481,11 @@ To summarize:
 We listed all modes that have both symmetry around f\# and the extra symmetries in the lower half and upper half of the mode, and discovered some 
 potentially interesting modes not directly used by Messiaen (with fewer notes). Even though we didn't care about the property of \emph{limited transposition}, by
 just considering symmetry arguments we arrived at a very similar set of modes.
+\item We continued by looking for other forms of symmetry and looked in detail at ternary symmetries yielding different set of modes.
 \item While doing so, we also formulated a possible explanation for why Messiaen may have chosen to build his chords using fourths,
 and we speculated about how internal symmetry and even spreading of intervals may contribute to make Messiaen's modes work better than other, randomly chosen, modes.
+\item In the reference sections \ref{sec:mode1} - \ref{sec:ternmode15} we list all the modes examined in this document and create a detailed passport, which can be used 
+while exploring its musical possibilities.
 \end{itemize}
 
 \section{Some resources}
