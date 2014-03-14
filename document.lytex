@@ -267,7 +267,7 @@ In what follows, remember that the notation "mode (2)x-y" means "a mode with bin
 which notes are present in the mode. Compare the descriptions given here to the modes as listed in section \ref{sec:palindrome}.
 
 \begin{itemize}
-\item Mode (2)02-008 (0,0,0,1,0,0,0) is a ditonic mode. Two notes may be a bit limited for a composition. Interesting though that it is (enharmonically equivalent to) a tritone, which is one of the basic building blocks for Messiaen's musical language.
+\item Mode (2)02-008 (0,0,0,1,0,0,0) is a ditonic mode. Two notes may be a bit limited for a composition. Interesting though that it is a tritone, which is one of the basic building blocks for Messiaen's musical language.
 \item Mode (2)04-020 (0,0,1,0,1,0,0) is a tetratonic mode. 
 \item Mode (2)06-028 (0,0,1,1,1,0,0) is a hexatonic mode. 
 \item Mode (2)04-034 (0,1,0,0,0,1,0) is a tetratonic mode. Interesting about this mode is that there's even more symmetry present in the lower and upper half of the binary key. This is a third level of symmetry in the mode.
