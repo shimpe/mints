@@ -98,7 +98,7 @@ This method for constructing modes has some properties:
 \item A different combination of values 0,1 assigned to p, q, r, s, t, u, v results in a different mode. In other words, there are no two different keys (p,q,r,s,t,u,v) that result in the same set of notes selected from the chromatic scale.
 \item If we look at all possible ways that we can assign 0, 1 to p, q, r, s, t, u, v, we construct all possible subsets of the chromatic scale with intervals distributed symmetrically around f\#. In other words, we don't skip any modes symmetrical around f\# by using this method.
 \item All in all, this means that any (p,q,r,s,t,u,v) key uniquely defines one mode with intervals symmetrically distributed around f\#.
-\item There are $2^7=127$ different ways to assign the values 0, 1 to the variables p, q, r, s, t, u, v. This means that there are 127 unique modes with symmetrical distribution of intervals around f\#.
+\item There are $2^7=128$ different ways to assign the values 0, 1 to the variables p, q, r, s, t, u, v. This means that there are 128 unique modes with symmetrical distribution of intervals around f\#. One of those modes is mode 0, which has no notes at all. We don't consider it further.
 \end{itemize}
 
 \subsection{Intermezzo: binary numbers}
@@ -355,7 +355,7 @@ This is a fundamentally different form of symmetry, namely between d\#,e and bet
 }
 \end{lilypond}
 
-We can now reuse the knowledge we gathered before: given that we use 4-bit binary keys, there must be $2^{4} = 16$  such modes.
+We can now reuse the knowledge we gathered before: given that we use 4-bit binary keys, there must be $2^{4} = 16$  such modes (of course mode 0 has no notes, so we don't consider it further).
 As before we can translate the binary keys to decimal numbers, but the decimal denote a different mode than the same decimal numbers we used while examining
 binary symmetries. The difference lies in the structure of the unfolded key. In the binary symmetry case we had
 a key (p,q,r,s,t,u,v) that after unfolding becomes (p,q,r,s,t,u,v,u,t,s,r,q,p). Now in the ternary case we have a key
