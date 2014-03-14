@@ -92,4 +92,25 @@ def construct_mode(number, chromatic):
     notes.extend(reversed(rightlist))
     return notes
 
+def construct_ternary_mode(number, chromatic):
+    import math
+    l = len(chromatic)
+    halflen = int(math.ceil(l/3.0))
+    binarypattern = bin(number)[2:]
+    binarypattern = "0"*(halflen-len(binarypattern)) + binarypattern # pad with 0's
+    leftlist = []
+    rightlist = []
+    middlelist = []
+    notes = []
+    for bitno, bit in enumerate(binarypattern):
+        if bit == "1":
+            leftlist.append( add_skip(chromatic, 0, bitno) )
+            middlelist.append( add_skip(chromatic, 0,2*halflen-bitno-1) )
+            rightlist.append( add_skip(chromatic, 0, 2*halflen+bitno) )
+               
+    notes.extend(leftlist)
+    notes.extend(reversed(middlelist))
+    notes.extend(rightlist)
+    return notes
+
 

@@ -1,7 +1,7 @@
 \version "2.19.0"
 
 \header {
-  title = "Mode ${texttitle}"
+  title = "Mode (2)${texttitle}"
   subtitle = "(binary key: ${bintitle})"
   %% Remove default LilyPond tagline
   tagline = ##f
