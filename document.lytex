@@ -362,6 +362,13 @@ a key (p,q,r,s,t,u,v) that after unfolding becomes (p,q,r,s,t,u,v,u,t,s,r,q,p). 
 (p,q,r,s) that after unfolding becomes (p,q,r,s,s,r,q,p,p,q,r,s). To distinguish the decimal numbers for modes with binary symmetry
 from the decimal numbers for modes with ternary symmetry, we preceded the former ones with (2) and we precede the latter ones with (3).
 
+Also as before we can look for extra symmetries by looking at 4-bit keys that are palindromic. Those non-empty keys are:
+\begin{itemize}
+\item mode (3)6 (0110): a hexatonic mode
+\item mode (3)9 (1001): a hexatonic mode (really a transposed "mode" of mode (3)6).
+\item mode (3)15 (1111): the chromatic scale
+\end{itemize}
+
 Sections \ref{sec:ternplain}, \ref{sec:ternseconds}, \ref{sec:ternthirds}, \ref{sec:ternfourths}, \ref{sec:ternfifths} list all 16 modes with ternary symmetry.
 
 \section{Deriving harmonies from modes of internal symmetry}
