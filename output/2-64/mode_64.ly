@@ -3,6 +3,7 @@
 \header {
   title = "Mode (2)64"
   subtitle = "(binary key: 1000000)"
+  subsubtitle = "(aka: Unison)"
  %% Remove default LilyPond tagline
   tagline = ##f
 }

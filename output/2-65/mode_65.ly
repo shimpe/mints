@@ -3,6 +3,7 @@
 \header {
   title = "Mode (2)65"
   subtitle = "(binary key: 1000001)"
+  subsubtitle = "(aka: Sharp Fourth,Flat Fifth Interval)"
  %% Remove default LilyPond tagline
   tagline = ##f
 }

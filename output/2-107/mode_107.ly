@@ -3,6 +3,7 @@
 \header {
   title = "Mode (2)107"
   subtitle = "(binary key: 1101011)"
+  subsubtitle = "(aka: Messiaen 3 according to Brown,Messiaen 6th mode From Groves start B)"
  %% Remove default LilyPond tagline
   tagline = ##f
 }

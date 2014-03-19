@@ -3,6 +3,7 @@
 \header {
   title = "Mode (2)106"
   subtitle = "(binary key: 1101010)"
+  subsubtitle = "(aka: Neapolitan Major,Mela Kokilapriya (India) Raga Kokilaravam (India))"
  %% Remove default LilyPond tagline
   tagline = ##f
 }

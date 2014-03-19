@@ -288,8 +288,9 @@ which notes are present in the mode. Compare the descriptions given here to the 
 Now follows a list of modes that are partially palindromic as follows: the binary keys of the modes listed here become palindromic 
 if you leave out either the first or last bit. They are listed in musical form in section \ref{sec:partialpalindrome}.
 These form another subset of modes (slightly less "perfect" than the modes in the previous section).
-Probably some of these modes are better known under other names, but my knowledge of existing scales is not
-large enough to recognize all of them.
+Probably some of these modes are better known under other names, and in as far as I was able to recognize them automatically using the scale list from harmonics.com 
+(see the resources in section \ref{sec:resources}), they are annotated in the sections \ref{sec:mode1}-\ref{sec:ternmode15} that characterize each mode.
+The list may contain errors, and in that case the annotated scale names will be wrong... use with care!
 
 By reducing the constraints on symmetry also other interesting modes can be selected (e.g. modes that are a palindromic if you leave
 out 2 outer bits), but listing those is left as an exercise to the interested reader.
@@ -495,8 +496,10 @@ and we speculated about how internal symmetry and even spreading of intervals ma
 while exploring its musical possibilities.
 \end{itemize}
 
-\section{Some resources}
+\section{Some resources}\label{sec:resources}
 While investigating I made extensive use of Jackson Hardaker's Messiaen mode visualizer: http://messiaen.jacksonhardaker.com/
+
+I also extensively used the list of scales found at http://www.harmonics.com/scales/
 
 The complete code required to reproduce the experiments and the text in this document (together with midi files for the listed modes and 
 chords in the following sections) can be found online at https://github.com/shimpe/mints.

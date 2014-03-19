@@ -1,0 +1,2401 @@
+|111101010110|Adonai Malakh (Israel) 2b 1#
+Chord Cm9b6sus4 - Gregorian Scale 2, Assari Thaat (India), Se (China) Kitmun (Sumarian)|101101011010|Aeolian Natural Minor, Asavari Asc Nats. A to G
+|100110101101|Aeolian 2# 4# #5
+|101101111001|Algerian
+|110001010100|Altered Pentatonic
+|110110000000|Alternating TetraMirror
+genus tertium Raga Devamani|100110011001|Augmented, Messiaen Truncated Mode 3 2457Inverse
+|110100011000|Balinese, Pelog 1 
+|110010110000|Balinese Pentachord (as 7/346/1 in 12edo)
+|110110010100|Blues Dorian Hexatonic
+|101111110110|Blues Enneatonic
+|100101110110|Blues Heptatonic
+|100101110010|Blues Minor ( same as 7/23/7 in 12edo)
+|100101110001|Blues Minor Maj7
+|101101110010|Blues Modified
+|101101110110|Blues Octatonic
+|111101000000|Blues PentaCluster 2b's 1#
+Chord Cm11 - Pyongjo Kyemyonjo (Korea) Minyo (Japan)|100101010010|Blues Pentatonic Minor, Hard Japan descending
+|110101110010|Blues Phrygian (same as 7/3/7 in 12 edo)
+|100101110011|Blues with Leading Tone
+|100111001000|Center-Cluster PentaMirror
+|101001001010|Chaio (same as 6/26/5 in 12edo)
+|100010110001|Raga Malashri (India) & Chinese
+|111011010111|Chromatic Bebop
+|111111111100|Chromatic DecaMirror all except A# & B 6# 7
+as 8/0/6 in 12edo|111101011110|Chromatic Diatonic Dorian (#1,b3,#5,b7)
+Raga Kanakambari (India)|111001011100|Chromatic Dorian
+|100111010011|Chromatic Dorian Inverse Raga None (India)
+|111111100000|Chromatic HeptaMirror #'s
+|111111000000|Chromatic HexaMirror all #
+|101110011100|Chromatic Hypodorian
+|100111001110|Chromatic Hypodorian Inverse
+|110010111001|Chromatic Hypolydian, Puravi bVI
+|110011101001|Chromatic Hypolydian Inverse, Persian
+|111001110100|Chromatic Hypophrygian Inverse
+|110011001010|Theoretical - No Known Name
+|110100111001|Chromatic Lydian Inverse, Todi bVI
+|111010110010|Chromatic Mixolydian
+|101001110011|Chromatic Mixolydian Inverse
+|111111111000|Chromatic NonaMirror
+|111111110000|Chromatic OctaMirror
+|111110000000|Chromatic PentaMirror
+|111011011101|Chromatic Permuted Diatonic Dorian
+|100111001011|Chromatic Phrygian
+|111010011100|Chromatic Phrygian Inverse
+|111100000000|Chromatic TetraMirror
+|111000000000|Chromatic TriMirror
+|111111111110|Chromatic UndecaMirror - All except 7th all sharp Bb
+|100100100000|Diminished Chord
+|100100100100|Diminished 7th Chord, 3 Semitones
+|101101101101|Diminished
+|101011010111|Dominant Bebop
+C9 chord|101010010010|Dominant Pentatonic
+Chord Cm69sus4 - Eskimo Heptatonic (N. America) Kafi Thaat (India), Embulum (Sumerian)|101101010110|Dorian, Kafi D to C asc. naturals
+|101101011110|Dorian Aeolian (as 7/0/5 in 12 edo) #5
+|101101100110|Dorian b5
+Akebono (Japan)|101100010100|Dorian Pentatonic, Kumoi Japan
+|101101000000|Dorian Tetrachord
+Ukrainian minor Raja, Dorian with a sharp fourth|101100110110|Romanian, Gnossiennes
+|110101100100|Double-Phrygian Hexatonic
+|101001010010|Egyptian , Suspended Pentatonic
+as 10/23410/1 in 12 edo|110010101011|Enigmatic Ascending (b2,#4,#5,#6)
+|110100101011|Enigmatic Minor ( same as 7/7/8 in 12edo)
+|101010101100|Eskimo Hexatonic 2
+|101010010000|Eskimo Tetratonic
+|101101011111|Full Minor (enharmonic b6 & b7)
+|110111011101|Genus Chromaticum
+Chord CMaj6sus4|100011010101|Genus Secundum
+|110001101110|Gipsy Hexatonic, Raga Kalakanti
+|110110110110|Half-Diminished, Symmetric, Blues Dim. 
+|101001011000|Han - kumoi (Japan)
+|101011011001|Harmonic Major 1, Ethiopian, Nat Bhairava
+|101011001101|Harmonic Major 2, Ionian #5
+|101101011001|Harmonic Minor
+Maqam Hicaz (Arabia)|110011010110|Harmonic Minor Inverse or Bhairav
+|101100100000|Harmonic Minor Tetrachord
+|111101011001|Harmonic Neapolitan Minor 2b1#
+Nando Kyemyonjo (Korea) • Minor Pentachord|101100010101|Hawaiian
+|100011000101|Raga Bhinna Shadja, Hindolita (India)
+|101100011000|Hirajoshi Japan
+|110101100010|Honchoshi Plagal Form
+|101111011110|Houseini (Greece)
+|100111010101|Houzam (Greece) Raga Saildesakshi, Trishuli (India)
+Mela Sanmukhapriya (India)|101100111010|Hungarian Gypsy, Damian Emmanuel
+|100110110110|Hungarian Major Raga Nasamani (India)
+Maqam Nawa Athar (Arabia), Double Harmonic Minor, Niavent (Greece)|101100111001|Hungarian Minor
+|111100111001|Hungarian Minor b2
+|110110011010|Indian, Phrygian dim 4th
+Chord CMaj69sus4 - Thaat, Nid Murub (Sumerian)|101011010101|Ionian, Major, Bilaval C to B asc. nats.
+Chord CMaj7sus4|100011010001|Ionian Pentatonic Raga Gambhiranata (India)
+|110001100010|Iwato Japan
+|110001011000|Japanese, Sakura Pentatonic Soft Descend
+|110100110000|Japanese Pentachord (as 7/356/7 in 12edo)
+Jazz Minor|101101010101|Minor Melodic
+|110101010110|Jazz Minor Inverse. Javanese, Dorian bII & HIndi
+|110111010110|JG Octatonic 
+|101101111110|Kiourdi (Greece)
+Miyakobushi (Japan)|110001010010|Kokin-Joshi, Soft Ascend Japan
+|101010100100|Kung
+|101010101011|Leading Whole-Tone
+Qablitum (Sumerian)|110101101010|Locrian - B to A Ascending naturals
+|110101101100|Locrian bb7
+|110101100110|Locrian Natural Maj 6, Pseudo Turkish
+|110101100000|Locrian PentaMirror
+Ping (China) Nis Garb.ri (Mesopotamian)|101010110101|Lydian, Kalyan F to E ascending naturals
+|100110110101|Lydian #2 Raga Kuksumakaram 
+|100110010101|Lydian #2 Hexatonic
+|101010101101|Lydian Augmented, Hindi #IV & #V
+Raga Dumyaraga, Madhuvanti, Ambika (India)|101100110101|Lydian Diminished
+Mela Vacaspati (India) Raga Bhusavati (India) Lydian Mixolydian. Bartok Scale|101010110110|Lydian bVIIth, Overtone, Hindi #IV & bVII
+Chord CMaj769|101010010101|Lydian Hexatonic
+|101010111010|Lydian Minor, Stravinski Raga Ratipriya (India)
+|101011110111|Lydian Mixolydian Taishikicho, Ryo (Japan)
+|101010110000|Lydian Pentachord
+|110110101101|Magen Abot
+|101011011101|Major Bebop
+|101011011100|Major Bebop Heptatonic Mela Mararanjani (India)
+Blues Dorian Hexatonic|101110010100|Major Blues (as 7/23/4 in 12edo)
+Chord C Major|100010010000|Major Triad e.g. C
+Chord CMajor7|100010010001|Major 7 Chord 
+|100100100010|Messiaen Truncated F# Bb Eb
+|101000100100|Major b7 Chord e.g. D7
+|100001010010|Major b7 Suspend 4th Chord
+Bhairav Thaat (India) Mela Mayamalavagaula (India) Raga Paraj (India) Hitzazkiar (Greece)|110011011001|Hungarian Folk or Byzantine Major Gypsy
+|101011101010|Major Locrian
+Ishikotsucho (Japan)|101011110101|Major Lydian Genus Diatonicum Veterum Correctum
+Mela Carukesi (India) Raga Tarangini (India)|101011011010|Major Minor, Hindu bVI & bVII
+|101111011111|Major & Minor mixed
+|101011010000|Major Pentachord
+Chord C69 - Gong (China) Raga Bhopali, Mohanam, Deskar, Bilahari (India)|101010010100|Major Pentatonic
+Genus Primum|101001010000|Major Suspended 4th Chord
+|101011000000|Major Tetrachord
+|110011011011|Maqam Hijaz
+|110111100110|Maqam Shadd'araban
+Marva Thaat (India)|110010110101|Marva or Marvi (as 7/3/1 in 12 edo)
+|111011101110|Messiaen Mode 3
+one of 6 variations in 12edo|101110111011|Messiaen Mode 3 Inverse (#2,#4,b6,#6)
+|111100111100|Messiaen Mode 4 (1b3#'s)
+|100111100111|Messiaen Mode 4 Inverse
+|111000111000|Messiaen Mode 5 (dupe 8/456/1 in 12edo
+|100011100011|Messiaen Mode 5 Inverse?
+|111010111010|Messiaen Mode 6
+|101011101011|Messiaen Mode 6 Inverse
+(4#'s & b7)as 10/6/1 in 12edo|111110111110|Messiaen Mode 7
+|101111101111|Messiaen Mode 7 Inverse
+as 9/3569/1 in 12edo|110100110100|Messiaen Truncated Mode 2 (b2, 3b,#4)
+as 9/3478/2 in 12edo|110011001100|Messiaen Truncated Mode 3, Half-Aug b2
+as 7/3456/1 in 12edo|110000110000|Messiaen Truncated Mode 5 (b2 & b5)
+|100001100001|Messiaen Truncated Mode 5 Inverse
+|101000101000|Messiaen Truncated Mode 6
+Minor Added Sixth Pentatonic|100101010100|Minor 6th Added
+|101111010110|Minor Bebop (as 7/0/4 in 12 edo)
+|101110010110|Minor Bebop Heptatonic (as 7/3/4 in 12edo)
+|101101101010|Minor Locrian, Hindi 3 flats and bV
+|101101010000|Minor Pentachord Chad Gadyo (Israel)
+|101111110111|Minor Pentatonic with Leading Tones
+ Chord C69sus4 - Ching (China). Mitum (Sumerian) Gregorian Scale 7|101011010110|Mixolydian, Khamaj G to F ascend. nats
+|101011001110|Mixolydian Augmented
+|101011100110|Mixolydian b5
+Yosen (Japan). Raga Darbar, Narayani, Suposhini (India)|101001010110|Mixolydian Hexatonic
+Chord C7sus4|100011010010|Mixolydian Pentatonic
+|110111011011|Moorish Phrygian 2b2# spread
+Mela Kokilapriya (India) Raga Kokilaravam (India)|110101010101|Neapolitan Major
+Raga Dhunibinnashadjam (India) Maqam Shahnaz Kurdi (Arabia)|110101011001|Neapolitan Minor
+|111010101100|Neapolitan Minor Mode (as 10/48910/11 in 12edo)
+|110100111011|Neveseri (Greece)
+|101001101101|Nohkan (Japan)
+Tsinganikos (Greece). Raga Ahira Lalita (India)|110011100110|Oriental 1
+|110011100111|Oriental 2
+|111001100000|Oriental Pentacluster
+Ishartum (Sumerian), Ousak )Greece), Gregorian Scale 3|110101011010|Phrygian, Bhairavi E to D asc. nats.(as 11/678910/4 in 12edo)
+|111101011010|Phrygian Aeolian 3b1#
+Chord Cm7b6b9sus4|100101011010|Phrygian Hexatonic
+|110101111010|Phrygian Locrian ( same as 7/0/7 in 12 edo)
+|110111011010|Phrygian Major, Flamenco, Spanish Phrygian
+|110101000000|Phrygian Tetrachord
+|110101101011|Prokofiev (same as 7/0/8 9n 12 edo)
+|110010100110|Prometheus Neapolitan
+|101010100110|Prometheus ( same as 8/248/3 in 12edo)
+|101101100100|Pyramid Hexatonic
+|101101000100|Raga Abhogi
+Chord Cm69sus4|101101000110|Raga Bagesri, Sriranjani, Kapijingla (India)
+|100101000110|Raga Chandrakauns Kafi, Surya (India)
+|101001010001|Raga Desh
+Chord Cm7b6sus4|110101010010|Raga Gandharavam
+|100100101010|Raga Harikauns (India) (Flats)
+|100101100010|Raga Jayakauns (india)
+|100010111010|Raga Jyoti (India)
+|100011000110|Raga Khamaji Durga (India)
+|101010011001|Raga Latika
+|100011010111|Raga Madhuri (same as 7/5/3 in 12edo)
+2b's 1# Blues Pentatonic Minor, Hard Japan descending |100101001010|Raga Malkauns
+|101101010111|Raga Mian Ki Malhar, Bahar (India)
+|100101010001|Raga Nata, Madhuranjani (India)
+|100011011001|Raga Paraju Simhavahini India
+Chord Cm7b9|110100010010|Raga Rukmangi, Pelog 2
+|101000110100|Raga Shri Kalyan
+|100011010011|Raga Tilang, Savitri (India)
+Chord Cm9b13|101100011010|Raga Trimurti
+|101000110001|Raga Vaijayanti (India)
+Chord C13|100010010110|Raga Valaji (India) - Thriteenth e.g.C13
+|110011001010|Raga Vasantabhairavi
+|110011000101|Raga Vasanta, Chayavati (India)
+|101100110100|Raga Vijayanagari
+|111000110001|Raga Vijayasri (India)
+|100010110011|Raga Vijayavasanta (India)
+|110101001001|Raga Viyogavarali (as 7/26/8 in 12edo)
+|100010110110|Raga Vutari (India)
+|101010110100|Raga Yamuna Kalyani
+|100011011000|Raga Zilaf, (India)
+|110101001010|Ritsu
+Zhi (China) Raga Devakriya (India) Ujo (Korea)|101001010100|Ritusen Japan, Scottish Pentatonic (as Slendro example)
+Raga Nandkauns (India)|100111010110|Rock 'n Roll ( same as 7/6/4 in 12edo)
+|100011001001|Romanian Bacovia
+Petrushka Chord|110010110110|Romanian Major, Purvi bVII
+|101110011010|Sabach (Greece)
+|101011010100|Scottish Hexatonic Arezzo Major Diatonic Hexachord
+|110010010100| (as 7/367/1 in 12edo)
+Shostakovich|110110110101|Shostakovich respelled all sharp
+|110111101010|Spanish 8 Tones (= 10/8910/7 in 12edo)
+|100111101010|Spanish Heptatonic 
+|110111000000|Spanish Pentacluster
+|110110101010|Superlocrian, Diminished Whole-Tone (as 8/28/9 in 12 edo)
+|111010111011|Symmetrical Nonatonic
+|101100101001|Takemitsu Tree Line Mode1(3 b's from C)
+|101100101010|Takemitsu Tree Line Mode 2 4b's
+|110110101100|Ultra Locrian
+Raga Suha (India) Gregorian Scale 4|101101011011|Utility Minor (as 9/89/5 9n 12edo)
+|110011101011|Enigmatic 
+as 11/345811/2 in 12edo|110011001011|Enigmatic Descending (b2,#5,#6,#7)
+|101100000010|Warao Minor Trichord
+Raga Gopriya (India) Anhemitonic Hexatonic|101010101010|Whole-Tone, Anhemitonic Hexatonic (as whole tone in 12edo) Auxillary Augmented, Messiaen 1st Mode
+|101010100000|Whole-Tone Tetramirror
+|111011110110|Youlan (China) 2# 4# 7b
+|101101011101|Zirafkend (Arabia)
+|111101111100|untitled Nonatonic 1
+|110111110110|untitled Nonatonic 2
+|110100110110|Todi bVII Mela Sadvidhamargini (India)
+(India) Alhijaz (Arabia) Ahavh Rabbah (Israel) Hitzaz (Greece) Spanish Gypsy|110011011010|Phrygian Dominant, Dorico Flamenco, Avaha Raba, Spanish Folk, Jewish Major
+Raga Gopriya (India) Anhemitonic Hexatonic|101010101010|Whole tone alternate
+Super Locrian 6 flats|110110101010|Lydian Augmented or Hindi 5 flats & bIV 
+|100101100001|Blues #V (as 7/346/8 in 12edo)
+|101001000110|Oriental Raga Guhamanohari (India)
+Zhi (China) Raga Devakriya (India) Ujo (Korea)|101001010100|Example of Slendro (same as 4/0/2 in 12edo)
+|101010111001|Example Of Pelog
+|100101110010|Blues Minor (All b's 9/6789/4 in 12edo)
+Raga Gopriya (India) Anhemitonic Hexatonic|101010101010|whole tone #'s in 12edo)
+Raga Gopriya (India) Anhemitonic Hexatonic|101010101010|whole tone b's in 12edo)
+|101010100110|Prometheus F# and Bb) in 12edo)
+|101101111010|Theoretical - No Known Name
+|110101101101|Theoretical - No Known Name
+|110111101010| Spanish 8 tones (all b's) in 12edo)
+Raga Suha (India) Gregorian Scale 4|101101011011|Utility minor 14/38911121314/5 in 12edo)
+|111010110101|Theoretical - No Known Name
+|101111010110|Minor Bebop (As Minor Bebop 11/891011/3 in 12edo) 
+|101010000100|Theoretical - No Known Name
+Chord F Major|100001000100|Major Triad e.g. F
+|101000010010|Theoretical - No Known Name
+Chord Cminor sus4|100101010000|Theoretical - No Known Name
+|101001000100|Minor 7th e.g. Dm7 = F6 Raga Bhavani (India)
+|101001000010|Major add 9 e.g. Bb add9
+|101010000000|Do Re Mi 
+|101000010100|Theoretical - No Known Name
+|101000000100|Theoretical - No Known Name
+|100000010010|Theoretical - No Known Name
+|100101000010|Theoretical - No Known Name
+|100100000010|Ute Tritone (North America)
+|100101000000|Theoretical - No Known Name
+|100000010100|Theoretical - No Known Name
+|101001000000|Theoretical - No Known Name
+Raga Malkauns 11/567891011/4 in 12edo)|100101001010|Blues Pentatonic Minor, Hard Japan descending 3b's 
+|100001001010|Theoretical - No Known Name
+Chord C6|100010010100|Minor 7th e.g. Am7 = C6
+|100001010100|Major add 9 e.g. F add9
+|100010000100|Minor Triad e.g. Am Raga Bilwadala (India)
+DADGAD|101000010000|Theoretical - No Known Name
+|100001000010|Sanagari (Japan)
+|100001010000|Raga Sarvarsi (India)
+|101000000000|Do Re Wholetone or Large Interval
+|100000000010|Flat Seventh Interval
+|100101001000|Theoretical - No Known Name
+|100000001010|Theoretical - No Known Name
+|100100001000|Major Triad e.g. Ab
+|100100000000|Flattened Third interval
+|100000000100|Major Sixth Interval
+Chord C minor|100100010000|Minor Triad e.g. Cm
+|100001001000|Minor Triad e.g. Fm
+|100100001010|Major add 9 e.g. Ab add9
+Chord Cm9sus4 - Nayaki, Yo (Japan), Eskimo Hexatonic 1 (North America)|101101010010|Minor Hexatonic
+|101010000101|Theoretical - No Known Name
+|100001011010|Theoretical - No Known Name
+|110101000010|Theoretical - No Known Name
+|101000000110|Theoretical - No Known Name
+|100000011010|Theoretical - No Known Name
+|100010000101|Theoretical - No Known Name
+|101100010000|Theoretical - No Known Name
+|100001011000|Theoretical - No Known Name
+|110001000010|Theoretical - No Known Name
+|101000000101|Theoretical - No Known Name
+|100000010110|Theoretical - No Known Name
+|110100000010|Theoretical - No Known Name
+|100011000100|Theoretical - No Known Name
+Chord Cminorb6|100100011000|Theoretical - No Known Name
+|110001001000|Raga Lavangi(India)
+|100000010101|Theoretical - No Known Name
+|110000001010|Theoretical - No Known Name
+|101010000001|Theoretical - No Known Name
+Chord C Major9|101010010001|Raga Hamsadhvani (India)
+Chord C6sus4|100011010100|Raga Mand (India)
+Chord C minor7b9|100100011010|Raga Shailaja (India)
+|110101001000|Raga Chitthakarshini (India)
+|101000010101|Theoretical - No Known Name
+|101101000010|Theoretical - No Known Name
+|100001010110|Theoretical - No Known Name
+|110100001010|Theoretical - No Known Name
+|101000010001|Theoretical - No Known Name
+Chord Csus4|100011010000|Theoretical - No Known Name
+|100001000110|Theoretical - No Known Name
+|110100001000|Theoretical - No Known Name
+|101000000010|Theoretical - No Known Name
+|101000010110|Raga Matha Kokila (India)
+|101101011110|Dorian Aoelian (Al b's) 11/891011/4 in 12edo)
+|111101011010|Phrygian Aeolian 2b 4b 6b
+|110101111010|Phrygian Locrian (All b's) - 11/891011/6 in 12edo)
+|110101101011|Prokofiev (All b's)16/589101113141516/7 in 12 edo)
+|101010100101|Raga Mrunganandana (India)
+Chord C13add9|101010010110|Theoretical - No Known Name
+|101101010100|Raga Suddha Bangala (India)
+|101001011010|Raga Navamanohari (India)
+|110001101010|Theoretical - No Known Name
+Chord Cm7addb6b5sus4|100101101010|Theoretical - No Known Name
+|100010100101|Raga Hindol (India)
+|101000110101|Raga Nishadi (India)
+|101000011010|Theoretical - No Known Name
+|101010100001|Raga Kumurdaki (India)
+|101010000110|Theoretical - No Known Name
+|110101010000|Theoretical - No Known Name
+|100001101010|Theoretical - No Known Name
+|101000100101|Raga Shubravarni (India)
+|101011000110|Raga Rageshri, Nattaikurinji (India)
+|101010110001|Raga Caturangini (India)
+|101101011000|Theoretical - No Known Name
+|100100000100|Theoretical - No Known Name
+Chord Cm96|101100010110|Raga Manavi (India)
+Chord CMaj6sus#4|100010110101|Theoretical - No Known Name
+|101011000101|Raga Hamsa Vinodini (India)
+|101001001010|Chaio (all b's) 10/4678910/3 in 12 edo)
+|110001011010|Raga Phenadyuti (India)
+|100101101000|Theoretical - No Known Name
+|100000100100|Theoretical - No Known Name
+Chord CMaj9sus4|101011010001|Raga Nalinakanti, Kedaram (India)
+Chord C13sus4|100011010110|Raga Khamas, Baduhari (India)
+|110101101000|Theoretical - No Known Name
+Chord Cmb6b9|110100011010|Raga Kashyapi (India)
+|100101000100|Major b7 Chord e.g. F7
+|100100101000|Major Dominant b7 Chord e.g. Ab7
+|100000110101|Theoretical - No Known Name
+|101011000001|Theoretical - No Known Name
+|101100000110|Theoretical - No Known Name
+|110000011010|Theoretical - No Known Name
+Chord C6sus#4|100010110100|Raga Dhavalashri (India) 
+|101001000101|Raga Rasranjani (India)
+Chord Cm13|100100010110|Theoretical - No Known Name
+|101101001000|Raga Audva Tukhari (India)
+|110100100010|Theoretical - No Known Name
+|100010100001|Raga Nigamagamini (India)
+|101000011000|Theoretical - No Known Name
+|110001010000|Theoretical - No Known Name
+|100001100010|Theoretical - No Known Name
+|100000100101|Theoretical - No Known Name
+|101100000100|Theoretical - No Known Name
+|110000010010|Theoretical - No Known Name
+|100101100000|Theoretical - No Known Name
+|101000100001|Raga Sumukam (India)
+|100010000110|Theoretical - No Known Name
+|110100010000|Theoretical - No Known Name
+|100001101000|Theoretical - No Known Name
+|100000101010|Theoretical - No Known Name
+|101010000010|Theoretical - No Known Name
+|101000001010|Theoretical - No Known Name
+Chord C-b5b6b9sus4|110001101000|Theoretical - No Known Name
+Chord - CMaj6sus4|100001010101|Raga Puruhutika, Purvaholika (India)
+|101011000010|Theoretical - No Known Name
+|101100001010|Theoretical - No Known Name
+|110000101010|Theoretical - No Known Name
+|110100101000|Raga Chhaya Todi (India)
+|101001010101|Raga Nagagandhari (India)
+Chord C9sus4|101011010010|Raga Siva Kambhoji, Vivardhini (India)
+Chord Cm13sus4|100101010110|Raga Manohari (India)
+|101101001010|Theoretical - No Known Name
+|110100101010|Raga Bhavani (India)
+|111010100101|Theoretical - No Known Name
+|101010010111|Theoretical - No Known Name
+|101111010100|Theoretical - No Known Name
+|101001011110|Theoretical - No Known Name
+|111101010010|Theoretical - No Known Name
+|100101111010|Theoretical - No Known Name
+|110101001011|Theoretical - No Known Name
+Marva Thaat (India)|110010110101|Marva Thaat (India) (as Marva 11/23458/6 in 12 edo)
+|101011100101|Theoretical - No Known Name
+|101101011100|Mela Jhankaradhvani (India)
+|111001011010|Mela Ratnangi (India)
+|110101110010|Blues Phrygian 11/2891011/6 in 12edo)
+|100101101011|Theoretical - No Known Name
+|111010110001|Theoretical - No Known Name
+|100011110101|Theoretical - No Known Name
+|101011000111|Raga Ragesri (India)
+|101100011110|Theoretical - No Known Name
+|111101011000|Theoretical - No Known Name
+|110001111010|Theoretical - No Known Name
+|110101100011|Theoretical - No Known Name
+|111000110101|Mela Pavani (India)
+|101011110001|Theoretical - No Known Name
+|100011010111|Raga Madhuri 11/4891011/2 in 12edo)
+|101111000110|Theoretical - No Known Name
+|111100011010|Theoretical - No Known Name
+|110101111000|Theoretical - No Known Name
+|110001101011|Theoretical - No Known Name
+|111010110100|Theoretical - No Known Name
+|101001110101|Theoretical - No Known Name
+|101011010011|Mela Nagananadini (India)
+|100111010110|Raga Nandkauns (India) (same as Rock 11/5891011/3 in 12 edo)
+|101101001110|Theoretical - No Known Name
+|110100111010|Mela Bhavapriya (India)
+|110101101001|Theoretical - No Known Name
+|111010010101|Theoretical - No Known Name
+|101011110100|Theoretical - No Known Name
+|101001010111|Raga Sorati (India)
+|101111010010|Theoretical - No Known Name
+|100101011110|Theoretical - No Known Name
+|111101001010|Theoretical - No Known Name
+|110100101011|Enigmatic Minor (all b's) 15/245789101315/6 in 12edo
+|101110010110|Minor Bebop (all b's) 11/2891011/3 in 12edo)
+Chord C7|100010010010|Major b7 Chord e.g. C7 Raga Mahathi (India)
+|110010100101|Raga Hamsanandi, Puriya (India)
+Blues Dorian Hexatonic|101110010100|Blues Dorian Hex (all b's) as 9/6789/1 in 12edo)
+|101001011100|Theoretical - No Known Name
+|111001010010|Theoretical - No Known Name
+|100101001011|Theoretical - No Known Name
+|110011101010|Theoretical - No Known Name 
+|101010110011|Mela Citrambari (India)
+|111010101100|Theoretical - No Known Name (as 8/26/1 in 12edo)
+|110101011000|Raga Simantini (India)
+|101000110000|Theoretical - No Known Name
+|100001010001|Theoretical - No Known Name
+|100011000010|Theoretical - No Known Name
+|110000101000|Theoretical - No Known Name
+|100010000001|Theoretical - No Known Name
+|100000000101|Theoretical - No Known Name
+|101100000000|Minor Trichord
+|100000011000|Theoretical - No Known Name
+|110001000000|Theoretical - No Known Name
+|110000000010|Theoretical - No Known Name
+|101000000001|Theoretical - No Known Name
+|100000000110|Theoretical - No Known Name
+|110100000000|Phrygian Trichord
+|100000010001|Theoretical - No Known Name
+|100011000000|Theoretical - No Known Name
+|110000001000|Theoretical - No Known Name
+ 12edo as Phrygian, Bhairavi |110101011010|Theoretical - No Known Name (as 6/0/6 in 12edo)
+|101000100000|Theoretical - No Known Name
+|100010000010|Theoretical - No Known Name
+|100000101000|Theoretical - No Known Name
+|100000110001|Theoretical - No Known Name
+|100011000001|Theoretical - No Known Name
+|110000011000|Theoretical - No Known Name
+|110001100000|Theoretical - No Known Name
+|100000110000|Raga Ongkari? (India) (as 7/23456/7 in 12edo)
+|100001000001|Theoretical - No Known Name (as 7/23456/8 in 12edo)
+|110000100000|Theoretical - No Known Name (as 7/23456/1 in 12edo)
+|100000110100|Theoretical - No Known Name
+|101001000001|Theoretical - No Known Name
+|100100000110|Theoretical - No Known Name
+|110100100000|Theoretical - No Known Name
+|110010100001|Theoretical - No Known Name
+|101000011100|Theoretical - No Known Name
+|111001010000|Theoretical - No Known Name
+|100001110010|Theoretical - No Known Name
+|100101000011|Theoretical - No Known Name
+|110000100001|Theoretical - No Known Name (as 7/4567/8 in 12edo)
+|111000010000|Theoretical - No Known Name (as 7/4567/1 in 12edo)
+|100001110000|Theoretical - No Known Name as 7/4567/2 in 12edo)
+|100001000011|Theoretical - No Known Name (as 7/4567/3in 12edo)
+|110000100000|Theoretical - No Known Name (as 6/3456/7 in 12edo)
+|100000110000|Raga Ongkari (India) (as 6/3456/1 in 12edo)
+|100001000001|Theoretical - No Known Name (as 6/3456/2 in 12edo)
+Semitone Interval|110000000000|Sharp one interval
+|100000000001|Flat Octave Interval
+|111010100001|Theoretical - No Known Name
+|101010000111|Theoretical - No Known Name
+|101000011110|Theoretical - No Known Name
+|111101010000|Theoretical - No Known Name
+|100001111010|Theoretical - No Known Name
+|110101000011|Theoretical - No Known Name
+|111000100001|Theoretical - No Known Name
+|100010000111|Theoretical - No Known Name
+|111100010000|Theoretical - No Known Name
+|100001111000|Theoretical - No Known Name
+|110001000011|Theoretical - No Known Name
+|111000100000|Theoretical - No Known Name
+|100010000011|Theoretical - No Known Name
+|100000111000|Theoretical - No Known Name
+|110001000001|Theoretical - No Known Name
+|100000000011|Flat Seventh and Seventh
+|110000000001|Theoretical - No Known Name
+|111010100000|Theoretical - No Known Name
+|101010000011|Theoretical - No Known Name
+|101000001110|Theoretical - No Known Name
+|100000111010|Theoretical - No Known Name
+|110101000001|Theoretical - No Known Name
+|111010000000|Theoretical - No Known Name
+|101000000011|Theoretical - No Known Name
+|100000001110|Theoretical - No Known Name
+|110100000001|Theoretical - No Known Name
+|111010000001|Theoretical - No Known Name
+|101000000111|Theoretical - No Known Name
+|100000011110|Theoretical - No Known Name
+|111101000000|Blues PentaCluster 3b's
+|110100000011|Theoretical - No Known Name
+|111000100101|Theoretical - No Known Name
+|100010010111|Theoretical - No Known Name
+|101111000100|Theoretical - No Known Name
+|111100010010|Theoretical - No Known Name
+|100101111000|Theoretical - No Known Name
+|110001001011|Theoretical - No Known Name
+|111000100100|Theoretical - No Known Name
+|100010010011|Theoretical - No Known Name
+|100111000100|Theoretical - No Known Name
+|100100111000|Theoretical - No Known Name
+|110001001001|Raga Kshanika (India)
+|111000000100|Theoretical - No Known Name
+|100000010011|Theoretical - No Known Name
+|100111000000|Theoretical - No Known Name
+|110000001001|Theoretical - No Known Name
+|111000000101|Theoretical - No Known Name
+|100000010111|Theoretical - No Known Name
+|101111000000|Theoretical - No Known Name
+|111100000010|Theoretical - No Known Name
+|110000001011|Theoretical - No Known Name
+|111010100100|Theoretical - No Known Name
+|101010010011|Theoretical - No Known Name
+|100111010100|Theoretical - No Known Name
+|101001001110|Theoretical - No Known Name
+|100100111010|Theoretical - No Known Name
+|110101001001|Theoretical - No Known Name (as 13/24789101213/6 in 12edo)
+|111010000100|Theoretical - No Known Name
+|101000010011|Theoretical - No Known Name
+|100111010000|Theoretical - No Known Name
+|100001001110|Theoretical - No Known Name
+|110100001001|Theoretical - No Known Name
+|111010000101|Theoretical - No Known Name
+|101000010111|Theoretical - No Known Name
+|101111010000|Theoretical - No Known Name
+|100001011110|Theoretical - No Known Name
+|111101000010|Theoretical - No Known Name
+|110100001011|Theoretical - No Known Name
+|110010110001|Raga Mandari, Gamakakriya (India)
+|100011100101|Theoretical - No Known Name
+|101100011100|Theoretical - No Known Name
+|111001011000|Theoretical - No Known Name
+|110001110010|Theoretical - No Known Name
+|100101100011|Theoretical - No Known Name
+|110000110001|Theoretical - No Known Name
+|100011100001|Theoretical - No Known Name
+|111000011000|Theoretical - No Known Name
+|110001110000|Theoretical - No Known Name
+|100001100011|Theoretical - No Known Name
+|110010110000|Balinese Pentatonic (as 11/23458911/6 in 12edo)
+|100001100101|Theoretical - No Known Name
+|101100001100|Theoretical - No Known Name
+|110000110010|Theoretical - No Known Name
+|100101100001|Blues#V (all b's) 9/25678/4 in 12edo)
+|100011100100|Theoretical - No Known Name
+|100100011100|Theoretical - No Known Name
+|111001001000|Theoretical - No Known Name
+|100100100011|Half Diminished plus b8
+|110010010001|Theoretical - No Known Name
+|110000010001|Theoretical - No Known Name
+|100011100000|Theoretical - No Known Name
+|111000001000|Theoretical - No Known Name
+|100000100011|Theoretical - No Known Name
+|110000110101|Theoretical - No Known Name
+|101011100001|Theoretical - No Known Name
+|101110000110|Theoretical - No Known Name
+|111000011010|Theoretical - No Known Name
+|110101110000|Theoretical - No Known Name
+|100001101011|Theoretical - No Known Name
+|110000110100|Theoretical - No Known Name
+|101001100001|Theoretical - No Known Name
+|100110000110|Theoretical - No Known Name
+|110100110000|Theoretical - No Known Name 
+|100001101001|Theoretical - No Known Name
+|110000010101|Theoretical - No Known Name 
+|101011100000|Theoretical - No Known Name
+|101110000010|Theoretical - No Known Name
+|111000001010|Theoretical - No Known Name
+|100000101011|Theoretical - No Known Name
+|110010110100|Theoretical - No Known Name
+|101001100101|Theoretical - No Known Name
+|100110010110|Theoretical - No Known Name
+|101101001100|Theoretical - No Known Name
+|110100110010|Theoretical - No Known Name
+|100101101001|Theoretical - No Known Name
+|110010010100|Theoretical - No Known Name
+|110010010101|Theoretical - No Known Name
+|101001100100|Theoretical - No Known Name
+|100110010010|Theoretical - No Known Name
+|100101001100|Theoretical - No Known Name
+|100100101001|Theoretical - No Known Name
+|101011100100|Theoretical - No Known Name
+|101110010010|Theoretical - No Known Name
+|100101011100|Theoretical - No Known Name
+|111001001010|Theoretical - No Known Name
+|100100101011|Theoretical - No Known Name
+|100011110001|Theoretical - No Known Name
+|100011000111|Theoretical - No Known Name
+|111100011000|Theoretical - No Known Name
+|110001101000|Theoretical - No Known Name
+|110001100011|Theoretical - No Known Name
+|111000110000|Raga Nabhomani (India)
+|100001110001|Theoretical - No Known Name
+|100011000011|Theoretical - No Known Name
+|110000111000|Raga Saugandhini, Yashranjani (India)
+|110001100001|Theoretical - No Known Name
+|111000010000|Theoretical - No Known Name 
+|100001110000|Theoretical - No Known Name
+|100001000011|Theoretical - No Known Name
+|110000100001|Theoretical - No Known Name
+|111010110000|Theoretical - No Known Name
+|100001110101|Theoretical - No Known Name
+|101011000011|Theoretical - No Known Name
+|101100001110|Theoretical - No Known Name
+|110000111010|Theoretical - No Known Name
+|110101100001|Theoretical - No Known Name
+|111010010000|Theoretical - No Known Name
+|100001110100|Theoretical - No Known Name
+|101001000011|Theoretical - No Known Name
+|100100001110|Theoretical - No Known Name
+|110100100001|Theoretical - No Known Name
+|111010010001|Theoretical - No Known Name
+|100011110100|Theoretical - No Known Name
+|101001000111|Theoretical - No Known Name
+|100100011110|Theoretical - No Known Name
+|111101001000|Theoretical - No Known Name
+|110100100011|Theoretical - No Known Name
+|111000110100|Raga Chandrajyoti (India)
+|101001110001|Theoretical - No Known Name
+|100111000110|Theoretical - No Known Name
+|110100111000|Theoretical - No Known Name
+|110001101001|Theoretical - No Known Name
+|111000010100|Theoretical - No Known Name
+|101001110000|Theoretical - No Known Name
+|100001010011|Theoretical - No Known Name
+|100111000010|Theoretical - No Known Name
+|110000101001|Theoretical - No Known Name
+|111000010101|Theoretical - No Known Name
+|101011110000|Raga Dipak (India)
+|100001010111|Theoretical - No Known Name
+|101111000010|Theoretical - No Known Name
+|111100001010|Theoretical - No Known Name
+|110000101011|Theoretical - No Known Name
+|111010010100|Theoretical - No Known Name
+|101001110100|Theoretical - No Known Name
+|101001010011|Raga Megh (India) (same as Raga Megh 11/56891011/2 in 12edo)
+|100111010010|Raga Bhanumanjari (India)
+|100101001110|Theoretical - No Known Name
+|110100101001|Raga Gujari Todi (India)
+|111010111101|Theoretical - No Known Name
+|111011110101|Theoretical - No Known Name
+|101011110111|Lydian Mixolydian Taishikicho, Ryo (Japan)
+|101111010111|Raga Ramdasi Malhar (India)
+|101111011110|Houseini (Greece)
+|111101111010|Theoretical - No Known Name
+|110101111011|Theoretical - No Known Name
+|110111101011|Theoretical - No Known Name
+|100000010000|Fifth Interval
+|100001000000|Fourth
+one of 6 variations in 12edo|101110111011|Messiaen Mode 3 Inverse (all b)
+one of 6 variations in 12edo|101110111011|Messiaen Mode 3 Inverse (all #)
+one of 6 variations in 12edo|101110111011|Messiaen Mode 3 Inverse (3b & 1#)
+one of 6 variations in 12edo|101110111011|Messiaen Mode 3 Inverse (2b & 2#)
+|110011011100|Gypsy Hexatonic
+|100000000010|Sharp Sixth Interval
+|100000000000|Unison
+|100000000001|Major Seventh Interval
+|111111111111|01 & 07 LT DAW (5 sharps) LT 01 & 07
+|111111011011|Raga Sindi Bhairavi (India)
+|111011111011|Symmetrical Decatonic
+|111011010111|Chromatic Bebop
+as 11/8910/4 in 12edo|111101011110|Chromatic Diatonic Dorian (all b)
+all # as 11/28/3 in 12edo|111110111110|Messiaen Mode 7 
+|100000100000|Sharp Fourth
+|100010000000|Major Third Interval
+|100010001000|Major Flat 6 (no fifth)
+|111100111100|Messiaen Mode 4 (all sharp)
+|111010111010|Messiaen Mode 6
+|111001110010|Chromatic Mixolydian
+|111001010011|Mela Tanarupi (India)
+|111001010101|Mela Manavati (India)
+|111001001100|Raga Suddha Mukhari (India)
+|111000110110|Mela Navanitam (India)
+|111000110011|Mela Raghupriya (India)
+|111000111000|Messiaen Mode 5 (dupe of 11/2348910/5 in 12edo)
+|111000111100|Mela Salaga (India)
+|111000111010|Mela Jalarnava (India)
+|111000111001|Mela Jhalavarali (India)
+|111000001100|Raga Putrika (India)
+|111000001001|Raga Kumarapriya (India)
+|110111000000|Spanish Pentacluster
+|110111011101|Genus Chromaticum (3#'s)
+|110111011011|Moorish Phrygian 4 #'s
+Shostakovich|110110110101|Shostakovich name in Cyrillic monogram
+|110110110110|Blues Diminished
+|110110101100|Ultra Locrian
+|110110101101|Magen Abot (Israel) all sharp
+|110101010011|Mela Rupavati (India)
+|110100110000|Javanese Pentachord
+as 11/24581011/6 in 12edo|110100110100|Messiaen Truncated Mode 2 (#1,#2,#4)
+|110100110011|Mela Divamani (India)
+|110100111100|Mela Gavambohdi (India)
+|110100111011|Neveseri (Greece)
+as 13/23478111213/6 in 12edo|110011001100|Messiaen Truncated Mode 3 all #
+|110011010011|Mela Hatakambari (India)
+as 15/234789121315/6 in 12edo|110011001011|Enigmatic Descending (#1,#5,#6,#7)
+as 15/23457891315/6 in 12edo|110010101011|Enigmatic Ascending (#1,#4,#5,#6)
+Petrushka Chord (C + F#)|110010110010|Raga Indupriya (India)
+|110010110011|Mela Visvambhari (India)
+|110010111100|Mela Dhavalambari (India)
+|110010101100|Raga Hejjajji (India)
+|101001010111|Raga Sorati (India)
+as 11/2345891011/6 in 12edo|110000110000|Messiaen Truncated Mode 5 (all#)
+|100000001000|Sharp Fifth Interval
+|100000001000|Flat Sixth Interval
+|100000100000|Flat Fifth Interval
+|100001000010|Sanagari? (Japan)
+|100001010010|Genus Primum Inverse
+|100001011001|Raga Devaranjani (India)
+|100010010010|Major #6 Chord e.g. C7 Raga Mahathi ?(India)
+|100010010101|Raga Mamata (India) Major 6th
+|100010100010|Messiaen Truncated Mode 6 Inverse
+|100010100010|Messiaen Truncated Mode 6 Inverse?
+|100010100010|Messiaen Truncated Mode 6 Inverse?
+|100010110110|Raga Vutari (all b's)(India)?
+|100010110110|Raga Vutari (all #'s) (India)?
+|100011010010|Mixolydian Pentatonic????
+|100011011010|Raga Kamalamanohari (India)
+|100011011100|Raga Saravati (#5) (India)
+|100011011100|Raga Saravati (b6) (India)
+|100011100011|Messiaen Mode 5 Inverse
+|100011100011|Messiaen Mode 5 Inverse?
+|100100000000|Sharp Second interval
+|100100000010|Ute Tritone? (North America)
+Bi Yu (China)|100100010010|Minor Seventh Chord e.g. Cm7 = Eb6
+|100100010010|Bi Yu (China)
+|100100101010|Raga Harikauns (India) (Sharps)
+|100100110001|Raga Multani (India)
+|100100110001|Raga Multani (India)?
+|100100110001|Raga Multani (India)?
+|100100110010|Raga Samudhra Priya (India)
+|100100110010|Raga Samudhra Priya (India)?
+|100100110011|Raga Jivantini, Gaurikriya (India
+|100100110011|Raga Jivantini, Gaurikriya (India
+|100100110110|Raga Madhakauns (India)
+Marga Hindola|100101000101|Raga Chandrakauns Modern (India)
+|100101001001|Raga Chandrakauns Kiravani (India)
+Chord C minor 6 sus4|100101011000|Raga Kokil Pancham (India)
+|100101011001|Raga Takka (India)
+|100110010100|Raga Mohanangi (India)
+|100110110001|Raga Rasamanjari (India)
+|100110110011|Mela Rasikapriya (India)
+|100110111001|Mela Dhatuvardhani (India)
+|100110111010|Mela Jhotisvarupini (India)
+|100110111100|Mela Sucaritra (India)
+(Sengiach Greece)|100111011001|Mela Gangeyabhusani (India)
+|100111011010|Mela Ragavardhani (India)
+|100111011100|Mela Yagapriya (India)
+|101000110011|Raga Malarani (India)
+|101000110110|Raga Sarasvati (India)
+|101000111010|Raga Jaganmohanam (India)
+|101001001000|Raga Haripriya (India)
+|101001001001|Raga Priyadharshini (India)
+|101001011001|Raga Bhinna Pancama (India)
+|101010011000|Raga Bhupeshwari, Janasammodini (India)
+|101010011100|Major Bebop Hexatonic
+|101010101001|Eskimo Hexatonic 2 (North America)
+|101010111100|Mela Kantamani (India)
+|101011001001|Raga Sarasanana (India)
+|101011011111|Raga Pahadi (India)
+|101100100101|Raga Ranjani, Rangini (India)
+|101100110001|Raga Amarasenapriya (India)
+|101100110010|Raga Simharava (India)
+|101100110011|Mela Nitimati (India)
+|101100110100|Raga Vijayanagari
+|101100111000|Raga Syamalam (India)
+|101100111110|Raga Cintamani (India)
+|101100111100|Mela Syamalangi (India)
+|101100101100|Raga Neelangi (India)
+|101101001001|Raga Ghantana (India)
+|101101010001|Raga Sindhura Kafi (India)
+|101101010011|Mela Varunapriya (India)
+|101101101001|Locrian 2
+|110000011001|Raga Deshgaur (India)
+|110001010001|Raga Gauri (India)
+|110001010101|Raga Jivantika (India)
+|110001010110|Raga Rasavali (India)
+|110001011001|Raga Padi (India)
+|110001011100|Raga Kalakanthi (India)
+C7(b9) Chord|110010010010|Raga Manaranjani (India) - C7(b9)
+|110010010110|Raga Malayamarutam (India)
+|110010011000|Raga Reva, Revagupti (India)
+|110010011001|Raga Bauli (India)
+|110010011010|Raga Kalagada (India)
+|110010111000|Raga Dhavalangam (India)
+|110010111010|Mela Namanararayani (India)
+|110011000001|Raga Megharanji (India)
+|110011000110|Raga Rudra Pancama (India)
+|110011001000|Raga Megharanjani (India)
+|110011001001|Raga Sohini (India)
+|110011010001|Raga Gaula (India)
+|110011010100|Raga Kalavati, Ragamalini (India)
+|110011010101|Bhairubahar Thaat (India)
+|110011011000|Raga Malahari (India)
+|110011011101|Raga Saurashtra (India)
+|110011100101|Chromatic Lydian
+|110011101011|Enigmatic
+|110011110101|Raga Bhatiyar (India)
+|110011111001|Raga Ramkali (India)
+|110100010110|Raga Salagavarali (India)
+|110101011100|Mela Senavati (India)
+|110101111001|Half-Dimiished Bebop
+|111001010110|Mela Vanaspati (India)
+|111001011001|Mela Ganamurti (India)
+|111100100000|Blues Pentacluster
+Half Diminished Chord|100100100010|Messiaen Truncated Gb Bb Eb Half Diminished
+|100100100010|Messiaen Truncated D# F# A#
+|100100100010|Messiaen Truncated D# Gb A#
+|100100100010|Messiaen Truncated Gb Bb D#
+|101101101011|Messiaen 2 according to Brown
+|110101110101|Messiaen 3 according to Brown
+one of 6 variations in 12edo|101110111011|Messiaen 4 according to Brown(3b & 456#)
+|111001111001|Messiaen 5 according to Brown
+respelling|110001110001|Messiaen Mode 5
+|101011101011|Messiaen 7 according to Brown
+respelling|111101111101|Messiaen Mode 7 all b
+|100000000111|Theoretical - No Known Name
+|101101101101|Messiaen 2nd mode From Groves start B
+|111011101110|Messiaen 3nd mode From Groves start F#
+|111000111000|Messiaen 5th mode From Groves start E
+|110101110101|Messiaen 6th mode From Groves start B
+ Chord Diminished 7th|100100100100|Messiaen 2nd Mode - Chord Cdim7 (bb7)
+augmented|100010001000|Messiaen 3rd Mode & Augmented Chord
+Mode 2 first transposition|110110110110|Messiaen Mode 2, Auxillary Diminished Blues
+Mode 4|111001111001|Messiaen Mode 4
+Mode 5|110001110001|Messiaen Mode 5 
+Mode 6|101011010111|Messiaen Mode 6
+Mode 7|111101111101|Messiaen Mode 7
+truncated mode 2|100101100101|Messiaen Mode 2
+truncated mode 2|101001101001|Messiaen Mode 2 
+truncated mode 2|110000110000|Messiaen Mode 2 
+truncated mode 2|100001100001|Messiaen Mode 2 
+|100000001001|Theoretical - No Known Name
+|100000001011|Theoretical - No Known Name
+|100000001100|Theoretical - No Known Name
+|100000001101|Theoretical - No Known Name
+|100000001111|Theoretical - No Known Name
+|100000011001|Theoretical - No Known Name
+|100000011011|Theoretical - No Known Name
+|100000011100|Theoretical - No Known Name
+|100000011101|Theoretical - No Known Name
+|100000011111|Theoretical - No Known Name
+|100000100001|Theoretical - No Known Name
+|100000100010|Theoretical - No Known Name
+|100000100110|Theoretical - No Known Name
+|100000100111|Theoretical - No Known Name
+|100000101001|Theoretical - No Known Name
+|100000101100|Theoretical - No Known Name
+|100000101101|Theoretical - No Known Name
+|100000101110|Theoretical - No Known Name
+|100000101111|Theoretical - No Known Name
+|100000110010|Theoretical - No Known Name
+|100000110011|Theoretical - No Known Name
+|100000110110|Theoretical - No Known Name
+|100000110111|Theoretical - No Known Name
+|100000111001|Theoretical - No Known Name
+|100000111011|Theoretical - No Known Name
+|100000111100|Theoretical - No Known Name
+|100000111101|Theoretical - No Known Name
+|100000111110|Theoretical - No Known Name
+|100000111111|Theoretical - No Known Name
+|100001000101|Theoretical - No Known Name
+|100001000111|Theoretical - No Known Name
+|100001001001|Theoretical - No Known Name
+|100001001011|Theoretical - No Known Name
+|100001001100|Theoretical - No Known Name
+|100001001101|Theoretical - No Known Name
+|100001001111|Theoretical - No Known Name
+|100001010001|Theoretical - No Known Name
+|100001010010|Theoretical - No Known Name
+|100001011011|Theoretical - No Known Name
+|100001011100|Theoretical - No Known Name
+|100001011101|Theoretical - No Known Name
+|100001011111|Theoretical - No Known Name
+|100001100000|Theoretical - No Known Name
+|100001100100|Theoretical - No Known Name
+|100001100110|Theoretical - No Known Name
+|100001100111|Theoretical - No Known Name
+|100001101100|Theoretical - No Known Name
+|100001101101|Theoretical - No Known Name
+|100001101110|Theoretical - No Known Name
+|100001101111|Theoretical - No Known Name
+|100001110011|Theoretical - No Known Name
+|100001110110|Theoretical - No Known Name
+|100001110111|Theoretical - No Known Name
+|100001111001|Theoretical - No Known Name
+|100001111011|Theoretical - No Known Name
+|100001111100|Theoretical - No Known Name
+|100001111101|Theoretical - No Known Name
+|100001111110|Theoretical - No Known Name
+|100001111111|Theoretical - No Known Name
+|100010001001|Theoretical - No Known Name
+|100010001010|Theoretical - No Known Name
+|100010001011|Theoretical - No Known Name
+|100010001100|Theoretical - No Known Name
+|100010001101|Theoretical - No Known Name
+|100010001110|Theoretical - No Known Name
+|100010001111|Theoretical - No Known Name
+Chord Csus#4|100010110000|Theoretical - No Known Name
+|100000001001|Theoretical - No Known Name
+|100010011001|Theoretical - No Known Name
+|100010011010|Theoretical - No Known Name
+|100010011011|Theoretical - No Known Name
+|100010011100|Theoretical - No Known Name
+|100010011101|Theoretical - No Known Name
+|100010011110|Theoretical - No Known Name
+|100010011111|Theoretical - No Known Name
+|100010100000|Theoretical - No Known Name
+|100010100011|Theoretical - No Known Name
+|100010100100|Theoretical - No Known Name
+|100010100110|Theoretical - No Known Name
+|100010100111|Theoretical - No Known Name
+|100010101000|Theoretical - No Known Name
+|100010101001|Theoretical - No Known Name
+|100010101010|Theoretical - No Known Name
+|100010101011|Theoretical - No Known Name
+|100010101100|Theoretical - No Known Name
+|100010101101|Theoretical - No Known Name
+|100010101110|Theoretical - No Known Name
+|100010101111|Theoretical - No Known Name
+C (b5) chord|100010110000|C Major add (b5) chord
+|100010110010|Theoretical - No Known Name
+|100010110111|Theoretical - No Known Name
+|100010111000|Theoretical - No Known Name
+|100010111001|Theoretical - No Known Name
+|100010111011|Theoretical - No Known Name
+|100010111100|Theoretical - No Known Name
+|100010111101|Theoretical - No Known Name
+|100010111110|Theoretical - No Known Name
+|100010111111|Theoretical - No Known Name
+|100011001000|Theoretical - No Known Name
+|100011001010|Theoretical - No Known Name
+|100011001011|Theoretical - No Known Name
+|100011001100|Theoretical - No Known Name
+|100011001101|Theoretical - No Known Name
+|100011001110|Theoretical - No Known Name
+|100011011011|Theoretical - No Known Name
+|100011011101|Theoretical - No Known Name
+|100011011110|Theoretical - No Known Name
+|100011011111|Theoretical - No Known Name
+|100011100010|Theoretical - No Known Name
+|100011100110|Theoretical - No Known Name
+|100011100111|Theoretical - No Known Name
+|100011101000|Theoretical - No Known Name
+|100011101001|Theoretical - No Known Name
+|100011101010|Theoretical - No Known Name
+|100011101011|Theoretical - No Known Name
+|100011101100|Theoretical - No Known Name
+|100011101101|Theoretical - No Known Name
+|100011101110|Theoretical - No Known Name
+|100011101111|Theoretical - No Known Name
+|100011110000|Theoretical - No Known Name
+|100011110010|Theoretical - No Known Name
+|100011110011|Theoretical - No Known Name
+|100011110110|Theoretical - No Known Name
+|100011110111|Theoretical - No Known Name
+|100011111000|Theoretical - No Known Name
+|100011111001|Theoretical - No Known Name
+|100011111010|Theoretical - No Known Name
+|100011111011|Theoretical - No Known Name
+|100011111100|Theoretical - No Known Name
+|100000100011|Theoretical - No Known Name
+|100010001001|Theoretical - No Known Name
+|100010001011|Theoretical - No Known Name
+|100010011000|Theoretical - No Known Name
+|100010011000|Theoretical - No Known Name
+Chord C(b13)|100010011010|Theoretical - No Known Name
+|100010011001|Theoretical - No Known Name
+|100011001001|Romanian Bacovia
+|100011001111|Theoretical - No Known Name
+|100011100011|Messiaen Mode 5 Inverse?
+|100011111101|Theoretical - No Known Name
+|100011111110|Theoretical - No Known Name
+|100011111111|Theoretical - No Known Name
+|100100000001|Theoretical - No Known Name
+|100100000011|Theoretical - No Known Name
+|100100000101|Theoretical - No Known Name
+|100100000111|Theoretical - No Known Name
+|100100001001|Theoretical - No Known Name
+|100100001011|Theoretical - No Known Name
+|100100001100|Theoretical - No Known Name
+|100100001101|Theoretical - No Known Name
+|100100001111|Theoretical - No Known Name
+Chord - CmMaj7|100100010001|Minor Major Seventh Chord e.g. CmMaj7
+|100100010011|Theoretical - No Known Name
+Chord Cm6|100100010100|Theoretical - No Known Name
+|100100010101|Theoretical - No Known Name
+|100100010111|Theoretical - No Known Name
+|100100011001|Theoretical - No Known Name
+|100100011011|Theoretical - No Known Name
+|100100011101|Theoretical - No Known Name
+|100100011111|Theoretical - No Known Name
+|100100100001|Theoretical - No Known Name
+|100100100101|Theoretical - No Known Name
+|100100100110|Theoretical - No Known Name
+|100100100111|Theoretical - No Known Name
+|100100101100|Theoretical - No Known Name
+|100100101101|Theoretical - No Known Name
+|100100101110|Theoretical - No Known Name
+|100100101111|Theoretical - No Known Name
+Chord of Cm b5|100100110000|C minor add b5 chord
+|100100110100|Theoretical - No Known Name
+|100100110101|Theoretical - No Known Name
+|100100110111|Theoretical - No Known Name
+|100100111001|Theoretical - No Known Name
+|100100111011|Theoretical - No Known Name
+|100100111100|Theoretical - No Known Name
+|100100111101|Theoretical - No Known Name
+|100100111110|Theoretical - No Known Name
+|100100111111|Theoretical - No Known Name
+|100101000001|Theoretical - No Known Name
+|100101000111|Theoretical - No Known Name
+|100101001101|Theoretical - No Known Name
+|100101001111|Theoretical - No Known Name
+|100101010011|Theoretical - No Known Name
+|100101010101|Theoretical - No Known Name
+|100101010111|Theoretical - No Known Name
+|100101011011|Theoretical - No Known Name
+|100101011101|Theoretical - No Known Name
+|100101011111|Theoretical - No Known Name
+|100100100100|Theoretical - No Known Name
+|100100101011|Theoretical - No Known Name
+|100100101011|Theoretical - No Known Name
+|100100110110|Raga Madhakauns (India)
+|100111000101|Theoretical - No Known Name
+|100101100100|Theoretical - No Known Name
+|100101100110|Theoretical - No Known Name
+|100101100111|Theoretical - No Known Name
+|100101101100|Theoretical - No Known Name
+|100101101101|Theoretical - No Known Name
+|100101101110|Theoretical - No Known Name
+|100101101111|Theoretical - No Known Name
+|100101110000|Theoretical - No Known Name
+|100101110100|Theoretical - No Known Name
+|100101110101|Theoretical - No Known Name
+|100101110111|Theoretical - No Known Name
+|100101111001|Theoretical - No Known Name
+|100101111011|Theoretical - No Known Name
+|100101111100|Theoretical - No Known Name
+|100101111101|Theoretical - No Known Name
+|100101111110|Theoretical - No Known Name
+|100101111111|Theoretical - No Known Name
+|100110000000|Theoretical - No Known Name
+|100110000001|Theoretical - No Known Name
+|100110000010|Theoretical - No Known Name
+|100110000011|Theoretical - No Known Name
+|100110000100|Theoretical - No Known Name
+|100110000101|Theoretical - No Known Name
+|100110000111|Theoretical - No Known Name
+|100110001000|Theoretical - No Known Name
+|100110001001|Theoretical - No Known Name
+|100110001010|Theoretical - No Known Name
+|100110001011|Theoretical - No Known Name
+|100110001100|Theoretical - No Known Name
+|100110001101|Theoretical - No Known Name
+|100110001110|Theoretical - No Known Name
+|100110001111|Theoretical - No Known Name
+|100110010000|Theoretical - No Known Name
+|100110010001|Theoretical - No Known Name
+|100110010011|Theoretical - No Known Name
+|100110010111|Theoretical - No Known Name
+|100110011000|Theoretical - No Known Name
+|100110011010|Theoretical - No Known Name
+|100110011011|Theoretical - No Known Name
+|100110011100|Theoretical - No Known Name
+|100110011101|Theoretical - No Known Name
+|100110011110|Theoretical - No Known Name
+|100110011111|Theoretical - No Known Name
+|100110100000|Theoretical - No Known Name
+|100110100001|Theoretical - No Known Name
+|100110100010|Theoretical - No Known Name
+|100110100011|Theoretical - No Known Name
+|100110100100|Theoretical - No Known Name
+|100110100101|Theoretical - No Known Name
+|100110100110|Theoretical - No Known Name
+|100110100111|Theoretical - No Known Name
+|100110101000|Theoretical - No Known Name
+|100110101001|Theoretical - No Known Name
+|100110101010|Theoretical - No Known Name
+|100110101011|Theoretical - No Known Name
+|100110101100|Theoretical - No Known Name
+|100110101110|Theoretical - No Known Name
+|100110101111|Theoretical - No Known Name
+|100110110000|Theoretical - No Known Name
+|100110110010|Theoretical - No Known Name
+|100110110100|Theoretical - No Known Name
+|100110110111|Theoretical - No Known Name
+|100110111000|Theoretical - No Known Name
+|100110111011|Theoretical - No Known Name
+|100110111101|Theoretical - No Known Name
+|100110111110|Theoretical - No Known Name
+|100110111111|Theoretical - No Known Name
+|100111000001|Theoretical - No Known Name
+|100111000011|Theoretical - No Known Name
+|100101101011|Theoretical - No Known Name
+|100100100001|Theoretical - No Known Name
+genus tertium Raga Devamani|100110011001|Augmented, Messiaen Truncated Mode 3 2457Inverse
+|100110110010|Theoretical - No Known Name
+|100111000111|Theoretical - No Known Name
+|100111001001|Theoretical - No Known Name
+|100111001010|Theoretical - No Known Name
+|100111001100|Theoretical - No Known Name
+|100111001101|Theoretical - No Known Name
+|100111001111|Theoretical - No Known Name
+|100111010001|Theoretical - No Known Name
+|100111010111|Theoretical - No Known Name
+|100111011000|Theoretical - No Known Name
+|100111011011|Theoretical - No Known Name
+|100111011101|Theoretical - No Known Name
+|100111011110|Theoretical - No Known Name
+|100111011111|Theoretical - No Known Name
+|100111100000|Theoretical - No Known Name
+|100111100001|Theoretical - No Known Name
+|100111100010|Theoretical - No Known Name
+|100111100011|Theoretical - No Known Name
+|100111100100|Theoretical - No Known Name
+|100111100101|Theoretical - No Known Name
+|100111100110|Theoretical - No Known Name
+|100111101000|Theoretical - No Known Name
+|100111101001|Theoretical - No Known Name
+|100111101011|Theoretical - No Known Name
+|100111101100|Theoretical - No Known Name
+|100111101101|Theoretical - No Known Name
+|100111101110|Theoretical - No Known Name
+|100111101111|Theoretical - No Known Name
+|100111110000|Theoretical - No Known Name
+|100111110001|Theoretical - No Known Name
+|100111110010|Theoretical - No Known Name
+|100111110011|Theoretical - No Known Name
+|100111110100|Theoretical - No Known Name
+|100111110101|Theoretical - No Known Name
+|100111110110|Theoretical - No Known Name
+|100111110111|Theoretical - No Known Name
+|100111111000|Theoretical - No Known Name
+|100111111001|Theoretical - No Known Name
+|100111111010|Theoretical - No Known Name
+|100111111011|Theoretical - No Known Name
+|100111111100|Theoretical - No Known Name
+|100111111101|Theoretical - No Known Name
+|100111111110|Theoretical - No Known Name
+|100111111111|Theoretical - No Known Name
+|101000001000|Theoretical - No Known Name
+|101000001001|Theoretical - No Known Name
+|101000001011|Theoretical - No Known Name
+|101000001100|Theoretical - No Known Name
+|101000001101|Theoretical - No Known Name
+|101000001111|Theoretical - No Known Name
+|101000011001|Theoretical - No Known Name
+|101000011011|Theoretical - No Known Name
+|101000011101|Theoretical - No Known Name
+|101000011111|Theoretical - No Known Name
+|101000100010|Theoretical - No Known Name
+|101000100011|Theoretical - No Known Name
+|101000100110|Theoretical - No Known Name
+|101000100111|Theoretical - No Known Name
+|101000101001|Theoretical - No Known Name
+|101000101010|Theoretical - No Known Name
+|101000101011|Theoretical - No Known Name
+|101000101100|Theoretical - No Known Name
+|101000101101|Theoretical - No Known Name
+|101000101110|Theoretical - No Known Name
+|101000101111|Theoretical - No Known Name
+|101000110010|Theoretical - No Known Name
+|101000110111|Theoretical - No Known Name
+|101000111000|Theoretical - No Known Name
+|101000111001|Theoretical - No Known Name
+|101000111011|Theoretical - No Known Name
+|101000111100|Theoretical - No Known Name
+|101000111101|Theoretical - No Known Name
+|101000111110|Theoretical - No Known Name
+|101000111111|Theoretical - No Known Name
+|101001001011|Theoretical - No Known Name
+|101001001100|Theoretical - No Known Name
+|101001001101|Theoretical - No Known Name
+|101001001111|Theoretical - No Known Name
+|101001011011|Theoretical - No Known Name
+|101001011101|Theoretical - No Known Name
+|101001011111|Theoretical - No Known Name
+|101001100000|Theoretical - No Known Name
+|101001100010|Theoretical - No Known Name
+|101001100011|Theoretical - No Known Name
+|101001100110|Theoretical - No Known Name
+|101001100111|Theoretical - No Known Name
+|101001101000|Theoretical - No Known Name
+|101001101010|Theoretical - No Known Name
+|101001101011|Theoretical - No Known Name
+|101001101100|Theoretical - No Known Name
+|101001101110|Theoretical - No Known Name
+|101001101111|Theoretical - No Known Name
+|101001110010|Theoretical - No Known Name
+|101001110110|Theoretical - No Known Name
+|101001110111|Theoretical - No Known Name
+|101001111000|Theoretical - No Known Name
+|101001111001|Theoretical - No Known Name
+|101001111010|Theoretical - No Known Name
+|101001111011|Theoretical - No Known Name
+|101001111100|Theoretical - No Known Name
+|101001111101|Theoretical - No Known Name
+|101001111110|Theoretical - No Known Name
+|101001111111|Theoretical - No Known Name
+|101010001000|Theoretical - No Known Name
+|101010001001|Theoretical - No Known Name
+|101010001010|Theoretical - No Known Name
+|101010001011|Theoretical - No Known Name
+|101010001100|Theoretical - No Known Name
+|101010001101|Theoretical - No Known Name
+|101010001110|Theoretical - No Known Name
+|101010001111|Theoretical - No Known Name
+|101010011010|Theoretical - No Known Name
+|101010011011|Theoretical - No Known Name
+|101010011101|Theoretical - No Known Name
+|101010011110|Theoretical - No Known Name
+|101010011111|Theoretical - No Known Name
+|101010100010|Theoretical - No Known Name
+|101010100011|Theoretical - No Known Name
+|101010100111|Theoretical - No Known Name
+|101010101000|Theoretical - No Known Name
+|101010101110|Theoretical - No Known Name
+|101010101111|Theoretical - No Known Name
+|101010110010|Theoretical - No Known Name
+Lydian with both natural and dominant 7th|101010110111|Lydian Dominant + natural seventh
+|101010111000|Theoretical - No Known Name
+|101010111011|Theoretical - No Known Name
+|101010111101|Theoretical - No Known Name
+|101010111110|Theoretical - No Known Name
+|101010111111|Theoretical - No Known Name
+|101011000100|Theoretical - No Known Name
+|101011001000|Theoretical - No Known Name
+|101011001010|Theoretical - No Known Name
+|101011001011|Theoretical - No Known Name
+|101011001110|Theoretical - No Known Name
+|101011001111|Theoretical - No Known Name
+|101011011000|Theoretical - No Known Name
+|101011011011|Theoretical - No Known Name
+|101011011110|Theoretical - No Known Name
+|101011100010|Theoretical - No Known Name
+|101011100011|Theoretical - No Known Name
+|101011100111|Theoretical - No Known Name
+|101011101000|Theoretical - No Known Name
+|101011101001|Theoretical - No Known Name
+|101011101100|Theoretical - No Known Name
+|101011101101|Theoretical - No Known Name
+|101011101110|Theoretical - No Known Name
+|101011101111|Theoretical - No Known Name
+|101011110010|Theoretical - No Known Name
+|101011110110|Theoretical - No Known Name
+|101011111000|Theoretical - No Known Name
+|101011111001|Theoretical - No Known Name
+|101011111010|Theoretical - No Known Name
+|101011111011|Theoretical - No Known Name
+|101011111100|Theoretical - No Known Name
+|101011111101|Theoretical - No Known Name
+|101011111110|Theoretical - No Known Name
+|101011111111|Theoretical - No Known Name
+Shostakovich monogram|101100000001|Theoretical - No Known Name
+|101100000011|Theoretical - No Known Name
+|101100000101|Theoretical - No Known Name
+|101100000111|Theoretical - No Known Name
+|101100001000|Theoretical - No Known Name
+|101100001001|Theoretical - No Known Name
+|101100001011|Theoretical - No Known Name
+|101100001101|Theoretical - No Known Name
+|101100001111|Theoretical - No Known Name
+|101100010001|Theoretical - No Known Name
+|101100010010|Theoretical - No Known Name
+|101100010011|Theoretical - No Known Name
+|101100010111|Theoretical - No Known Name
+|101100011001|Theoretical - No Known Name
+|101100011011|Theoretical - No Known Name
+|101100011101|Theoretical - No Known Name
+|101100011111|Theoretical - No Known Name
+|101100100001|Theoretical - No Known Name
+|101100100010|Theoretical - No Known Name
+|101100100011|Theoretical - No Known Name
+|101100100100|Theoretical - No Known Name
+|101100100110|Theoretical - No Known Name
+|101100100111|Theoretical - No Known Name
+|101100101000|Theoretical - No Known Name
+|101100101011|Theoretical - No Known Name
+|101100101101|Theoretical - No Known Name
+|101100101110|Theoretical - No Known Name
+|101100101111|Theoretical - No Known Name
+|101100110000|Theoretical - No Known Name
+|101100110111|Theoretical - No Known Name
+Minor Gypsy|101100111011|Minor Gypsy
+|101100111101|Theoretical - No Known Name
+|101100111111|Theoretical - No Known Name
+|101101000001|Theoretical - No Known Name
+|101101000011|Theoretical - No Known Name
+|101101000111|Theoretical - No Known Name
+|101101001011|Theoretical - No Known Name
+|101101001101|Theoretical - No Known Name
+|101101001111|Theoretical - No Known Name
+|101101100000|Theoretical - No Known Name
+|101101100001|Theoretical - No Known Name
+|101101100010|Theoretical - No Known Name
+|101101100011|Theoretical - No Known Name
+|101101100101|Theoretical - No Known Name
+|101101100111|Theoretical - No Known Name
+|101101101000|Theoretical - No Known Name
+|101101101100|Theoretical - No Known Name
+|101101101110|Theoretical - No Known Name
+|101101101111|Theoretical - No Known Name
+|101101110000|Theoretical - No Known Name
+|101101110001|Theoretical - No Known Name
+|101101110011|Theoretical - No Known Name
+|101101110100|Theoretical - No Known Name
+|101101110101|Theoretical - No Known Name
+|101101110111|Theoretical - No Known Name
+|101101111000|Theoretical - No Known Name
+|101101111011|Theoretical - No Known Name
+|101101111100|Theoretical - No Known Name
+|101101111101|Theoretical - No Known Name
+|101101111111|Theoretical - No Known Name
+|101110000000|Theoretical - No Known Name
+|101110000001|Theoretical - No Known Name
+|101110000011|Theoretical - No Known Name
+|101110000100|Theoretical - No Known Name
+|101110000101|Theoretical - No Known Name
+|101110000111|Theoretical - No Known Name
+|101110001000|Theoretical - No Known Name
+|101110001001|Theoretical - No Known Name
+|101110001010|Theoretical - No Known Name
+|101110001011|Theoretical - No Known Name
+|101110001100|Theoretical - No Known Name
+|101110001101|Theoretical - No Known Name
+|101110001110|Theoretical - No Known Name
+|101110001111|Theoretical - No Known Name
+|101110010000|Theoretical - No Known Name
+|101110010001|Theoretical - No Known Name
+|101110010011|Theoretical - No Known Name
+|101110010101|Theoretical - No Known Name
+|101110010111|Theoretical - No Known Name
+|101110011000|Theoretical - No Known Name
+|101110011001|Theoretical - No Known Name
+|101110011011|Theoretical - No Known Name
+|101110011101|Theoretical - No Known Name
+|101110011110|Theoretical - No Known Name
+|101110011111|Theoretical - No Known Name
+|101110100000|Theoretical - No Known Name
+|101110100001|Theoretical - No Known Name
+|101110100010|Theoretical - No Known Name
+|101110100011|Theoretical - No Known Name
+|101110100100|Theoretical - No Known Name
+|101110100101|Theoretical - No Known Name
+|101110100110|Theoretical - No Known Name
+|101110100111|Theoretical - No Known Name
+|101110101000|Theoretical - No Known Name
+|101110101001|Theoretical - No Known Name
+|101110101010|Theoretical - No Known Name
+|101110101011|Theoretical - No Known Name
+|101110101100|Theoretical - No Known Name
+|101110101101|Theoretical - No Known Name
+|101110101110|Theoretical - No Known Name
+|101110101111|Theoretical - No Known Name
+|101110110000|Theoretical - No Known Name
+|101110110001|Theoretical - No Known Name
+|101110110010|Theoretical - No Known Name
+|101110110011|Theoretical - No Known Name
+|101110110100|Theoretical - No Known Name
+|101110110101|Lydian b3 
+Chord Cm693sus4#|101110110110|Lydian Dim b7
+|101110110111|Theoretical - No Known Name
+|101110111000|Theoretical - No Known Name
+|101110111001|Theoretical - No Known Name
+|101110111010|Theoretical - No Known Name
+|101110111100|Theoretical - No Known Name
+|101110111101|Theoretical - No Known Name
+|101110111110|Theoretical - No Known Name
+|101110111111|Theoretical - No Known Name
+|101111000001|Theoretical - No Known Name
+|101111000011|Theoretical - No Known Name
+|101111000101|Theoretical - No Known Name
+|101111000111|Theoretical - No Known Name
+|101111001000|Theoretical - No Known Name
+|101111001001|Theoretical - No Known Name
+|101111001010|Theoretical - No Known Name
+|101111001011|Theoretical - No Known Name
+|101111001100|Theoretical - No Known Name
+|101111001101|Theoretical - No Known Name
+|101111001110|Theoretical - No Known Name
+|101111001111|Theoretical - No Known Name
+|101111010001|Theoretical - No Known Name
+|101111010011|Theoretical - No Known Name
+|101111010101|Theoretical - No Known Name
+|101111011000|Theoretical - No Known Name
+|101111011001|Theoretical - No Known Name
+|101111011010|Theoretical - No Known Name
+|101111011011|Theoretical - No Known Name
+|101111011100|Theoretical - No Known Name
+|101111011101|Theoretical - No Known Name
+|101111100000|Theoretical - No Known Name
+|101111100001|Theoretical - No Known Name
+|101111100010|Theoretical - No Known Name
+|101111100011|Theoretical - No Known Name
+|101111100100|Theoretical - No Known Name
+|101111100101|Theoretical - No Known Name
+|101111100110|Theoretical - No Known Name
+|101111100111|Theoretical - No Known Name
+|101111101000|Theoretical - No Known Name
+|101111101001|Theoretical - No Known Name
+|101111101010|Theoretical - No Known Name
+|101111101011|Theoretical - No Known Name
+|101111101100|Theoretical - No Known Name
+|101111101101|Theoretical - No Known Name
+|101111101110|Theoretical - No Known Name
+|101111110000|Theoretical - No Known Name
+|101111110001|Theoretical - No Known Name
+|101111110010|Theoretical - No Known Name
+|101111110011|Theoretical - No Known Name
+|101111110100|Theoretical - No Known Name
+|101111110101|Theoretical - No Known Name
+|101111111000|Theoretical - No Known Name
+|101111111001|Theoretical - No Known Name
+|101111111010|Theoretical - No Known Name
+|101111111011|Theoretical - No Known Name
+|101111111100|Theoretical - No Known Name
+|101111111101|Theoretical - No Known Name
+|101111111110|Theoretical - No Known Name
+|101111111111|Theoretical - No Known Name
+|110000000011|Theoretical - No Known Name
+|110000000100|Theoretical - No Known Name
+|110000000101|Theoretical - No Known Name
+|110000000110|Theoretical - No Known Name
+|110000000111|Theoretical - No Known Name
+|110000001100|Theoretical - No Known Name
+|110000001101|Theoretical - No Known Name
+|110000001110|Theoretical - No Known Name
+|110000001111|Theoretical - No Known Name
+|110000010000|Theoretical - No Known Name
+|110000010011|Theoretical - No Known Name
+|110000010100|Theoretical - No Known Name
+|110000010110|Theoretical - No Known Name
+|110000010111|Theoretical - No Known Name
+|110000011011|Theoretical - No Known Name
+|110000011100|Theoretical - No Known Name
+|110000011101|Theoretical - No Known Name
+|110000011110|Theoretical - No Known Name
+|110000011111|Theoretical - No Known Name
+|110000100010|Theoretical - No Known Name
+|110000100011|Theoretical - No Known Name
+|110000100100|Theoretical - No Known Name
+|110000100101|Theoretical - No Known Name
+|110000100110|Theoretical - No Known Name
+|110000100111|Theoretical - No Known Name
+|110000101100|Theoretical - No Known Name
+|110000101101|Theoretical - No Known Name
+|110000101110|Theoretical - No Known Name
+|110000101111|Theoretical - No Known Name
+|110000110011|Theoretical - No Known Name
+|110000110110|Theoretical - No Known Name
+|110000110111|Theoretical - No Known Name
+|110000111001|Theoretical - No Known Name
+|110000111011|Theoretical - No Known Name
+|110000111100|Theoretical - No Known Name
+|110000111101|Theoretical - No Known Name
+|110000111110|Theoretical - No Known Name
+|110000111111|Theoretical - No Known Name
+|110001000100|Theoretical - No Known Name
+|110001000101|Theoretical - No Known Name
+|110001000110|Theoretical - No Known Name
+|110001000111|Theoretical - No Known Name
+|110001001010|Theoretical - No Known Name
+|110001001100|Theoretical - No Known Name
+|110001001101|Theoretical - No Known Name
+|110001001110|Theoretical - No Known Name
+|110001001111|Theoretical - No Known Name
+|110001010011|Theoretical - No Known Name
+|110001010111|Theoretical - No Known Name
+|110001011011|Theoretical - No Known Name
+|110001011101|Theoretical - No Known Name
+|110001011110|Theoretical - No Known Name
+|110001011111|Theoretical - No Known Name
+|110001100100|Theoretical - No Known Name
+|110001100101|Theoretical - No Known Name
+|110001100110|Theoretical - No Known Name
+|110001100111|Theoretical - No Known Name
+|110001101100|Theoretical - No Known Name
+|110001101101|Theoretical - No Known Name
+|110001101111|Theoretical - No Known Name
+|110001110011|Theoretical - No Known Name
+|110001110100|Theoretical - No Known Name
+|110001110101|Theoretical - No Known Name
+|110001110110|Theoretical - No Known Name
+|110001110111|Theoretical - No Known Name
+|110001111000|Theoretical - No Known Name
+|110001111001|Theoretical - No Known Name
+|110001111011|Theoretical - No Known Name
+|110001111100|Theoretical - No Known Name
+|110001111101|Theoretical - No Known Name
+|110001111110|Theoretical - No Known Name
+|110001111111|Theoretical - No Known Name
+|110010000000|Theoretical - No Known Name
+|110010000001|Theoretical - No Known Name
+|110010000010|Theoretical - No Known Name
+|110010000011|Theoretical - No Known Name
+|110010000100|Theoretical - No Known Name
+|110010000101|Theoretical - No Known Name
+|110010000110|Theoretical - No Known Name
+|110010000111|Theoretical - No Known Name
+|110010001000|Theoretical - No Known Name
+|110010001001|Theoretical - No Known Name
+|110010001010|Theoretical - No Known Name
+|110010001011|Theoretical - No Known Name
+|110010001100|Theoretical - No Known Name
+|110010001101|Theoretical - No Known Name
+|110010001110|Theoretical - No Known Name
+|110010001111|Theoretical - No Known Name
+|110010010000|Theoretical - No Known Name
+|110010010011|Theoretical - No Known Name
+|110010010111|Theoretical - No Known Name
+|110010011011|Theoretical - No Known Name
+|110010011100|Theoretical - No Known Name
+|110010011101|Theoretical - No Known Name
+|110010011110|Theoretical - No Known Name
+|110010011111|Theoretical - No Known Name
+|110010100000|Theoretical - No Known Name
+|110010100010|Theoretical - No Known Name
+|110010100011|Theoretical - No Known Name
+|110010100111|Theoretical - No Known Name
+|110010101000|Theoretical - No Known Name
+|110010101001|Theoretical - No Known Name
+|110010101010|Theoretical - No Known Name
+|110010101101|Theoretical - No Known Name
+|110010101110|Theoretical - No Known Name
+|110010101111|Theoretical - No Known Name
+|110010110111|Theoretical - No Known Name
+|110010111011|Theoretical - No Known Name
+|110010111101|Theoretical - No Known Name
+|110010111110|Theoretical - No Known Name
+|110010111111|Theoretical - No Known Name
+|110011000000|Theoretical - No Known Name
+|110011000010|Theoretical - No Known Name
+|110011000011|Theoretical - No Known Name
+|110011000100|Theoretical - No Known Name
+|110011000111|Theoretical - No Known Name
+|110011001101|Theoretical - No Known Name
+|110011001110|Theoretical - No Known Name
+|110011001111|Theoretical - No Known Name
+|110011010000|Theoretical - No Known Name
+|110011010010|Theoretical - No Known Name
+|110011010111|Theoretical - No Known Name
+|110011011110|Theoretical - No Known Name
+|110011011111|Theoretical - No Known Name
+|110011100000|Theoretical - No Known Name
+|110011100001|Theoretical - No Known Name
+|110011100010|Theoretical - No Known Name
+|110011100011|Theoretical - No Known Name
+|110011100100|Theoretical - No Known Name
+|110011101000|Theoretical - No Known Name
+|110011101100|Theoretical - No Known Name
+|110011101101|Theoretical - No Known Name
+|110011101110|Theoretical - No Known Name
+|110011101111|Theoretical - No Known Name
+|110011110000|Theoretical - No Known Name
+|110011110001|Theoretical - No Known Name
+|110011110010|Theoretical - No Known Name
+|110011110011|Theoretical - No Known Name
+|110011110100|Theoretical - No Known Name
+|110011110110|Theoretical - No Known Name
+|110011110111|Theoretical - No Known Name
+|110011111000|Theoretical - No Known Name
+|110011111010|Theoretical - No Known Name
+|110011111011|Theoretical - No Known Name
+|110011111100|Theoretical - No Known Name
+|110011111101|Theoretical - No Known Name
+|110011111110|Theoretical - No Known Name
+|110011111111|Theoretical - No Known Name
+|110100000100|Theoretical - No Known Name
+|110100000101|Theoretical - No Known Name
+|110100000110|Theoretical - No Known Name
+|110100000111|Theoretical - No Known Name
+|110100001100|Theoretical - No Known Name
+|110100001101|Theoretical - No Known Name
+|110100001110|Theoretical - No Known Name
+|110100001111|Theoretical - No Known Name
+|110100010001|Theoretical - No Known Name
+|110100010011|Theoretical - No Known Name
+|110100010100|Theoretical - No Known Name
+|110100010101|Theoretical - No Known Name
+|110100010111|Theoretical - No Known Name
+|110100011001|Theoretical - No Known Name
+|110100011011|Theoretical - No Known Name
+|110100011100|Theoretical - No Known Name
+|111001001001|Theoretical - No Known Name
+|110100011110|Theoretical - No Known Name
+|110100011111|Theoretical - No Known Name
+|110100100100|Theoretical - No Known Name
+|110100100101|Theoretical - No Known Name
+|110100100110|Theoretical - No Known Name
+|110100101100|Theoretical - No Known Name
+|110100101101|Theoretical - No Known Name
+|110100101110|Theoretical - No Known Name
+|110100101111|Theoretical - No Known Name
+|110100110001|Theoretical - No Known Name
+|110100110101|Theoretical - No Known Name
+|110100110111|Theoretical - No Known Name
+|110100111101|Theoretical - No Known Name
+|110100111110|Theoretical - No Known Name
+|110100111111|Theoretical - No Known Name
+|110101000100|Theoretical - No Known Name
+|110101000101|Theoretical - No Known Name
+|110101000110|Theoretical - No Known Name
+|110101000111|Theoretical - No Known Name
+|110101001100|Theoretical - No Known Name
+|110101001101|Theoretical - No Known Name
+|110101001110|Theoretical - No Known Name
+|110101001111|Theoretical - No Known Name
+|110101010001|Theoretical - No Known Name
+|110101010100|Theoretical - No Known Name
+|110101010111|Theoretical - No Known Name
+|110101011011|Theoretical - No Known Name
+|110101011101|Theoretical - No Known Name
+|110101011110|Theoretical - No Known Name
+|110101011111|Theoretical - No Known Name
+|110101100101|Theoretical - No Known Name
+|110101100111|Theoretical - No Known Name
+|110101101110|Theoretical - No Known Name
+|110101101111|Theoretical - No Known Name
+|110101110001|Theoretical - No Known Name
+|110101110011|Theoretical - No Known Name
+|110101110100|Theoretical - No Known Name
+|110101110110|Theoretical - No Known Name
+|110101110111|Theoretical - No Known Name
+|110101111100|Theoretical - No Known Name
+|110101111101|Theoretical - No Known Name
+|110101111110|Theoretical - No Known Name
+|110101111111|Theoretical - No Known Name
+|110110000001|Theoretical - No Known Name
+|110110000010|Theoretical - No Known Name
+|110110000011|Theoretical - No Known Name
+|110110000100|Theoretical - No Known Name
+|110110000101|Theoretical - No Known Name
+|110110000110|Theoretical - No Known Name
+|110110000111|Theoretical - No Known Name
+|110110001000|Theoretical - No Known Name
+|110110001001|Theoretical - No Known Name
+|110110001010|Theoretical - No Known Name
+|110110001011|Theoretical - No Known Name
+|110110001100|Theoretical - No Known Name
+|110110001101|Theoretical - No Known Name
+|110110001110|Theoretical - No Known Name
+|110110001111|Theoretical - No Known Name
+|110110010000|Theoretical - No Known Name
+|110110010001|Theoretical - No Known Name
+|110110010010|Theoretical - No Known Name
+|110110010011|Theoretical - No Known Name
+|110110010101|Theoretical - No Known Name
+|110110010110|Theoretical - No Known Name
+|110110010111|Theoretical - No Known Name
+|110110011000|Theoretical - No Known Name
+|110110011001|Theoretical - No Known Name
+|110110011011|Theoretical - No Known Name
+|110110011100|Theoretical - No Known Name
+|110110011101|Theoretical - No Known Name
+|110110011110|Theoretical - No Known Name
+|110110011111|Theoretical - No Known Name
+|110110100000|Theoretical - No Known Name
+|110110100001|Theoretical - No Known Name
+|110110100010|Theoretical - No Known Name
+|110110100011|Theoretical - No Known Name
+|110110100100|Theoretical - No Known Name
+|110110100101|Theoretical - No Known Name
+|110110100110|Theoretical - No Known Name
+|110110100111|Theoretical - No Known Name
+|110110101000|Theoretical - No Known Name
+|110110101001|Theoretical - No Known Name
+|110110101011|Theoretical - No Known Name
+|110110101110|Theoretical - No Known Name
+|110110101111|Theoretical - No Known Name
+|110110110000|Theoretical - No Known Name
+|110110110001|Theoretical - No Known Name
+|110110110010|Theoretical - No Known Name
+|110110110011|Theoretical - No Known Name
+|110110110100|Theoretical - No Known Name
+|110110110111|Theoretical - No Known Name
+|110110111000|Theoretical - No Known Name
+|110110111001|Theoretical - No Known Name
+|110110111010|Theoretical - No Known Name
+|110110111011|Theoretical - No Known Name
+|110110111100|Theoretical - No Known Name
+|110110111101|Theoretical - No Known Name
+|110110111110|Theoretical - No Known Name
+|110110111111|Theoretical - No Known Name
+|110111000001|Theoretical - No Known Name
+|110111000010|Theoretical - No Known Name
+|110111000011|Theoretical - No Known Name
+|110111000100|Theoretical - No Known Name
+|110111000101|Theoretical - No Known Name
+|110111000110|Theoretical - No Known Name
+|110111000111|Theoretical - No Known Name
+|110111001000|Theoretical - No Known Name
+|110111001001|Theoretical - No Known Name
+|110111001010|Theoretical - No Known Name
+|110111001011|Theoretical - No Known Name
+|110111001100|Theoretical - No Known Name
+|110111001101|Theoretical - No Known Name
+|110111001110|Theoretical - No Known Name
+|110111001111|Theoretical - No Known Name
+|110111010000|Theoretical - No Known Name
+|110111010001|Theoretical - No Known Name
+|110111010010|Theoretical - No Known Name
+|110111010011|Theoretical - No Known Name
+|110111010100|Theoretical - No Known Name
+|110111010111|Theoretical - No Known Name
+|110111011000|Theoretical - No Known Name
+|110111011001|Theoretical - No Known Name
+|110111011100|Theoretical - No Known Name
+|110111011110|Theoretical - No Known Name
+|110111011111|Theoretical - No Known Name
+|110111100000|Theoretical - No Known Name
+|110111100001|Theoretical - No Known Name
+|110111100010|Theoretical - No Known Name
+|110111100011|Theoretical - No Known Name
+|110111100100|Theoretical - No Known Name
+|110111100101|Theoretical - No Known Name
+|110111100111|Theoretical - No Known Name
+|110111101000|Theoretical - No Known Name
+|110111101001|Theoretical - No Known Name
+|110111101100|Theoretical - No Known Name
+|110111101101|Theoretical - No Known Name
+|110111101110|Theoretical - No Known Name
+|110111101111|All except D and G - 2 and 5
+|110111110000|Theoretical - No Known Name
+|110111110001|Theoretical - No Known Name
+|110111110010|Theoretical - No Known Name
+|110111110011|Theoretical - No Known Name
+|110111110100|Theoretical - No Known Name
+|110111110101|Theoretical - No Known Name
+|110111110111|Theoretical - No Known Name
+|110111111000|Theoretical - No Known Name
+|110111111001|Theoretical - No Known Name
+|110111111010|Theoretical - No Known Name
+|110111111011|All except D and A - 2 and 6
+|110111111100|Theoretical - No Known Name
+|110111111101|Theoretical - No Known Name
+|110111111110|Theoretical - No Known Name
+|110111111111|All except D -2
+|111000000001|Theoretical - No Known Name
+|111000000010|Theoretical - No Known Name
+|111000000011|Theoretical - No Known Name
+|111000000110|Theoretical - No Known Name
+|111000000111|Theoretical - No Known Name
+|111000001011|Theoretical - No Known Name
+|111000001101|Theoretical - No Known Name
+|111000001110|Theoretical - No Known Name
+|111000010001|Theoretical - No Known Name
+|111000010010|Theoretical - No Known Name
+|111000010011|Theoretical - No Known Name
+|111000010110|Theoretical - No Known Name
+|111000010111|Theoretical - No Known Name
+|111000011001|Theoretical - No Known Name
+|111000011011|Theoretical - No Known Name
+|111000011100|Theoretical - No Known Name
+|111000011101|Theoretical - No Known Name
+|111000011110|Theoretical - No Known Name
+|111000011111|Theoretical - No Known Name
+|111000100010|Theoretical - No Known Name
+|111000100011|Theoretical - No Known Name
+|111000100110|Theoretical - No Known Name
+|111000100111|Theoretical - No Known Name
+|111000101000|Theoretical - No Known Name
+|111000101001|Theoretical - No Known Name
+|111000101010|Theoretical - No Known Name
+|111000101011|Theoretical - No Known Name
+|111000101100|Theoretical - No Known Name
+|111000101101|Theoretical - No Known Name
+|111000101110|Theoretical - No Known Name
+|111000110010|Theoretical - No Known Name
+|111000110111|Theoretical - No Known Name
+|111000111011|Theoretical - No Known Name
+|111000111101|Theoretical - No Known Name
+|111000111110|Theoretical - No Known Name
+|111000111111|Theoretical - No Known Name
+|111001000000|Theoretical - No Known Name
+|111001000001|Theoretical - No Known Name
+|111001000010|Theoretical - No Known Name
+|111001000011|Theoretical - No Known Name
+|111001000100|Theoretical - No Known Name
+|111001000101|Theoretical - No Known Name
+|111001000110|Theoretical - No Known Name
+|111001000111|Theoretical - No Known Name
+|111001001001|Theoretical - No Known Name
+|111001001011|Theoretical - No Known Name
+|111001001101|Theoretical - No Known Name
+|111001001110|Theoretical - No Known Name
+|111001001111|Theoretical - No Known Name
+|111001010001|Theoretical - No Known Name
+|111001010100|Theoretical - No Known Name
+|111001010111|Theoretical - No Known Name
+|111001011011|Theoretical - No Known Name
+|111001011101|Theoretical - No Known Name
+|111001011110|Theoretical - No Known Name
+|111001011111|Theoretical - No Known Name
+|111001100001|Theoretical - No Known Name
+|111001100010|Theoretical - No Known Name
+|111001100011|Theoretical - No Known Name
+|111001100100|Theoretical - No Known Name
+|111001100101|Theoretical - No Known Name
+|111001100110|Theoretical - No Known Name
+|111001100111|Theoretical - No Known Name
+|111001101000|Theoretical - No Known Name
+|111001101001|Theoretical - No Known Name
+|111001101010|Theoretical - No Known Name
+|111001101011|Theoretical - No Known Name
+|111001101100|Theoretical - No Known Name
+|111001101101|Theoretical - No Known Name
+|111001101110|Theoretical - No Known Name
+|111001101111|Theoretical - No Known Name
+|111001110000|Theoretical - No Known Name
+|111001110001|Theoretical - No Known Name
+|111001110011|Theoretical - No Known Name
+|111001110101|Theoretical - No Known Name
+|111001110110|Theoretical - No Known Name
+|111001110111|Theoretical - No Known Name
+|111001111000|Theoretical - No Known Name
+|111001111010|Theoretical - No Known Name
+|111001111011|Theoretical - No Known Name
+|111001111100|Theoretical - No Known Name
+|111001111101|Theoretical - No Known Name
+|111001111110|Theoretical - No Known Name
+|111001111111|Theoretical - No Known Name
+|111010000010|Theoretical - No Known Name
+|111010000011|Theoretical - No Known Name
+|111010000110|Theoretical - No Known Name
+|111010000111|Theoretical - No Known Name
+|111010001000|Theoretical - No Known Name
+|111010001001|Theoretical - No Known Name
+|111010001010|Theoretical - No Known Name
+|111010001011|Theoretical - No Known Name
+|111010001100|Theoretical - No Known Name
+|111010001101|Theoretical - No Known Name
+|111010001110|Theoretical - No Known Name
+|111010001111|Theoretical - No Known Name
+|111010010010|Theoretical - No Known Name
+|111010010011|Theoretical - No Known Name
+|111010010110|Theoretical - No Known Name
+|111010010111|Theoretical - No Known Name
+|111010011000|Theoretical - No Known Name
+|111010011001|Theoretical - No Known Name
+|111010011010|Theoretical - No Known Name
+|111010011011|Theoretical - No Known Name
+|111010011101|Theoretical - No Known Name
+|111010011110|Theoretical - No Known Name
+|111010011111|Theoretical - No Known Name
+|111010100010|Theoretical - No Known Name
+|111010100011|Theoretical - No Known Name
+|111010100110|Theoretical - No Known Name
+|111010100111|Theoretical - No Known Name
+|111010101000|Theoretical - No Known Name
+|111010101001|Theoretical - No Known Name
+|111010101010|Theoretical - No Known Name
+|111010101011|Theoretical - No Known Name
+|111010101101|Theoretical - No Known Name
+|111010101110|Theoretical - No Known Name
+|111010101111|Theoretical - No Known Name
+|111010110011|Theoretical - No Known Name
+|111010110110|Theoretical - No Known Name
+|111010110111|Theoretical - No Known Name
+|111010111000|Theoretical - No Known Name
+|111010111001|Theoretical - No Known Name
+|111010111100|Theoretical - No Known Name
+|111010111110|Theoretical - No Known Name
+|111010111111|Theoretical - No Known Name
+|111011000000|Theoretical - No Known Name
+|111011000001|Theoretical - No Known Name
+|111011000010|Theoretical - No Known Name
+|111011000011|Theoretical - No Known Name
+|111011000100|Theoretical - No Known Name
+|111011000101|Theoretical - No Known Name
+|111011000110|Theoretical - No Known Name
+|111011000111|Theoretical - No Known Name
+|111011001000|Theoretical - No Known Name
+|111011001001|Theoretical - No Known Name
+|111011001010|Theoretical - No Known Name
+|111011001011|Theoretical - No Known Name
+|111011001100|Theoretical - No Known Name
+|111011001101|Theoretical - No Known Name
+|111011001110|Theoretical - No Known Name
+|111011001111|Theoretical - No Known Name
+|111011010000|Theoretical - No Known Name
+|111011010001|Theoretical - No Known Name
+|111011010010|Theoretical - No Known Name
+|111011010011|Theoretical - No Known Name
+|111011010100|Theoretical - No Known Name
+|111011010101|Theoretical - No Known Name
+|111011010110|Theoretical - No Known Name
+|111011011000|Theoretical - No Known Name
+|111011011001|Theoretical - No Known Name
+|111011011010|Theoretical - No Known Name
+|111011011011|Theoretical - No Known Name
+|111011011100|Theoretical - No Known Name
+|111011011110|Theoretical - No Known Name
+|111011011111|Theoretical - No Known Name
+|111011100000|Theoretical - No Known Name
+|111011100001|Theoretical - No Known Name
+|111011100010|Theoretical - No Known Name
+|111011100011|Theoretical - No Known Name
+|111011100100|Theoretical - No Known Name
+|111011100101|Theoretical - No Known Name
+|111011100110|Theoretical - No Known Name
+|111011100111|Theoretical - No Known Name
+|111011101000|Theoretical - No Known Name
+|111011101001|Theoretical - No Known Name
+|111011101010|Theoretical - No Known Name
+|111011101011|Theoretical - No Known Name
+|111011101100|Theoretical - No Known Name
+|111011101101|Theoretical - No Known Name
+|111011101111|Theoretical - No Known Name
+|111011110000|Theoretical - No Known Name
+|111011110001|Theoretical - No Known Name
+|111011110010|Theoretical - No Known Name
+|111011110011|Theoretical - No Known Name
+|111011110100|Theoretical - No Known Name
+|111011110111|Theoretical - No Known Name
+|111011111000|Theoretical - No Known Name
+|111011111001|Theoretical - No Known Name
+|111011111010|Theoretical - No Known Name
+|111011111100|Theoretical - No Known Name
+|111011111101|All except Eb and Bb - 3b and 7b
+|111011111110|Theoretical - No Known Name
+|111011111111|Theoretical - No Known Name
+|111100000001|Theoretical - No Known Name
+|111100000011|Theoretical - No Known Name
+|111100000100|Theoretical - No Known Name
+|111100000101|Theoretical - No Known Name
+|111100000110|Theoretical - No Known Name
+|111100000111|Theoretical - No Known Name
+|111100001000|Theoretical - No Known Name
+|111100001001|Theoretical - No Known Name
+|111100001011|Theoretical - No Known Name
+|111100001100|Theoretical - No Known Name
+|111100001101|Theoretical - No Known Name
+|111100001110|Theoretical - No Known Name
+|111100001111|Theoretical - No Known Name
+|111100010001|Theoretical - No Known Name
+|111100010011|Theoretical - No Known Name
+|111100010100|Theoretical - No Known Name
+|111100010101|Theoretical - No Known Name
+|111100010110|Theoretical - No Known Name
+|111100010111|Theoretical - No Known Name
+|111100011001|Theoretical - No Known Name
+|111100011011|Theoretical - No Known Name
+|111100011100|Theoretical - No Known Name
+|111100011101|Theoretical - No Known Name
+|111100011110|Theoretical - No Known Name
+|111100011111|Theoretical - No Known Name
+|111100100001|Theoretical - No Known Name
+|111100100010|Theoretical - No Known Name
+|111100100011|Theoretical - No Known Name
+|111100100100|Theoretical - No Known Name
+|111100100101|Theoretical - No Known Name
+|111100100110|Theoretical - No Known Name
+|111100100111|Theoretical - No Known Name
+|111100101000|Theoretical - No Known Name
+|111100101001|Theoretical - No Known Name
+|111100101010|Theoretical - No Known Name
+|111100101011|Theoretical - No Known Name
+|111100101100|Theoretical - No Known Name
+|111100101101|Theoretical - No Known Name
+|111100101110|Theoretical - No Known Name
+|111100101111|Theoretical - No Known Name
+|111100110000|Theoretical - No Known Name
+|111100110001|Theoretical - No Known Name
+|111100110010|Theoretical - No Known Name
+|111100110011|Theoretical - No Known Name
+|111100110100|Theoretical - No Known Name
+|111100110101|Theoretical - No Known Name
+|111100110110|Theoretical - No Known Name
+|111100110111|Theoretical - No Known Name
+|111100111000|Theoretical - No Known Name
+|111100111010|Theoretical - No Known Name
+|111100111011|Theoretical - No Known Name
+|111100111101|Theoretical - No Known Name
+|111100111110|Theoretical - No Known Name
+|111100111111|Theoretical - No Known Name
+|111101000001|Theoretical - No Known Name
+|111101000011|Theoretical - No Known Name 3#'s
+|111101000100|Theoretical - No Known Name
+|111101000101|Theoretical - No Known Name
+|111101000110|Theoretical - No Known Name
+|111101000111|Theoretical - No Known Name
+|111101001001|Theoretical - No Known Name
+|111101001011|Theoretical - No Known Name
+|111101001100|Theoretical - No Known Name
+|111101001101|Theoretical - No Known Name
+|111101001110|Theoretical - No Known Name
+|111101001111|Theoretical - No Known Name
+|111101010001|Theoretical - No Known Name
+|111101010011|Theoretical - No Known Name
+|111101010100|Theoretical - No Known Name
+|111101010101|Theoretical - No Known Name
+|111101010111|Theoretical - No Known Name
+|111101011011|Theoretical - No Known Name
+|111101011100|Theoretical - No Known Name
+|111101011101|Theoretical - No Known Name
+|111101011111|Theoretical - No Known Name
+|111101100000|Theoretical - No Known Name
+|111101100001|Theoretical - No Known Name
+|111101100010|Theoretical - No Known Name
+|111101100011|Theoretical - No Known Name
+|111101100100|Theoretical - No Known Name
+|111101100101|Theoretical - No Known Name
+|111101100110|Theoretical - No Known Name
+|111101100111|Theoretical - No Known Name
+|111101101000|Theoretical - No Known Name
+|111101101001|Theoretical - No Known Name
+|111101101010|Theoretical - No Known Name
+|111101101011|Theoretical - No Known Name
+|111101101100|Theoretical - No Known Name
+|111101101101|Theoretical - No Known Name
+|111101101110|Theoretical - No Known Name
+|111101101111|Theoretical - No Known Name
+|111101110000|Theoretical - No Known Name
+|111101110001|Theoretical - No Known Name
+|111101110010|Theoretical - No Known Name
+|111101110011|Theoretical - No Known Name
+|111101110101|Theoretical - No Known Name
+|111101110110|Theoretical - No Known Name
+|111101110111|Theoretical - No Known Name
+|111101111000|Theoretical - No Known Name
+|111101111001|Theoretical - No Known Name
+|111101111011|All except E and A - 3 and 6
+|111101111110|All except E and B - 3 and 7
+|111101111111|All except E - 3
+|111110000001|Theoretical - No Known Name
+|111110000010|Theoretical - No Known Name
+|111110000011|Theoretical - No Known Name
+|111110000100|Theoretical - No Known Name
+|111110000101|Theoretical - No Known Name
+|111110000110|Theoretical - No Known Name
+|111110000111|Theoretical - No Known Name
+|111110001000|Theoretical - No Known Name
+|111110001001|Theoretical - No Known Name
+|111110001010|Theoretical - No Known Name
+|111110001011|Theoretical - No Known Name
+|111110001100|Theoretical - No Known Name
+|111110001101|Theoretical - No Known Name
+|111110001110|Theoretical - No Known Name
+|111110001111|Theoretical - No Known Name
+|111110010000|Theoretical - No Known Name
+|111110010001|Theoretical - No Known Name
+|111110010010|Theoretical - No Known Name
+|111110010011|Theoretical - No Known Name
+|111110010100|Theoretical - No Known Name
+|111110010101|Theoretical - No Known Name
+|111110010110|Theoretical - No Known Name
+|111110010111|Theoretical - No Known Name
+|111110011000|Theoretical - No Known Name
+|111110011001|Theoretical - No Known Name
+|111110011010|Theoretical - No Known Name
+|111110011011|Theoretical - No Known Name
+|111110011100|Theoretical - No Known Name
+|111110011101|Theoretical - No Known Name
+|111110011110|Theoretical - No Known Name
+|111110011111|Theoretical - No Known Name
+|111110100000|Theoretical - No Known Name
+|111110100001|Theoretical - No Known Name
+|111110100010|Theoretical - No Known Name
+|111110100011|Theoretical - No Known Name
+|111110100100|Theoretical - No Known Name 5b's
+|111110100101|Theoretical - No Known Name 6b's
+|111110100110|Theoretical - No Known Name 6b's
+|111110100111|Theoretical - No Known Name 7's
+|111110101000|Theoretical - No Known Name
+|111110101001|Theoretical - No Known Name
+|111110101010|Theoretical - No Known Name
+|111110101011|Theoretical - No Known Name
+|111110101100|Theoretical - No Known Name 6b's
+|111110101101|Theoretical - No Known Name 7b's
+|111110101110|Theoretical - No Known Name 7b's
+|111110101111|Theoretical - No Known Name 8b's
+|111110110000|Theoretical - No Known Name
+|111110110001|Theoretical - No Known Name
+|111110110010|Theoretical - No Known Name
+|111110110011|Theoretical - No Known Name
+|111110110100|Theoretical - No Known Name
+|111110110101|Theoretical - No Known Name
+|111110110110|Theoretical - No Known Name
+|111110110111|Theoretical - No Known Name
+|111110111000|Theoretical - No Known Name
+|111110111001|Theoretical - No Known Name
+|111110111010|Theoretical - No Known Name
+|111110111011|Theoretical - No Known Name
+|111110111100|Theoretical - No Known Name
+|111110111101|Theoretical - No Known Name
+|111110111111|All except F - 4
+|111111000000|Chromatic HexaMirror all b
+|111111000001|Theoretical - No Known Name
+|111111000010|Theoretical - No Known Name
+|111111000011|Theoretical - No Known Name
+|111111000100|Theoretical - No Known Name
+|111111000101|Theoretical - No Known Name
+|111111000110|Theoretical - No Known Name
+|111111000111|Theoretical - No Known Name
+|111111001000|Theoretical - No Known Name
+|111111001001|Theoretical - No Known Name
+|111111001010|Theoretical - No Known Name
+|111111001011|Theoretical - No Known Name
+|111111001100|Theoretical - No Known Name
+|111111001101|Theoretical - No Known Name
+|111111001110|Theoretical - No Known Name
+|111111001111|Theoretical - No Known Name
+|111111010000|Theoretical - No Known Name
+|111111010001|Theoretical - No Known Name
+|111111010010|Theoretical - No Known Name
+|111111010011|Theoretical - No Known Name
+|111111010100|Theoretical - No Known Name
+|111111010101|Theoretical - No Known Name
+|111111010110|Theoretical - No Known Name
+|111111010111|Theoretical - No Known Name
+|111111011000|Theoretical - No Known Name
+|111111011100|Theoretical - No Known Name
+|111111011101|Theoretical - No Known Name
+|111111011110|Theoretical - No Known Name
+|111111011111|All except F# - 4#
+|111111100001|Theoretical - No Known Name
+|111111100010|Theoretical - No Known Name
+|111111100011|Theoretical - No Known Name
+|111111100100|Theoretical - No Known Name
+|111111100101|Theoretical - No Known Name
+|111111100110|Theoretical - No Known Name
+|111111100111|Theoretical - No Known Name
+|111111101000|Theoretical - No Known Name
+|111111101001|Theoretical - No Known Name
+|111111101010|Theoretical - No Known Name
+|111111101011|Theoretical - No Known Name
+|111111101100|Theoretical - No Known Name
+|111111101101|Theoretical - No Known Name
+|111111101110|Theoretical - No Known Name
+|111111101111|Theoretical - No Known Name
+|111111110001|Theoretical - No Known Name
+|111111110010|Theoretical - No Known Name
+|111111110011|Theoretical - No Known Name
+|111111110100|Theoretical - No Known Name
+|111111110101|Theoretical - No Known Name
+|111111110110|Theoretical - No Known Name
+|111111110111|Theoretical - No Known Name
+|111111111001|Theoretical - No Known Name
+|111111111010|Theoretical - No Known Name
+|111111111011|All except A 6th all sharp
+|111111111101|All except Bb - 7b all sharp
+|111111011001|Theoretical - No Known Name
+|111111011010|Theoretical - No Known Name
+|110010100100|Theoretical - No Known Name
+|110100100111|Theoretical - No Known Name
+|110111010101|Theoretical - No Known Name
+|111000001111|Theoretical - No Known Name
+|111000101111|Theoretical - No Known Name
+|111101110100|Theoretical - No Known Name
+|100110010100|Raga Mohanangi (India)
+|100110010101|Lydian b3 Hexatonic
+|100110100000|Theoretical - No Known Name
+|100110101101|Aeolian Flat b3 b5 b6
+|100110101101|Aeolian Flat 3b 5b 6b 8b
+Raga Nandkauns (India)|100111010110|Rock 'n Roll ( same as 7/6/4 in 12edo)
+|100111100111|Messiaen Mode 4 Inverse
+|100111101010|Spanish Heptatonic 
+|101000001000|Theoretical - No Known Name
+|101000001001|Theoretical - No Known Name
+|101000101011|Theoretical - No Known Name
+|101000101011|Theoretical - No Known Name
+|101000110110|Raga Sarasvati (India)
+|101001101000|Theoretical - No Known Name
+|101001101011|Theoretical - No Known Name
+truncated mode 2|101001101001|Messiaen Mode 2 
+|101001101101|Nohkan (Japan)
+|101010001100|Theoretical - No Known Name
+|101010011110|Theoretical - No Known Name
+|101010100010|Theoretical - No Known Name
+|101010111001|Mela Latangi (India)
+Chord C minor 9|101100010010|Theoretical - No Known Name
+|101011101011|Messiaen 7 according to Brown
+|101011110011|Theoretical - No Known Name
+|101100100000|Harmonic Minor Tetrachord
+|101100100000|Harmonic Minor Tetrachord
+|101100100101|Raga Ranjani, Rangini (India)
+|101100101001|Takemitsu Tree Line Mode1(2b'sF# from C)
+|101100100101|Raga Ranjani, Rangini (India)
+|101100101010|Takemitsu Tree Line Mode 2
+|101100101001|Takemitsu Tree Line Mode1(3 #s from C)
+Mela Sanmukhapriya (India)|101100111010|Hungarian Gypsy
+Mela Sanmukhapriya (India)|101100111010|Hungarian Gypsy
+|101100111100|Mela Syamalangi (India)
+|101101011111|Full Minor all flats
+|110110101010|Super Locrian all sharps
+|110110101010|Superlocrian, Diminished Whole-Tone
+|110100011101|Theoretical - No Known Name
+|110100101011|Enigmatic Minor (all #'s)
+|101101111100|Theoretical - No Known Name
+|101110011010|Sabach (Greece)
+|101110011100|Chromatic Hypodorian
+|101110100000|Theoretical - No Known Name
+|101110100000|Theoretical - No Known Name
+|101110110000|Theoretical - No Known Name
+|101110110000|Theoretical - No Known Name
+|101111101111|Messiaen Mode 7 Inverse
+|101111101111|Messiaen Mode 7 Inverse
+|101111111000|Theoretical - No Known Name
+|110000000011|Theoretical - No Known Name
+|110000110111|Theoretical - No Known Name
+|110001101110|Gipsy Hexatonic, Raga Kalakanti
+|110001101110|Gipsy Hexatonic, Raga Kalakanti
+|110001101110|Gipsy Hexatonic, Raga Kalakanti
+as 15/23457891315/6 in 12edo|110010101011|Enigmatic Ascending (#1,#4,#5,#6)
+|110011100000|Theoretical - No Known Name
+|110100011010|Raga Kashyapi (India)
+|110100110110|Todi bVII Mela Sadvidhamargini (India)
+|110110000000|Alternating TetraMirror
+|110110000000|Alternating TetraMirror
+|110101101101|Theoretical - No Known Name
+|110101101101|Theoretical - No Known Name
+|110110000000|Alternating TetraMirror
+|110110010100|Blues Dorian Hexatonic
+|110110010100|Blues Dorian Hexatonic
+|110110010100|Blues Dorian Hexatonic
+|110110011010|Indian, Phrygian dim 4th
+|110110100000|Theoretical - No Known Name
+|110110101101|Magen Abot (Israel) all flat
+|110111000000|Spanish Pentacluster
+|110111000000|Spanish Pentacluster
+|110110101101|Magen Abot (3b 2#)
+|110111011010|Phrygian Major, Flamenco, Spanish Phrygian
+|110111011011|Moorish Phrygian 6 b's
+|110111000100|Theoretical - No Known Name
+|110111010110|JG Octatonic all 3b
+|110111101010| Spanish 8 tones (all b's) in 12edo) + Fb
+|110111011101|Genus Chromaticum (6b's)
+|110111100110|Maqam Shadd'araban (6b's)
+|110111110110|untitled Nonatonic 2 - 6b's
+|110111110110|untitled Nonatonic 2 - 4#'s
+|110111100000|Theoretical - No Known Name
+|111001010011|Mela Tanarupi (India)
+|111001011001|Mela Ganamurti (India)
+|111001100000|Oriental Pentacluster
+|111001110010|Chromatic Mixolydian
+|111010111011|Symmetrical Nonatonic
+|111100000000|Chromatic TetraMirror
+|111101000000|Blues PentaCluster 2b's 1#
+|100001011001|Raga Devaranjani (India)
+|100001011001|Raga Devaranjani (India)
+|110111011011|Moorish Phrygian 3b1# expected
+|110111011011|Moorish Phrygian 2b2# expected
+|111000000000|Chromatic TriMirror
+|111000001011|Theoretical - No Known Name
+|111100100000|Blues Pentacluster
+|111011110110|Youlan -China All Flat - 2b 4b 5b 7b 7b
+|111100111100|Messiaen Mode 4 (all flats Eb-Gb)
+|111001111001|Messiaen Mode 4?
+|111011101110|Messiaen Mode 1b3#'s
+|111011110000|Theoretical - No Known Name
+|111100000100|Theoretical - No Known Name
+|111100100111|Theoretical - No Known Name
+|101111110111|All except C# and G# - 1# and 5#
+|101111011111|All except C# and F# - 1# and 4#
+|111111011110|All except F# and B - 4# and 7
+|111011111111|All except Eb - 3b
+|111111110111|All except G# - 5#
+|101111111111|All except C# - 1#
+|111111111011|All except A - 6th all flat
+|111111111110|All except B - 7 all flat
+|111110111101|All except F and Bb - 4 and 7b
+|111011110111|All except Eb and Ab -3b and 6b
+|101101010111|Raga Mian Ki Malhar, Bahar (India)
+|111110110111|Theoretical - No Known Name
+|111101011011|Theoretical - No Known Name
+|111101011001|Harmonic Neapolitan Minor 4b's
+|111101011001|Harmonic Neapolitan Minor 3#'s
+|111101010110|Adonai Malakh (Israel) 3b's
+|111101010011|Theoretical - No Known Name
+|111101010001|Theoretical - No Known Name
+|111101001011|Theoretical - No Known Name
+|111101001001|Theoretical - No Known Name
+|111101000110|Theoretical - No Known Name
+|111100111010|Theoretical - No Known Name
+|111100111000|Theoretical - No Known Name
+|111100110010|Theoretical - No Known Name
+|111100011011|Theoretical - No Known Name
+|111100011001|Theoretical - No Known Name
+|111100010001|Theoretical - No Known Name
+|111100001011|Theoretical - No Known Name
+|111100001001|Theoretical - No Known Name
+|111010110011|Theoretical - No Known Name
+|111001001110|Theoretical - No Known Name
+|111001001111|Theoretical - No Known Name
+|111001001001|Theoretical - No Known Name
+|111110100100|Theoretical - No Known Name 3#'s
+|111110100101|Theoretical - No Known Name 3#'s
+|111110100110|Theoretical - No Known Name 4#'s
+|111110100111|Theoretical - No Known Name 4#'s
+|111110101100|Theoretical - No Known Name 4#'s
+|111110101101|Theoretical - No Known Name 4#'s
+|111110101110|Theoretical - No Known Name 5#'s
+|111110101111|Theoretical - No Known Name 5#'s
+|111111111100|Chromatic DecaMirror all except Bb B 7b 7
+|111101000000|Blues PentaCluster 2b's 1#
+|111101000011|Theoretical - No Known Name 
+|100000000011|Sharp Sixth and Seventh
+Blues Pentatonic Minor, Hard Japan descending |100101001010|Raga Malkauns
+Blues Pentatonic Minor, Hard Japan descending |100101001010|Raga Malkauns 
+Blues Pentatonic Minor, Hard Japan descending |100101001010|Raga Malkauns 
+Blues Pentatonic Minor, Hard Japan descending |100101001010|Raga Malkauns 
+Blues Pentatonic Minor, Hard Japan descending 3#'s|100101001010|Raga Malkauns
+Shostakovich|110110110101|Shostakovich respelled all flat
+Super Locrian 5 flats|110110101010|Hindi 5 flats
+|101011001100|Theoretical - No Known Name
+|100010110001|Raga Malashri (India) & Chinese 3b's
+|111111111111|53 LT DAW b8 and 3b2# 
+|111111111111|04 & 21 LT DAW 3b2# 
+|111111111111|02&14 LT DAW - (5 flats) 
+|110111111111|All 12 notes except D -2 - 8 flats only naturals are C & F
+erroneous spelling of Romanian minor ?|101100110110|Theoretical - No Known Name
+|101010111001|Mela Latangi (India) (b6)
+|111111111111|03 LT DAW 4b1# Db to F#
+|111111111111|05 LT DAW 2b3s Eb to G#
+|111111111111|08 LT DAW 0b6s F# to E#
+|111111111111|09 LT DAW 0b7s F# to B# (C note = B#)
+|111111111111|23 LT DAW 3b + G# & D#
+|111111111111|10 LT DAW 0b8s (C note = B#)
+|111111111111|24 LT DAW 4b + C#
+|101111111101|Pan Lydian
+|111110110111|Pan Diminished Blues
+|101101101101|Auxillary Diminished
+|111111111111|11 LT DAW 0b9s (C note = B#)
+|111111111111|12 LT DAW 0b10s (C note = B#)
+|111111111111|06 LT DAW 12 notes scales
+|111111111111|15 LT DAW 6b0s
+|111111111111|22 LT DAW 4b 1# Bb Eb Db Gb G#
+|111111111111|13 LT DAW 0b11s (C note = B#)
+|111111111111|16 LT DAW 7b 0# Bb Eb Ab Db Gb Cb Fb
+11b 0# Bb Eb Ab Db Gb Cb Fb Bbb Ebb Abb Dbb|111111111111|20 LT DAW (C note = Dbb) 11b
+|111111111111|19 LT DAW 10b0s BbEbAbDbGbCbFbBbbEbbAbb
+|111111111111|18 LT DAW 9b 0# Bb Eb Ab Db Gb Cb Fb Bbb Ebb
+|111111111111|17 LT DAW 8b 0# Bb Eb Ab Db Gb Cb Fb Bbb
+|111111111111|25 LT DAW 1b4# Ab F# C# D# A#
+|111111111111|26 LT DAW 12 notes scales
+|111111111111|27 LT DAW 1b4# Eb F# C# G# A# 
+|111111111111|28 LT DAW 1b 4# Bb F# G# D# A#
+|111111111111|29 LT DAW 12 notes scales
+|111111111111|30 LT DAW 3b 2# Bb Eb Gb C# G#
+|111111111111|31 LT DAW 3b2s Eb Ab Gb C# A#
+|111111111111|32 LT DAW 3b 2# Bb Ab Db F# D#
+|111111111111|33 LT DAW 3b 2# Bb Db Gb G# D#
+|111111111111|34 LT DAW 3b 2# Ab Db Gb D# A# 
+|111111111111|35 LT DAW 3b 2# Bb Eb Db F# G#
+|111111111111|36 LT DAW 3b 2# Eb Ab Db F# A#
+|111111111111|37 LT DAW 3b 2# Eb Db Gb G# A#
+|111111111111|38 LT DAW 3b 2# Eb Ab Db F# A#
+|111111111111|39 LT DAW 2b 3# Db Gb G# D# A# 
+|111111111111|40 LT DAW 2b 3# Ab Db F# D# A#
+|111111111111|41 LT DAW 2b 3# Bb Db F# G# D#
+|111111111111|42 LT DAW 2b 3# Eb Gb C# G# A#
+|111111111111|43 LT DAW 2b3# Ab Eb F# C# A# 
+|111111111111|44 LT DAW 2b 3# Ab Gb C# D# A#
+|111111111111|45 LT DAW 2b3b Bb Gb C# G# D#
+|111111111111|46 LT DAW 2b3# Bb Ab F# C# D#
+|111111111111|47 LT DAW 4b 2# Bb Eb Gb Bbb C# G#
+|111111111111|48 LT DAW 5b 1# Bb Eb Ab Gb Bbb C#
+|111111111111|49 LT DAW 6b Bb Eb Ab Db Gb Bbb
+|111111111111|50 LT DAW 5b 1# Bb Eb Ab Db Cb F#
+|111111111111|51 LT DAW 4b3# Bb Eb Db Bbb F# G# Fx
+|111111111111|52 LT DAW 4b 1# Eb Ab Db Gb A#
+|111111111111|54 LT DAW 12 4b 1# Bb Ab Db Gb D#
+|111111111111|55 LT DAW 12 notes scales
+|111111111111|56 LT DAW 4b 3# Bb Eb Ab Cb F# C# E#
+|111111111111|57 LT DAW 7b 0# Bb Eb Ab Db Gb Abb Gbb
+Chord Cm7b8|100100010001|C minor 7 (b8) chord
+Chord Cdim7(b7) or Cm7 (b5bb7)|100100100110|Cdim7 chord (Bb and Bbb)
+Chord C7 (b12)|100010110010|C7(b5) chord
+Chord C (b8)|100010010001|C (b8) chord
+Chord Cm #12|100100011000|C minor (#5) chord
+Chord C (b11)|100011010010|C7 (b4) chord
+Chord C (#13)|100010011010|C7 (#6) chord

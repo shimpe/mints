@@ -3,6 +3,9 @@
 \header {
   title = "Mode (3)${texttitle}"
   subtitle = "(binary key: ${bintitle})"
+  % if names:
+  subsubtitle = "(aka: ${",".join(names)})"
+  % endif
   %% Remove default LilyPond tagline
   tagline = ##f
 }

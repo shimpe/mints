@@ -113,4 +113,14 @@ def construct_ternary_mode(number, chromatic):
     notes.extend(rightlist)
     return notes
 
+def unfold_binary_key(binkey):
+    return (binkey + binkey[::-1][1:])[0:-1]
+
+def unfold_ternary_key(binkey):
+    return binkey + binkey[::-1] + binkey
+
+
+
+
+
 

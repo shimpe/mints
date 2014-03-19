@@ -3,6 +3,7 @@
 \header {
   title = "Mode (2)90"
   subtitle = "(binary key: 1011010)"
+  subsubtitle = "(aka: Dorian, Kafi D to C asc. naturals,Chord Cm69sus4 - Eskimo Heptatonic (N. America) Kafi Thaat (India), Embulum (Sumerian))"
  %% Remove default LilyPond tagline
   tagline = ##f
 }
