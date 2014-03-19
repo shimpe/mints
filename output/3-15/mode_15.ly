@@ -3,7 +3,10 @@
 \header {
   title = "Mode (3)15"
   subtitle = "(binary key: 1111)"
-  subsubtitle = "(aka: 01 & 07 LT DAW (5 sharps) LT 01 & 07,53 LT DAW b8 and 3b2#,04 & 21 LT DAW 3b2#,02&14 LT DAW - (5 flats),03 LT DAW 4b1# Db to F#,05 LT DAW 2b3s Eb to G#,08 LT DAW 0b6s F# to E#,09 LT DAW 0b7s F# to B# (C note = B#),23 LT DAW 3b + G# & D#,10 LT DAW 0b8s (C note = B#),24 LT DAW 4b + C#,11 LT DAW 0b9s (C note = B#),12 LT DAW 0b10s (C note = B#),06 LT DAW 12 notes scales,15 LT DAW 6b0s,22 LT DAW 4b 1# Bb Eb Db Gb G#,13 LT DAW 0b11s (C note = B#),16 LT DAW 7b 0# Bb Eb Ab Db Gb Cb Fb,20 LT DAW (C note = Dbb) 11b,11b 0# Bb Eb Ab Db Gb Cb Fb Bbb Ebb Abb Dbb,19 LT DAW 10b0s BbEbAbDbGbCbFbBbbEbbAbb,18 LT DAW 9b 0# Bb Eb Ab Db Gb Cb Fb Bbb Ebb,17 LT DAW 8b 0# Bb Eb Ab Db Gb Cb Fb Bbb,25 LT DAW 1b4# Ab F# C# D# A#,26 LT DAW 12 notes scales,27 LT DAW 1b4# Eb F# C# G# A#,28 LT DAW 1b 4# Bb F# G# D# A#,29 LT DAW 12 notes scales,30 LT DAW 3b 2# Bb Eb Gb C# G#,31 LT DAW 3b2s Eb Ab Gb C# A#,32 LT DAW 3b 2# Bb Ab Db F# D#,33 LT DAW 3b 2# Bb Db Gb G# D#,34 LT DAW 3b 2# Ab Db Gb D# A#,35 LT DAW 3b 2# Bb Eb Db F# G#,36 LT DAW 3b 2# Eb Ab Db F# A#,37 LT DAW 3b 2# Eb Db Gb G# A#,38 LT DAW 3b 2# Eb Ab Db F# A#,39 LT DAW 2b 3# Db Gb G# D# A#,40 LT DAW 2b 3# Ab Db F# D# A#,41 LT DAW 2b 3# Bb Db F# G# D#,42 LT DAW 2b 3# Eb Gb C# G# A#,43 LT DAW 2b3# Ab Eb F# C# A#,44 LT DAW 2b 3# Ab Gb C# D# A#,45 LT DAW 2b3b Bb Gb C# G# D#,46 LT DAW 2b3# Bb Ab F# C# D#,47 LT DAW 4b 2# Bb Eb Gb Bbb C# G#,48 LT DAW 5b 1# Bb Eb Ab Gb Bbb C#,49 LT DAW 6b Bb Eb Ab Db Gb Bbb,50 LT DAW 5b 1# Bb Eb Ab Db Cb F#,51 LT DAW 4b3# Bb Eb Db Bbb F# G# Fx,52 LT DAW 4b 1# Eb Ab Db Gb A#,54 LT DAW 12 4b 1# Bb Ab Db Gb D#,55 LT DAW 12 notes scales,56 LT DAW 4b 3# Bb Eb Ab Cb F# C# E#,57 LT DAW 7b 0# Bb Eb Ab Db Gb Abb Gbb)"
+  subsubtitle =  \markup { \left-align \column {
+      "Chromatic scale"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

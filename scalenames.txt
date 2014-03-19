@@ -683,7 +683,6 @@ one of 6 variations in 12edo|101110111011|Messiaen Mode 3 Inverse (2b & 2#)
 |100000000010|Sharp Sixth Interval
 |100000000000|Unison
 |100000000001|Major Seventh Interval
-|111111111111|01 & 07 LT DAW (5 sharps) LT 01 & 07
 |111111011011|Raga Sindi Bhairavi (India)
 |111011111011|Symmetrical Decatonic
 |111011010111|Chromatic Bebop
@@ -2333,65 +2332,13 @@ Shostakovich|110110110101|Shostakovich respelled all flat
 Super Locrian 5 flats|110110101010|Hindi 5 flats
 |101011001100|Theoretical - No Known Name
 |100010110001|Raga Malashri (India) & Chinese 3b's
-|111111111111|53 LT DAW b8 and 3b2# 
-|111111111111|04 & 21 LT DAW 3b2# 
-|111111111111|02&14 LT DAW - (5 flats) 
 |110111111111|All 12 notes except D -2 - 8 flats only naturals are C & F
 erroneous spelling of Romanian minor ?|101100110110|Theoretical - No Known Name
 |101010111001|Mela Latangi (India) (b6)
-|111111111111|03 LT DAW 4b1# Db to F#
-|111111111111|05 LT DAW 2b3s Eb to G#
-|111111111111|08 LT DAW 0b6s F# to E#
-|111111111111|09 LT DAW 0b7s F# to B# (C note = B#)
-|111111111111|23 LT DAW 3b + G# & D#
-|111111111111|10 LT DAW 0b8s (C note = B#)
-|111111111111|24 LT DAW 4b + C#
 |101111111101|Pan Lydian
 |111110110111|Pan Diminished Blues
 |101101101101|Auxillary Diminished
-|111111111111|11 LT DAW 0b9s (C note = B#)
-|111111111111|12 LT DAW 0b10s (C note = B#)
-|111111111111|06 LT DAW 12 notes scales
-|111111111111|15 LT DAW 6b0s
-|111111111111|22 LT DAW 4b 1# Bb Eb Db Gb G#
-|111111111111|13 LT DAW 0b11s (C note = B#)
-|111111111111|16 LT DAW 7b 0# Bb Eb Ab Db Gb Cb Fb
-11b 0# Bb Eb Ab Db Gb Cb Fb Bbb Ebb Abb Dbb|111111111111|20 LT DAW (C note = Dbb) 11b
-|111111111111|19 LT DAW 10b0s BbEbAbDbGbCbFbBbbEbbAbb
-|111111111111|18 LT DAW 9b 0# Bb Eb Ab Db Gb Cb Fb Bbb Ebb
-|111111111111|17 LT DAW 8b 0# Bb Eb Ab Db Gb Cb Fb Bbb
-|111111111111|25 LT DAW 1b4# Ab F# C# D# A#
-|111111111111|26 LT DAW 12 notes scales
-|111111111111|27 LT DAW 1b4# Eb F# C# G# A# 
-|111111111111|28 LT DAW 1b 4# Bb F# G# D# A#
-|111111111111|29 LT DAW 12 notes scales
-|111111111111|30 LT DAW 3b 2# Bb Eb Gb C# G#
-|111111111111|31 LT DAW 3b2s Eb Ab Gb C# A#
-|111111111111|32 LT DAW 3b 2# Bb Ab Db F# D#
-|111111111111|33 LT DAW 3b 2# Bb Db Gb G# D#
-|111111111111|34 LT DAW 3b 2# Ab Db Gb D# A# 
-|111111111111|35 LT DAW 3b 2# Bb Eb Db F# G#
-|111111111111|36 LT DAW 3b 2# Eb Ab Db F# A#
-|111111111111|37 LT DAW 3b 2# Eb Db Gb G# A#
-|111111111111|38 LT DAW 3b 2# Eb Ab Db F# A#
-|111111111111|39 LT DAW 2b 3# Db Gb G# D# A# 
-|111111111111|40 LT DAW 2b 3# Ab Db F# D# A#
-|111111111111|41 LT DAW 2b 3# Bb Db F# G# D#
-|111111111111|42 LT DAW 2b 3# Eb Gb C# G# A#
-|111111111111|43 LT DAW 2b3# Ab Eb F# C# A# 
-|111111111111|44 LT DAW 2b 3# Ab Gb C# D# A#
-|111111111111|45 LT DAW 2b3b Bb Gb C# G# D#
-|111111111111|46 LT DAW 2b3# Bb Ab F# C# D#
-|111111111111|47 LT DAW 4b 2# Bb Eb Gb Bbb C# G#
-|111111111111|48 LT DAW 5b 1# Bb Eb Ab Gb Bbb C#
-|111111111111|49 LT DAW 6b Bb Eb Ab Db Gb Bbb
-|111111111111|50 LT DAW 5b 1# Bb Eb Ab Db Cb F#
-|111111111111|51 LT DAW 4b3# Bb Eb Db Bbb F# G# Fx
-|111111111111|52 LT DAW 4b 1# Eb Ab Db Gb A#
-|111111111111|54 LT DAW 12 4b 1# Bb Ab Db Gb D#
-|111111111111|55 LT DAW 12 notes scales
-|111111111111|56 LT DAW 4b 3# Bb Eb Ab Cb F# C# E#
-|111111111111|57 LT DAW 7b 0# Bb Eb Ab Db Gb Abb Gbb
+|111111111111|Chromatic scale
 Chord Cm7b8|100100010001|C minor 7 (b8) chord
 Chord Cdim7(b7) or Cm7 (b5bb7)|100100100110|Cdim7 chord (Bb and Bbb)
 Chord C7 (b12)|100010110010|C7(b5) chord

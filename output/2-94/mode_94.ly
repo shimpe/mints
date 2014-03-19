@@ -3,7 +3,10 @@
 \header {
   title = "Mode (2)94"
   subtitle = "(binary key: 1011110)"
-  subsubtitle = "(aka: Houseini (Greece))"
+  subsubtitle =  \markup { \left-align \column {
+      "Houseini (Greece)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

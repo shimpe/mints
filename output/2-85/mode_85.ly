@@ -3,7 +3,14 @@
 \header {
   title = "Mode (2)85"
   subtitle = "(binary key: 1010101)"
-  subsubtitle = "(aka: Whole-Tone, Anhemitonic Hexatonic (as whole tone in 12edo) Auxillary Augmented, Messiaen 1st Mode,Raga Gopriya (India) Anhemitonic Hexatonic,Whole tone alternate,whole tone #'s in 12edo),whole tone b's in 12edo))"
+  subsubtitle =  \markup { \left-align \column {
+      "Whole-Tone, Anhemitonic Hexatonic (as whole tone in 12edo) Auxillary Augmented, Messiaen 1st Mode"
+      "Raga Gopriya (India) Anhemitonic Hexatonic"
+      "Whole tone alternate"
+      "whole tone #'s in 12edo)"
+      "whole tone b's in 12edo)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

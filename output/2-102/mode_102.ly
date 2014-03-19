@@ -3,7 +3,11 @@
 \header {
   title = "Mode (2)102"
   subtitle = "(binary key: 1100110)"
-  subsubtitle = "(aka: Hungarian Folk or Byzantine Major Gypsy,Bhairav Thaat (India) Mela Mayamalavagaula (India) Raga Paraj (India) Hitzazkiar (Greece))"
+  subsubtitle =  \markup { \left-align \column {
+      "Hungarian Folk or Byzantine Major Gypsy"
+      "Bhairav Thaat (India) Mela Mayamalavagaula (India) Raga Paraj (India) Hitzazkiar (Greece)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

@@ -4,7 +4,12 @@
   title = "Mode (2)${texttitle}"
   subtitle = "(binary key: ${bintitle})"
   %if names:
-  subsubtitle = "(aka: ${",".join(names)})"
+  subsubtitle =  \markup { \left-align \column {
+      %for name in names:
+      "${name}"
+      %endfor
+    }
+  }
   %endif
   %% Remove default LilyPond tagline
   tagline = ##f

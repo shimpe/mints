@@ -3,7 +3,12 @@
 \header {
   title = "Mode (2)110"
   subtitle = "(binary key: 1101110)"
-  subsubtitle = "(aka: Genus Chromaticum,Genus Chromaticum (3#'s),Genus Chromaticum (6b's))"
+  subsubtitle =  \markup { \left-align \column {
+      "Genus Chromaticum"
+      "Genus Chromaticum (3#'s)"
+      "Genus Chromaticum (6b's)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

@@ -3,7 +3,11 @@
 \header {
   title = "Mode (2)86"
   subtitle = "(binary key: 1010110)"
-  subsubtitle = "(aka: Major Minor, Hindu bVI & bVII,Mela Carukesi (India) Raga Tarangini (India))"
+  subsubtitle =  \markup { \left-align \column {
+      "Major Minor, Hindu bVI & bVII"
+      "Mela Carukesi (India) Raga Tarangini (India)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

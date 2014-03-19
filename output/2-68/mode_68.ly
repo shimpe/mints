@@ -3,7 +3,12 @@
 \header {
   title = "Mode (2)68"
   subtitle = "(binary key: 1000100)"
-  subsubtitle = "(aka: Major Flat 6 (no fifth),Messiaen 3rd Mode & Augmented Chord,augmented)"
+  subsubtitle =  \markup { \left-align \column {
+      "Major Flat 6 (no fifth)"
+      "Messiaen 3rd Mode & Augmented Chord"
+      "augmented"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

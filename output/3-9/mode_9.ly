@@ -3,7 +3,11 @@
 \header {
   title = "Mode (3)9"
   subtitle = "(binary key: 1001)"
-  subsubtitle = "(aka: Augmented, Messiaen Truncated Mode 3 2457Inverse,genus tertium Raga Devamani)"
+  subsubtitle =  \markup { \left-align \column {
+      "Augmented, Messiaen Truncated Mode 3 2457Inverse"
+      "genus tertium Raga Devamani"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

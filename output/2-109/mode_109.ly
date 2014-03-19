@@ -3,7 +3,13 @@
 \header {
   title = "Mode (2)109"
   subtitle = "(binary key: 1101101)"
-  subsubtitle = "(aka: Magen Abot,Magen Abot (Israel) all sharp,Magen Abot (Israel) all flat,Magen Abot (3b 2#))"
+  subsubtitle =  \markup { \left-align \column {
+      "Magen Abot"
+      "Magen Abot (Israel) all sharp"
+      "Magen Abot (Israel) all flat"
+      "Magen Abot (3b 2#)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

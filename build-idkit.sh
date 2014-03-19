@@ -6,7 +6,6 @@ do
   cd ../..
 done
 
-python identikit_ternary.py
 for i in {1..15}
 do
   cd output/3-$i

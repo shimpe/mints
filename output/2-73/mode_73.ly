@@ -3,7 +3,13 @@
 \header {
   title = "Mode (2)73"
   subtitle = "(binary key: 1001001)"
-  subsubtitle = "(aka: Diminished 7th Chord, 3 Semitones,Messiaen 2nd Mode - Chord Cdim7 (bb7),Chord Diminished 7th,Theoretical - No Known Name)"
+  subsubtitle =  \markup { \left-align \column {
+      "Diminished 7th Chord, 3 Semitones"
+      "Messiaen 2nd Mode - Chord Cdim7 (bb7)"
+      "Chord Diminished 7th"
+      "Theoretical - No Known Name"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }
