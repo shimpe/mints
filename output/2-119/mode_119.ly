@@ -4,7 +4,7 @@
   title = "Mode (2)119"
   subtitle = "(binary key: 1110111)"
   subsubtitle =  \markup { \left-align \column {
-      "Symmetrical Decatonic"
+      "Messiaen mode 7 of limited transposition, Symmetrical Decatonic"
     }
   }
  %% Remove default LilyPond tagline

@@ -4,7 +4,7 @@
   title = "Mode (2)103"
   subtitle = "(binary key: 1100111)"
   subsubtitle =  \markup { \left-align \column {
-      "Raga Ramkali (India)"
+      "Messiaen mode of limited transposition 4, Raga Ramkali (India)"
     }
   }
  %% Remove default LilyPond tagline

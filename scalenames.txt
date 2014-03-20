@@ -684,7 +684,7 @@ one of 6 variations in 12edo|101110111011|Messiaen Mode 3 Inverse (2b & 2#)
 |100000000000|Unison
 |100000000001|Major Seventh Interval
 |111111011011|Raga Sindi Bhairavi (India)
-|111011111011|Symmetrical Decatonic
+|111011111011|Messiaen mode 7 of limited transposition, Symmetrical Decatonic
 |111011010111|Chromatic Bebop
 as 11/8910/4 in 12edo|111101011110|Chromatic Diatonic Dorian (all b)
 all # as 11/28/3 in 12edo|111110111110|Messiaen Mode 7 
@@ -823,7 +823,7 @@ C7(b9) Chord|110010010010|Raga Manaranjani (India) - C7(b9)
 |110011100101|Chromatic Lydian
 |110011101011|Enigmatic
 |110011110101|Raga Bhatiyar (India)
-|110011111001|Raga Ramkali (India)
+|110011111001|Messiaen mode of limited transposition 4, Raga Ramkali (India)
 |110100010110|Raga Salagavarali (India)
 |110101011100|Mela Senavati (India)
 |110101111001|Half-Dimiished Bebop
@@ -835,7 +835,7 @@ Half Diminished Chord|100100100010|Messiaen Truncated Gb Bb Eb Half Diminished
 |100100100010|Messiaen Truncated D# Gb A#
 |100100100010|Messiaen Truncated Gb Bb D#
 |101101101011|Messiaen 2 according to Brown
-|110101110101|Messiaen 3 according to Brown
+|110101110101|Messiaen mode 6 of limited transposition
 one of 6 variations in 12edo|101110111011|Messiaen 4 according to Brown(3b & 456#)
 |111001111001|Messiaen 5 according to Brown
 respelling|110001110001|Messiaen Mode 5
@@ -1378,7 +1378,7 @@ Minor Gypsy|101100111011|Minor Gypsy
 |101110101011|Theoretical - No Known Name
 |101110101100|Theoretical - No Known Name
 |101110101101|Theoretical - No Known Name
-|101110101110|Theoretical - No Known Name
+|101110101110|Messiaen mode of limited transposition 3
 |101110101111|Theoretical - No Known Name
 |101110110000|Theoretical - No Known Name
 |101110110001|Theoretical - No Known Name

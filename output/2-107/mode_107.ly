@@ -4,7 +4,7 @@
   title = "Mode (2)107"
   subtitle = "(binary key: 1101011)"
   subsubtitle =  \markup { \left-align \column {
-      "Messiaen 3 according to Brown"
+      "Messiaen mode 6 of limited transposition"
       "Messiaen 6th mode From Groves start B"
     }
   }

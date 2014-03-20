@@ -4,7 +4,7 @@
   title = "Mode (2)93"
   subtitle = "(binary key: 1011101)"
   subsubtitle =  \markup { \left-align \column {
-      "Theoretical - No Known Name"
+      "Messiaen mode of limited transposition 3"
     }
   }
  %% Remove default LilyPond tagline
