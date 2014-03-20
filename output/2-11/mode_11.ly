@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)11"
   subtitle = "(binary key: 0001011)"
+  subsubtitle =  \markup { \left-align \column {
+      "Theoretical - No Known Name"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

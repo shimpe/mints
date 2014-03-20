@@ -3,6 +3,11 @@
 \header {
   title = "Mode (2)51"
   subtitle = "(binary key: 0110011)"
+  subsubtitle =  \markup { \left-align \column {
+      "Oriental 1"
+      "Tsinganikos (Greece). Raga Ahira Lalita (India)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

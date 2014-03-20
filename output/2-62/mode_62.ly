@@ -3,6 +3,12 @@
 \header {
   title = "Mode (2)62"
   subtitle = "(binary key: 0111110)"
+  subsubtitle =  \markup { \left-align \column {
+      "Messiaen Mode 7"
+      "(4#'s & b7)as 10/6/1 in 12edo"
+      "all # as 11/28/3 in 12edo"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

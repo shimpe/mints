@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)13"
   subtitle = "(binary key: 0001101)"
+  subsubtitle =  \markup { \left-align \column {
+      "Locrian PentaMirror"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

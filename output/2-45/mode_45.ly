@@ -3,6 +3,11 @@
 \header {
   title = "Mode (2)45"
   subtitle = "(binary key: 0101101)"
+  subsubtitle =  \markup { \left-align \column {
+      "Aeolian Natural Minor, Asavari Asc Nats. A to G"
+      "Chord Cm9b6sus4 - Gregorian Scale 2, Assari Thaat (India), Se (China) Kitmun (Sumarian)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

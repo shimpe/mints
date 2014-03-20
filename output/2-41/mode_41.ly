@@ -3,6 +3,11 @@
 \header {
   title = "Mode (2)41"
   subtitle = "(binary key: 0101001)"
+  subsubtitle =  \markup { \left-align \column {
+      "Chaio (same as 6/26/5 in 12edo)"
+      "Chaio (all b's) 10/4678910/3 in 12 edo)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

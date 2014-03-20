@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)15"
   subtitle = "(binary key: 0001111)"
+  subsubtitle =  \markup { \left-align \column {
+      "Chromatic HeptaMirror #'s"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

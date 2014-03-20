@@ -3,6 +3,12 @@
 \header {
   title = "Mode (2)55"
   subtitle = "(binary key: 0110111)"
+  subsubtitle =  \markup { \left-align \column {
+      "untitled Nonatonic 2"
+      "untitled Nonatonic 2 - 6b's"
+      "untitled Nonatonic 2 - 4#'s"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

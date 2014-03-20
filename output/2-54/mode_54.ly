@@ -3,6 +3,13 @@
 \header {
   title = "Mode (2)54"
   subtitle = "(binary key: 0110110)"
+  subsubtitle =  \markup { \left-align \column {
+      "Half-Diminished, Symmetric, Blues Dim."
+      "Blues Diminished"
+      "Messiaen Mode 2, Auxillary Diminished Blues"
+      "Mode 2 first transposition"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

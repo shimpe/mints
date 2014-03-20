@@ -3,6 +3,13 @@
 \header {
   title = "Mode (2)61"
   subtitle = "(binary key: 0111101)"
+  subsubtitle =  \markup { \left-align \column {
+      "Chromatic Diatonic Dorian (#1,b3,#5,b7)"
+      "as 8/0/6 in 12edo"
+      "Chromatic Diatonic Dorian (all b)"
+      "as 11/8910/4 in 12edo"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

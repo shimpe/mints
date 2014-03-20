@@ -3,6 +3,10 @@
 \header {
   title = "Mode (3)2"
   subtitle = "(binary key: 0010)"
+  subsubtitle =  \markup { \left-align \column {
+      "Major Triad e.g. Ab"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

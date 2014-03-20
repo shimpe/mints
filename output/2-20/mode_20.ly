@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)20"
   subtitle = "(binary key: 0010100)"
+  subsubtitle =  \markup { \left-align \column {
+      "Messiaen Truncated Mode 6"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

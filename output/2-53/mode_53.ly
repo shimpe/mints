@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)53"
   subtitle = "(binary key: 0110101)"
+  subsubtitle =  \markup { \left-align \column {
+      "Jazz Minor Inverse. Javanese, Dorian bII & HIndi"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

@@ -3,6 +3,11 @@
 \header {
   title = "Mode (2)37"
   subtitle = "(binary key: 0100101)"
+  subsubtitle =  \markup { \left-align \column {
+      "Blues Pentatonic Minor, Hard Japan descending"
+      "Chord Cm11 - Pyongjo Kyemyonjo (Korea) Minyo (Japan)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

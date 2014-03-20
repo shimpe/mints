@@ -3,6 +3,11 @@
 \header {
   title = "Mode (2)63"
   subtitle = "(binary key: 0111111)"
+  subsubtitle =  \markup { \left-align \column {
+      "Chromatic UndecaMirror - All except 7th all sharp Bb"
+      "All except B - 7 all flat"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

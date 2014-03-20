@@ -3,6 +3,11 @@
 \header {
   title = "Mode (2)32"
   subtitle = "(binary key: 0100000)"
+  subsubtitle =  \markup { \left-align \column {
+      "Flat Seventh Interval"
+      "Sharp Sixth Interval"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

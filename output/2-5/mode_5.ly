@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)5"
   subtitle = "(binary key: 0000101)"
+  subsubtitle =  \markup { \left-align \column {
+      "Do Re Mi"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

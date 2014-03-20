@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)52"
   subtitle = "(binary key: 0110100)"
+  subsubtitle =  \markup { \left-align \column {
+      "Raga Salagavarali (India)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)10"
   subtitle = "(binary key: 0001010)"
+  subsubtitle =  \markup { \left-align \column {
+      "Whole-Tone Tetramirror"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

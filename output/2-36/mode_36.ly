@@ -3,6 +3,11 @@
 \header {
   title = "Mode (2)36"
   subtitle = "(binary key: 0100100)"
+  subsubtitle =  \markup { \left-align \column {
+      "Minor Seventh Chord e.g. Cm7 = Eb6"
+      "Bi Yu (China)"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

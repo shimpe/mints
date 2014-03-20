@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)50"
   subtitle = "(binary key: 0110010)"
+  subsubtitle =  \markup { \left-align \column {
+      "Prometheus Neapolitan"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

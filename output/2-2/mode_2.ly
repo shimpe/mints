@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)2"
   subtitle = "(binary key: 0000010)"
+  subsubtitle =  \markup { \left-align \column {
+      "Do Re Wholetone or Large Interval"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

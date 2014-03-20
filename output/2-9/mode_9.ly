@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)9"
   subtitle = "(binary key: 0001001)"
+  subsubtitle =  \markup { \left-align \column {
+      "Diminished Chord"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

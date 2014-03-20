@@ -77,15 +77,22 @@ def to3bin(num):
     key = "0"*(4-l) + b
     return key
 
+def shift_left_for_lookup(binkey):
+    if not "1" in binkey:
+        return binkey
+    while binkey[0] == "0":
+        binkey = binkey[1:] + "0"
+    return binkey
+
 def getnames(scalenames, modenumber, binarymode=True):
     if binarymode:
-        lookup = unfold_binary_key(tobin(modenumber))
+        lookup = shift_left_for_lookup(unfold_binary_key(tobin(modenumber)))
         if lookup in scalenames:
             return scalenames[lookup]
         else:
             return []
     else:
-        lookup = unfold_ternary_key(to3bin(modenumber))
+        lookup = shift_left_for_lookup(unfold_ternary_key(to3bin(modenumber)))
         if lookup in scalenames:
             return scalenames[lookup]
         else:

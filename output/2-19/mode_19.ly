@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)19"
   subtitle = "(binary key: 0010011)"
+  subsubtitle =  \markup { \left-align \column {
+      "Center-Cluster PentaMirror"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }

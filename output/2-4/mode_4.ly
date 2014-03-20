@@ -3,6 +3,10 @@
 \header {
   title = "Mode (2)4"
   subtitle = "(binary key: 0000100)"
+  subsubtitle =  \markup { \left-align \column {
+      "Major Third Interval"
+    }
+  }
  %% Remove default LilyPond tagline
   tagline = ##f
 }
